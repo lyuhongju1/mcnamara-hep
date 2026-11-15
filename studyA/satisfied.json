@@ -1,0 +1,11 @@
+{
+ "T|unknown": 30,
+ "T?|unknown": 16,
+ "T?|yes": 1,
+ "U|unknown": 8,
+ "U?|unknown": 8,
+ "T|yes": 29,
+ "T?|no": 1,
+ "T|no": 5,
+ "U?|no": 1
+}

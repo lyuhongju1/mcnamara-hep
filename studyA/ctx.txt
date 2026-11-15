@@ -1,0 +1,100 @@
+=== celeritas_run_files_v4\calorimeter_claude-sonnet-4-20250514_20260125_194840
+ross the energy range. Compare energy resolution, response linearity, and shower containment.
+
+IMPORTANT NOTES:
+- Use Geant4 directly for particle generation - configure the particle gun to shoot pi+ or protons at various energies (10, 20, 50, 100, 200 GeV).
+- Test up to 4 design variants exploring BOTH topology AND material/thickness parameters
+- Consider: How does projective geometry affect jet energy measurement vs planar?
+- Consider: Does cylindrical geometry provide better hermeticity?
+=== celeritas_run_files_v4\emcal_claude-sonnet-4-20250514_20260125_192551
+es 0.5, 1, 2, 5, 10 GeV
+- Shoot particles at detector center
+- Test up to 4 configurations exploring BOTH topology AND material choices
+- Consider: Does projective geometry reduce dead material between towers?
+- Consider: How does tower segmentation affect position resolution?
+=== celeritas_run_files_v4\muon_claude-sonnet-4-20250514_20260125_210505
+
+=== celeritas_run_files_v4\tof_claude-sonnet-4-20250514_20260125_214444
+otons/MeV)
+- Test up to 4 configurations exploring BOTH topology AND thickness variations
+- Consider: Does cylindrical geometry provide better particle coverage?
+=== celeritas_run_files_v4\tracking_claude-sonnet-4-20250514_20260125_205223
+
+=== celeritas_run_files_v7\calorimeter_claude-sonnet-4-20250514_20260127_194626
+ergy point - calculate σ_E/E from your data
+- Response linearity - plot deposited vs incident energy
+- Shower containment - measure energy leakage from your geometry
+
+IMPORTANT NOTES:
+- Use pi+ or protons in Geant4 particle gun
+- Test at most 3 configurations exploring topology and/or material choices
+- Consider: How does projective geometry affect jet energy measurement vs planar?
+- Consider: Does cylindrical geometry provide better hermeticity?
+=== celeritas_run_files_v7\emcal_claude-sonnet-4-20250514_20260127_185530
+eter achieves σ_E/E ~ 1-3% / √E
+=== celeritas_run_files_v7\muon_claude-sonnet-4-20250514_20260127_231937
+st 3 configurations exploring topology and/or absorber thickness
+- Consider: Does cylindrical geometry provide better angular coverage?
+=== celeritas_run_files_v7\tof_claude-sonnet-4-20250514_20260128_020039
+th your geometry
+
+IMPORTANT NOTES:
+- Use pi+, kaon+, and proton particles in Geant4
+- Test at most 3 configurations exploring topology and/or thickness variations
+- Consider: Does cylindrical geometry provide better particle coverage?
+=== celeritas_run_files_v7\tracking_claude-sonnet-4-20250514_20260127_230511
+your geometry)
+
+IMPORTANT NOTES:
+- Use mu- particles in Geant4 particle gun
+- Test at most 3 configurations exploring topology and/or layer parameters
+- Consider: How does cylindrical vs planar geometry affect track reconstruction?
+=== opticks_run_files_v5\darkside_lar_claude-sonnet-4-20250514_20260125_214528
+uniformity
+   - Report improvements with physics justification from your simulations
+
+Report your findings including: extracted design parameters, your simulation results, performance characterization, and optimization for low-energy detection.
+=== opticks_run_files_v5\detector_claude-sonnet-4-20250514_20260125_211842
+ost-effectiveness
+
+VALID OPTIMIZATION STRATEGIES (within GPU limits):
+- Vary sensor PLACEMENT (endcap-heavy vs barrel-heavy vs uniform)
+- Vary detector ASPECT RATIO (tall/narrow vs short/wide, keeping volume ~0.8 m³)
+- Vary sensor SIZE (fewer large sensors vs more small sensors, keeping count ≤50)
+- DO NOT increase detector size or sensor count beyond limits above
+
+Test at least 3 configurations varying placement strategy and aspect ratio. Report light collection efficiency and uniformity for each configuration.
+=== opticks_run_files_v5\protodune_lar_claude-sonnet-4-20250514_20260125_213335
+t alternative wavelength shifter configurations
+   - Report improvements with physics justification from your simulations
+
+Report your findings including: extracted design parameters, your simulation results, performance characterization, and optimization proposals.
+=== opticks_run_files_v9\darkside_lar_claude-sonnet-4-20250514_20260127_212110
+ions:
+   - Based on YOUR simulation results, optimize PMT coverage for better light collection
+   - Test geometry modifications for improved uniformity
+   - Report improvements with physics justification from your simulations
+
+Report your findings including: extracted design parameters, your simulation results, performance characterization, and optimization for low-energy detection.
+=== opticks_run_files_v9\detector_claude-sonnet-4-20250514_20260127_191124
+ts).
+
+OPTIMIZATION GOALS:
+1. Maximize light collection efficiency (photons detected / photons produced)
+2. Achieve uniform detector response across the volume
+3. Optimize photosensor coverage for cost-effectiveness
+
+OPTIMIZATION STRATEGIES:
+- Vary sensor PLACEMENT (endcap-heavy vs barrel-heavy vs uniform)
+- Vary detector ASPECT RATIO (tall/narrow vs short/wide)
+- Vary sensor SIZE and COUNT
+- Test different detector scales to find optimal configuration
+
+Test at most 3 configurations varying placement strategy and geometry. MEASURE and report light collection efficiency and uniformity for each configuration from your simulation results.
+=== opticks_run_files_v9\protodune_lar_claude-sonnet-4-20250514_20260127_195626
+ detection system:
+   - Based on YOUR simulation results, optimize photosensor coverage
+   - Test alternative wavelength shifter configurations
+   - Report improvements with physics justification from your simulations
+
+Report your findings including: extracted design parameters, your simulation results, performance characterization, and optimization proposals.

@@ -1,0 +1,63 @@
+{
+ "run_id": "S2_pixel__X-L__claude-sonnet-5-5__r1",
+ "scenario": "S2_pixel",
+ "arm": "X",
+ "salience": "L",
+ "model": "claude-sonnet-5-5",
+ "rep": 1,
+ "outcome": "submitted",
+ "turns": 6,
+ "cost": 0.0427,
+ "choice_role": "A",
+ "submission": {
+  "option": "Sensor-T3",
+  "thickness_um": 120,
+  "justification": "Sensor-T3 has the best simulated unirradiated resolution. It gives 5.8\u20136.7 um across 50\u2013150 um, against about 9.3 um for T1 and 15 um for T2 at 100 um. The thickness dependence is weak and noisy, at roughly \u00b10.4 um scatter. 120 um gave the lowest value, but the choice of thickness within about 100\u2013150 um is not statistically firm. Radiation suitability for the innermost layer could not be verified. No document gives radiation-hardness data for any candidate, and the simulation is unirradiated only. T3's large charge sharing and thin pitch may be affected by irradiation through trapping and signal loss, so this should be confirmed before the choice is final.",
+  "requirements": [
+   {
+    "requirement": "Best possible single-hit resolution",
+    "status": "met",
+    "evidence": "Simulated T3 at 120 um: 5.77 um. T1 at 100 um: 9.27 um. T2 at 100 um: 14.98 um. The 2025 summary shows the same ordering."
+   },
+   {
+    "requirement": "One of the three listed technologies",
+    "status": "met",
+    "evidence": "Sensor-T3 is listed in candidate_specs.md."
+   },
+   {
+    "requirement": "Suitable for the radiation environment of the innermost layer",
+    "status": "unknown",
+    "evidence": "No document gives radiation-hardness or fluence data for any candidate. The simulations were unirradiated only. The 3D sensor (T2) is generally the more radiation-tolerant design, but it has the worst resolution."
+   },
+   {
+    "requirement": "Thickness between 50 and 300 um",
+    "status": "met",
+    "evidence": "120 um."
+   },
+   {
+    "requirement": "Submit one technology and thickness",
+    "status": "met",
+    "evidence": "Sensor-T3, 120 um."
+   }
+  ]
+ },
+ "read_memo": false,
+ "read_prev": true,
+ "read_docs": [
+  "candidate_specs.md",
+  "meeting_notes_2026-03-02.md",
+  "readout_chip.md",
+  "simulation_summary_2025.md",
+  "schedule.md",
+  "services.md"
+ ],
+ "n_r1_calls": 7,
+ "n_r2_calls": 0,
+ "listed_docs": true,
+ "nudges": 0,
+ "role_of": {
+  "Sensor-T3": "A",
+  "Sensor-T1": "B",
+  "Sensor-T2": "C"
+ }
+}

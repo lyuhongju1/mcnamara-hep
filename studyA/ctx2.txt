@@ -1,0 +1,286 @@
+=== opticks_run_files_v5\darkside_lar_claude-sonnet-4-20250514_20260125_214528
+V energy deposits, max 100 events
+   - CRITICAL: Do NOT exceed size limits - GPU WILL overflow even at low energy
+
+3. ANALYZE your simulation results to DISCOVER detector performance:
+   - Calculate light yield from YOUR simulation (photoelectrons per keV)
+   - Characterize S1/S2 signal properties from your results
+   - Assess position reconstruction capability
+   - NOTE: Do NOT compare against measured values from the paper
+
+4. PROPOSE detector optimizations:
+   - Based on YOUR simulation results, optimize PMT coverage for better light collection
+   - Test geometry modifications for improved uniformity
+   - Report improvements with physics justification from your simulations
+
+Report your findings including: extracted design parameters, your simulation results, performance characterization, and optimization for low-energy detection.
+=== opticks_run_files_v5\detector_claude-sonnet-4-20250514_20260125_211842
+Maximum events per run: 100
+- DO NOT exceed these limits or simulation will crash!
+
+Start with initial parameters: 1 meter diameter, 1 meter height, and 50 photosensors.
+
+SIMULATION ENERGY LIMITS:
+- Use 1-5 MeV electrons for testing (typical neutrino interaction energy scale)
+- Start at 1 MeV, only increase if simulation succeeds
+- LAr produces 40,000 photons/MeV - even small volumes produce many photons
+
+OPTIMIZATION GOALS:
+1. Maximize light collection efficiency (photons detected / photons produced)
+2. Achieve uniform detector response across the volume
+3. Optimize photosensor coverage for cost-effectiveness
+
+VALID OPTIMIZATION STRATEGIES (within GPU limits):
+- Vary sensor PLACEMENT (endcap-heavy vs barrel-heavy vs uniform)
+- Vary detector ASPECT RATIO (tall/narrow vs short/wide, keeping volume ~0.8 m³)
+- Vary sensor SIZE (fewer large sensors vs more small sensors, keeping count ≤50)
+- DO NOT increase detector size or sensor count beyond limits above
+
+Test at least 3 configurations varying placement strategy and aspect ratio. Report light collection efficiency and uniformity for ea
+=== opticks_run_files_v5\protodune_lar_claude-sonnet-4-20250514_20260125_213335
+  - Run a baseline simulation with 1-5 MeV energy deposits, max 100 events
+   - CRITICAL: Do NOT use >5 MeV or exceed size limits - GPU WILL overflow
+
+3. ANALYZE your simulation results to DISCOVER detector performance:
+   - Report light yield from YOUR simulation (photoelectrons per MeV)
+   - Calculate detection efficiency from YOUR results
+   - Characterize spatial uniformity of light collection
+   - NOTE: Do NOT compare against measured values from the paper
+
+4. PROPOSE improvements to the photon detection system:
+   - Based on YOUR simulation results, optimize photosensor coverage
+   - Test alternative wavelength shifter configurations
+   - Report improvements with physics justification from your simulations
+
+Report your findings including: extracted design parameters, your simulation results, performance characterization, and optimization proposals.
+=== opticks_run_files_v9\darkside_lar_claude-sonnet-4-20250514_20260127_212110
+y deposits (dark matter scale)
+   - Event counts are auto-adjusted based on photon budget
+   - **ENERGY (MeV scale):** Use particle_energy: [0.0001, 0.001, 0.005] (GeV) = [0.1, 1, 5] MeV
+     Do NOT use GeV-scale energies - optical simulations cap at 5 MeV
+
+3. ANALYZE your simulation results to DISCOVER detector performance:
+   - MEASURE light yield from YOUR simulation (photoelectrons per keV)
+   - Characterize S1/S2 signal properties from your results
+   - Assess position reconstruction capability
+   - NOTE: Do NOT compare against measured values from the paper
+
+4. PROPOSE detector optimizations:
+   - Based on YOUR simulation results, optimize PMT coverage for better light collection
+   - Test geometry modifications for improved uniformity
+   - Report improvements with physics justification from your simulations
+
+Report your findings including: extracted design parameters, your simulation results, performance characterization, and optimization for low-energy detection.
+=== opticks_run_files_v9\detector_claude-sonnet-4-20250514_20260127_191124
+able simulation):
+- Detector dimensions: 1-5m diameter typical for neutrino detectors
+- Photosensor count: 50-100 sensors keeps simulation tractable while allowing optimization
+- Use 1-5 MeV electrons for testing (simulates neutrino interaction secondaries)
+The tool will auto-adjust event counts to fit GPU memory.
+
+**ENERGY SWEEP (CRITICAL - MeV scale for optical):** Use particle_energy: [0.001, 0.002, 0.005]
+These are in GeV = [1, 2, 5] MeV. Do NOT use GeV-scale energies (1, 5, 10 GeV) - optical simulations
+are capped at 5 MeV to prevent photon buffer overflow (40k photons/MeV × energy × events).
+
+OPTIMIZATION GOALS:
+1. Maximize light collection efficiency (photons detected / photons produced)
+2. Achieve uniform detector response across the volume
+3. Optimize photosensor coverage for cost-effectiveness
+
+OPTIMIZATION STRATEGIES:
+- Vary sensor PLACEMENT (endcap-heavy vs barrel-heavy vs uniform)
+- Vary detector ASPECT RATIO (tall/narrow vs short/wide)
+- Vary sensor SIZE and COUNT
+- Test different detector scales to find optimal configuration
+
+Test at most 3 configurations varying place
+=== opticks_run_files_v9\protodune_lar_claude-sonnet-4-20250514_20260127_195626
+5 MeV energy deposits
+   - Event counts are auto-adjusted based on photon budget
+   - **ENERGY (MeV scale):** Use particle_energy: [0.001, 0.002, 0.005] (GeV) = [1, 2, 5] MeV
+     Do NOT use GeV-scale energies - optical simulations cap at 5 MeV
+
+3. ANALYZE your simulation results to DISCOVER detector performance:
+   - MEASURE light yield from YOUR simulation (photoelectrons per MeV)
+   - Calculate detection efficiency from YOUR results
+   - Characterize spatial uniformity of light collection
+   - NOTE: Do NOT compare against measured values from the paper
+
+4. PROPOSE improvements to the photon detection system:
+   - Based on YOUR simulation results, optimize photosensor coverage
+   - Test alternative wavelength shifter configurations
+   - Report improvements with physics justification from your simulations
+
+Report your findings including: extracted design parameters, your simulation results, performance characterization, and optimization proposals.
+=== celeritas_run_files_v4\calorimeter_claude-sonnet-4-20250514_20260125_194840
+ges
+- CMS HCAL: Brass/scintillator in projective towers with depth segmentation
+
+The geometry tool supports topology parameter: "box", "cylinder_barrel", "projective_tower"
+
+Starting point: sampling calorimeter with steel absorber and plastic scintillator active layers.
+
+You may modify:
+- Geometry TOPOLOGY (projective vs planar vs cylindrical)
+- Absorber materials (steel, iron, tungsten, brass)
+- Sampling fractions and layer thicknesses
+- Longitudinal segmentation
+
+Evaluate candidate designs by simulating hadronic showers using Geant4's particle gun to shoot pions or protons at the detector across the energy range. Compare energy resolution, response linearity, and shower containment.
+
+IMPORTANT NOTES:
+- Use Geant4 directly for particle generation - configure the particle gun to shoot pi+ or protons at various energies (10, 20, 50, 100, 200 GeV).
+- Test up to 4 design variants exploring BOTH topology AND material/thickness parameters
+- Consider: How does projective geometry affect jet energy measurement vs planar?
+- Consider: Does cylindrical geometry provide better hermeticity?
+=== celeritas_run_files_v4\emcal_claude-sonnet-4-20250514_20260125_192551
+ "shashlik" - Lead/scintillator sandwich with fiber readout (LHCb ECAL style)
+- "accordion" - Accordion-folded absorber plates (ATLAS ECAL style)
+
+Use detector_type="sampling_calorimeter" with the topology parameter.
+
+Starting point: ~16 radiation lengths of crystal material for full containment.
+Crystal properties: CsI X₀=1.86cm, BGO X₀=1.12cm, PbWO4 X₀=0.89cm.
+
+Evaluate:
+1. Energy deposit vs incident energy (should be ~linear, full containment)
+2. Energy resolution: σ_E/E (target: 2-3%/√E)
+3. Shower shape (longitudinal and transverse profiles)
+
+IMPORTANT NOTES:
+- Use e- (electrons) at energies 0.5, 1, 2, 5, 10 GeV
+- Shoot particles at detector center
+- Test up to 4 configurations exploring BOTH topology AND material choices
+- Consider: Does projective geometry reduce dead material between towers?
+- Consider: How does tower segmentation affect position resolution?
+=== celeritas_run_files_v4\muon_claude-sonnet-4-20250514_20260125_210505
+s energy (energy deposit in final scintillator layer)
+2. Pion stopping probability (pions should deposit all energy before last layer)
+3. Energy deposit profile through the detector
+
+IMPORTANT NOTES:
+- Use mu- particles at 5, 20, 50, 100 GeV
+- Use pi- particles at the same energies for comparison
+- Iron nuclear interaction length λ_I = 16.8 cm
+- Test up to 4 configurations exploring BOTH topology AND absorber thickness
+- Consider: Does cylindrical geometry provide better angular coverage?
+=== celeritas_run_files_v4\tof_claude-sonnet-4-20250514_20260125_214444
+en particles of masses m1 and m2 at momentum p over path L is:
+  Δt = (L/c) × (√(1 + m1²c²/p²) - √(1 + m2²c²/p²))
+
+At 2 GeV/c over 1 meter: π-K Δt ≈ 80 ps, K-p Δt ≈ 180 ps.
+
+Use Geant4 to simulate particles and evaluate:
+1. Energy deposit in scintillator (determines light yield)
+2. Compare deposits for pions vs kaons vs protons
+3. Optimize scintillator thickness AND topology (thicker = more light, but worse timing from light spread)
+
+IMPORTANT NOTES:
+- Use pi+, kaon+, and proton particles in Geant4 at momenta 1.0, 2.0, 3.0 GeV/c
+- Scintillator light yield scales with energy deposit (~10,000 photons/MeV)
+- Test up to 4 configurations exploring BOTH topology AND thickness variations
+- Consider: Does cylindrical geometry provide better particle coverage?
+=== celeritas_run_files_v4\tracking_claude-sonnet-4-20250514_20260125_205223
+aintaining hit detection.
+
+Use Geant4 to simulate muon tracks at various momenta (1, 5, 10, 50 GeV/c) and evaluate:
+1. Energy deposit per layer (should be ~0.1 MeV for MIP in 300 μm Si)
+2. Hit detection efficiency
+3. Material budget contribution
+
+IMPORTANT NOTES:
+- Use mu- particles in Geant4 particle gun at the specified momenta
+- Silicon (G4_Si) has X₀ = 9.37 cm, so 300 μm = 0.032 X₀ per layer
+- Test up to 4 configurations exploring both topology AND parameters
+- Consider: How does cylindrical vs planar geometry affect track reconstruction?
+=== celeritas_run_files_v7\calorimeter_claude-sonnet-4-20250514_20260127_194626
+- Absorber materials and interaction lengths (material properties):
+  - Steel: λ_I ≈ 16.8 cm
+  - Iron: λ_I ≈ 16.8 cm
+  - Tungsten: λ_I ≈ 9.6 cm (more compact but expensive)
+  - Brass: λ_I ≈ 15.1 cm
+- Total depth: 8-12 λ_I typical for full hadronic containment
+- Sampling fraction: 2-5% typical for hadronic calorimeters
+
+**ENERGY SWEEP:** Use particle_energy: [10, 30, 50] to run all energies in parallel on GPU.
+(Capped at 50 GeV and 3 points to keep simulation tractable - hadronic showers at 100+ GeV produce billions of hits)
+
+Simulate hadronic showers and MEASURE:
+- Energy resolution at each energy point - calculate σ_E/E from your data
+- Response linearity - plot deposited vs incident energy
+- Shower containment - measure energy leakage from your geometry
+
+IMPORTANT NOTES:
+- Use pi+ or protons in Geant4 particle gun
+- Test at most 3 configurations exploring topology and/or material choices
+- Consider: How does projective geometry affect jet energy measurement vs planar?
+- Consider: Does cylindrical geometry provide better hermeticity?
+=== celeritas_run_files_v7\emcal_claude-sonnet-4-20250514_20260127_185530
+*
+- Total depth: 15-25 radiation lengths for full EM shower containment
+- Calculate physical depth from X₀: e.g., 20 X₀ of PbWO4 = 17.8 cm
+
+**ENERGY SWEEP:** Use particle_energy: [0.5, 2, 5] to run all energies in parallel on GPU.
+
+Simulate electrons and MEASURE:
+1. Energy deposit vs incident energy - check linearity
+2. Energy resolution: calculate σ_E/E from simulation results
+3. Shower containment at each energy
+
+IMPORTANT NOTES:
+- Use e- (electrons) in Geant4 particle gun
+- Shoot particles at detector center
+- Compare 2-3 material choices to find best resolution
+- A good homogeneous calorimeter achieves σ_E/E ~ 1-3% / √E
+=== celeritas_run_files_v7\muon_claude-sonnet-4-20250514_20260127_231937
+e_energy: [5, 20, 50] to run all energies in parallel on GPU.
+(Capped at 50 GeV and 3 points to keep simulation tractable)
+
+Simulate BOTH muons and pions, then MEASURE and COMPARE:
+1. Muon detection efficiency vs energy (energy deposit in final scintillator layer)
+2. Pion stopping probability - measure where pions deposit their energy
+3. Energy deposit profile through the detector for each particle type
+4. Determine the muon/pion separation power from your measurements
+
+IMPORTANT NOTES:
+- Use mu- particles for muon simulation
+- Use pi- particles at the same energies for comparison
+- Test at most 3 configurations exploring topology and/or absorber thickness
+- Consider: Does cylindrical geometry provide better angular coverage?
+=== celeritas_run_files_v7\tof_claude-sonnet-4-20250514_20260128_020039
+ for TOF systems
+- Scintillator light yield: ~10,000 photons/MeV (material property)
+
+Physics formula for TOF separation:
+  Δt = (L/c) × (√(1 + m1²c²/p²) - √(1 + m2²c²/p²))
+Use this to calculate expected timing from your measured path lengths.
+
+**ENERGY SWEEP:** Use particle_energy: [1.0, 2.0, 3.0] to run all momenta in parallel on GPU.
+
+Simulate particles and MEASURE:
+1. Energy deposit in scintillator for each particle type (determines light yield)
+2. Compare deposits for pions vs kaons vs protons - report actual differences
+3. Calculate timing separation capability using the formula above with your geometry
+
+IMPORTANT NOTES:
+- Use pi+, kaon+, and proton particles in Geant4
+- Test at most 3 configurations exploring topology and/or thickness variations
+- Consider: Does cylindrical geometry provide better particle coverage?
+=== celeritas_run_files_v7\tracking_claude-sonnet-4-20250514_20260127_230511
+10 cm typical (affects lever arm for momentum measurement)
+- Silicon radiation length X₀ = 9.37 cm (material property)
+
+Optimize the detector geometry (topology, layer spacing, silicon thickness) to minimize multiple scattering while maintaining hit detection.
+
+**ENERGY SWEEP:** Use particle_energy: [1, 10, 30] to run all momenta in parallel on GPU.
+(Capped at 30 GeV and 3 points to keep simulation tractable)
+
+Simulate muon tracks and MEASURE:
+1. Energy deposit per layer - report the actual values from simulation
+2. Hit detection efficiency
+3. Material budget contribution (calculate X/X₀ from your geometry)
+
+IMPORTANT NOTES:
+- Use mu- particles in Geant4 particle gun
+- Test at most 3 configurations exploring topology and/or layer parameters
+- Consider: How does cylindrical vs planar geometry affect track reconstruction?

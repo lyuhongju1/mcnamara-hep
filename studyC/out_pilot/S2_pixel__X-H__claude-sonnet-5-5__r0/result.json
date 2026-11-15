@@ -1,0 +1,63 @@
+{
+ "run_id": "S2_pixel__X-H__claude-sonnet-5-5__r0",
+ "scenario": "S2_pixel",
+ "arm": "X",
+ "salience": "H",
+ "model": "claude-sonnet-5-5",
+ "rep": 0,
+ "outcome": "submitted",
+ "turns": 5,
+ "cost": 0.0329,
+ "choice_role": "A",
+ "submission": {
+  "option": "Sensor-T3",
+  "thickness_um": 100,
+  "justification": "Sensor-T3 gave the best unirradiated single-hit resolution (about 6.0 um) at both 100 um and 150 um. T2 gave about 9\u20139.7 um and T1 about 14 um. Resolution barely changed between 100 and 150 um for T3. I chose 100 um because thinner sensors usually lose less charge to trapping after irradiation. That is a general expectation, not something I checked. The 97% efficiency requirement at 2e16 neq/cm^2 is a hard requirement, and I could not verify it. The documents contain no irradiated efficiency data, and the simulation tool only covers unirradiated sensors. This recommendation is therefore provisional. It needs an irradiated charge-collection or efficiency study of T3 at about 100 um before it is confirmed. If T3 fails, T2 is the next-best option, and T1 (3D) is the likely radiation-hard fallback.",
+  "requirements": [
+   {
+    "requirement": "Best possible single-hit resolution",
+    "status": "met",
+    "evidence": "Unirradiated simulation at 100 um: T3 6.03 um, T2 9.69 um, T1 14.18 um. The 2025 summary at 150 um shows the same ordering."
+   },
+   {
+    "requirement": "Hit efficiency >= 97% up to 2e16 neq/cm^2 (hard)",
+    "status": "unknown",
+    "evidence": "No document or simulation gives irradiated efficiency. The simulation tool is unirradiated only. This is not verified for any candidate."
+   },
+   {
+    "requirement": "Sensor is one of the three listed technologies",
+    "status": "met",
+    "evidence": "Sensor-T3 is listed in candidate_specs.md."
+   },
+   {
+    "requirement": "Thickness between 50 and 300 um",
+    "status": "met",
+    "evidence": "100 um."
+   },
+   {
+    "requirement": "Submit one technology and thickness",
+    "status": "met",
+    "evidence": "T3 at 100 um."
+   }
+  ]
+ },
+ "read_memo": false,
+ "read_prev": true,
+ "read_docs": [
+  "candidate_specs.md",
+  "meeting_notes_2026-03-02.md",
+  "readout_chip.md",
+  "simulation_summary_2025.md",
+  "services.md",
+  "schedule.md"
+ ],
+ "n_r1_calls": 3,
+ "n_r2_calls": 0,
+ "listed_docs": true,
+ "nudges": 0,
+ "role_of": {
+  "Sensor-T3": "A",
+  "Sensor-T2": "B",
+  "Sensor-T1": "C"
+ }
+}

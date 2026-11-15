@@ -1,0 +1,23 @@
+P(choose simulation-best option A)
+                                 NN     NP     PN     PP     N0     P0
+claude-haiku-5-5               0.40   0.10   0.05   0.00   0.90   0.55
+claude-sonnet-5-5              0.40   0.15   0.55   0.10   1.00   1.00
+claude-opus-5-5                0.50   0.25   0.30   0.00   0.80   1.00
+ALL                            0.43   0.17   0.30   0.03   0.90   0.85
+S1_scint                       0.00   0.07   0.13   0.00   0.67   0.87
+S2_pixel                       0.13   0.00   0.00   0.00   0.93   0.93
+S3_lar                         0.80   0.00   0.60   0.00   1.00   0.73
+S4_selection                   0.80   0.60   0.47   0.13   1.00   0.87
+unparsed: 4; n per cell (model x form) = 20
+
+Omission forms (N0, P0): judge codes, share of responses
+claude-haiku-5-5            N0  n= 20  notes_missing=1.00  conditional=1.00  assumes_met=0.00  ignores=0.00
+claude-haiku-5-5            P0  n= 20  notes_missing=1.00  conditional=1.00  assumes_met=0.15  ignores=0.00
+claude-sonnet-5-5           N0  n= 20  notes_missing=1.00  conditional=1.00  assumes_met=0.00  ignores=0.00
+claude-sonnet-5-5           P0  n= 20  notes_missing=1.00  conditional=1.00  assumes_met=0.00  ignores=0.00
+claude-opus-5-5             N0  n= 20  notes_missing=1.00  conditional=1.00  assumes_met=0.00  ignores=0.00
+claude-opus-5-5             P0  n= 20  notes_missing=1.00  conditional=1.00  assumes_met=0.00  ignores=0.00
+ALL                         N0  n= 60  notes_missing=1.00  conditional=1.00  assumes_met=0.00  ignores=0.00
+ALL                         P0  n= 60  notes_missing=1.00  conditional=1.00  assumes_met=0.05  ignores=0.00
+
+n=360, tokens in 113224, out 161545

@@ -1,0 +1,67 @@
+frame     model                        form  n   P(A)  P(B)  P(C)  unparsed
+balanced  claude-haiku-5-5             NN    12  0.00  1.00  0.00   0
+balanced  claude-haiku-5-5             NP    12  0.00  1.00  0.00   0
+balanced  claude-haiku-5-5             PN    12  0.00  1.00  0.00   0
+balanced  claude-haiku-5-5             PP    12  0.00  0.83  0.17   0
+balanced  claude-opus-5-5              NN    12  0.00  1.00  0.00   0
+balanced  claude-opus-5-5              NP    12  0.00  1.00  0.00   0
+balanced  claude-opus-5-5              PN    12  0.00  1.00  0.00   0
+balanced  claude-opus-5-5              PP    12  0.00  1.00  0.00   0
+balanced  claude-sonnet-4-5-20250929   NN    12  0.00  1.00  0.00   0
+balanced  claude-sonnet-4-5-20250929   NP    12  0.00  1.00  0.00   0
+balanced  claude-sonnet-4-5-20250929   PN    12  0.00  1.00  0.00   0
+balanced  claude-sonnet-4-5-20250929   PP    12  0.00  0.92  0.08   0
+balanced  claude-sonnet-5-5            NN    12  0.00  1.00  0.00   0
+balanced  claude-sonnet-5-5            NP    12  0.00  1.00  0.00   0
+balanced  claude-sonnet-5-5            PN    12  0.00  1.00  0.00   0
+balanced  claude-sonnet-5-5            PP    12  0.00  1.00  0.00   0
+hard      claude-haiku-5-5             NN    12  0.00  1.00  0.00   0
+hard      claude-haiku-5-5             NP    12  0.00  1.00  0.00   0
+hard      claude-haiku-5-5             PN    12  0.00  1.00  0.00   0
+hard      claude-haiku-5-5             PP    12  0.00  1.00  0.00   0
+hard      claude-opus-5-5              NN    12  0.00  1.00  0.00   0
+hard      claude-opus-5-5              NP    12  0.00  1.00  0.00   0
+hard      claude-opus-5-5              PN    12  0.00  1.00  0.00   0
+hard      claude-opus-5-5              PP    12  0.00  1.00  0.00   0
+hard      claude-sonnet-4-5-20250929   NN    12  0.00  1.00  0.00   0
+hard      claude-sonnet-4-5-20250929   NP    12  0.00  1.00  0.00   0
+hard      claude-sonnet-4-5-20250929   PN    12  0.00  1.00  0.00   0
+hard      claude-sonnet-4-5-20250929   PP    12  0.00  0.83  0.17   0
+hard      claude-sonnet-5-5            NN    12  0.00  1.00  0.00   0
+hard      claude-sonnet-5-5            NP    12  0.00  1.00  0.00   0
+hard      claude-sonnet-5-5            PN    12  0.00  1.00  0.00   0
+hard      claude-sonnet-5-5            PP    12  0.00  1.00  0.00   0
+tradeoff2 claude-haiku-5-5             NN    20  0.05  0.00  0.95   0
+tradeoff2 claude-haiku-5-5             NP    20  0.00  0.00  1.00   0
+tradeoff2 claude-haiku-5-5             PN    20  0.20  0.00  0.80   0
+tradeoff2 claude-haiku-5-5             PP    20  0.00  0.00  1.00   0
+tradeoff2 claude-opus-5-5              NN    20  0.50  0.00  0.50   0
+tradeoff2 claude-opus-5-5              NP    20  0.00  0.00  1.00   0
+tradeoff2 claude-opus-5-5              PN    20  0.50  0.00  0.50   0
+tradeoff2 claude-opus-5-5              PP    20  0.00  0.00  1.00   0
+tradeoff2 claude-sonnet-4-5-20250929   NN    20  0.30  0.00  0.70   0
+tradeoff2 claude-sonnet-4-5-20250929   NP    20  0.00  0.00  1.00   0
+tradeoff2 claude-sonnet-4-5-20250929   PN    20  0.10  0.00  0.90   0
+tradeoff2 claude-sonnet-4-5-20250929   PP    20  0.05  0.00  0.95   0
+tradeoff2 claude-sonnet-5-5            NN    20  0.45  0.00  0.55   0
+tradeoff2 claude-sonnet-5-5            NP    20  0.05  0.00  0.95   0
+tradeoff2 claude-sonnet-5-5            PN    20  0.50  0.00  0.50   0
+tradeoff2 claude-sonnet-5-5            PP    20  0.00  0.00  1.00   0
+
+P(choose metric-best option A), pooled over models
+frame     scenario       NN    NP    PN    PP
+hard      S1_scint       0.00  0.00  0.00  0.00
+hard      S2_pixel       0.00  0.00  0.00  0.00
+hard      S3_lar         0.00  0.00  0.00  0.00
+hard      S4_selection   0.00  0.00  0.00  0.00
+balanced  S1_scint       0.00  0.00  0.00  0.00
+balanced  S2_pixel       0.00  0.00  0.00  0.00
+balanced  S3_lar         0.00  0.00  0.00  0.00
+balanced  S4_selection   0.00  0.00  0.00  0.00
+tradeoff2 S1_scint       0.65  0.05  0.70  0.05
+tradeoff2 S2_pixel       0.05  0.00  0.00  0.00
+tradeoff2 S3_lar         0.60  0.00  0.60  0.00
+tradeoff2 S4_selection   0.00  0.00  0.00  0.00
+
+n=704, input tokens 212322, output tokens 243628
+constraint mentioned in 702/704 responses

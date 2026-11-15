@@ -1,0 +1,1499 @@
+=== celeritas_run_files_v4\calorimeter_claude-sonnet-4-20250514_20260125_194840
+{
+ "task_description": "This is a multi-topology detector design exploration task for a hadronic calorimeter system. The user needs to systematically evaluate different geometric configurations (planar, projective towers, cylindrical barrel) combined with various material and thickness parameters to identify optimal designs for measuring hadronic particle energies. The task involves using Geant4 simulations with particle guns to generate hadronic showers across a specific energy range, then comparing performance metrics including energy resolution, response linearity, and shower containment. This is specifically focused on exploring how different detector topologies affect performance characteristics, with particular attention to real-world geometric considerations like hermeticity and jet energy measurement capabilities.",
+ "goal": "Design and identify optimal hadronic calorimeter configurations that can accurately measure hadronic particle energies in the 10-200 GeV range while minimizing non-compensation effects and operating within spatial constraints",
+ "constraints": [
+  {
+   "description": "Energy range: 10-200 GeV",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Compact design with tight spatial constraints",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Moderate radiation exposure environment",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "No magnetic field present",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Must minimize non-compensation effects",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Limited to 4 design variants maximum",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Mid-energy collider experiment environment",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  }
+ ],
+ "parameters": {
+  "energy_range": "10-200 GeV",
+  "particle_types": [
+   "pi+",
+   "protons"
+  ],
+  "test_energies": [
+   10,
+   20,
+   50,
+   100,
+   200
+  ],
+  "energy_units": "GeV",
+  "baseline_absorber": "steel",
+  "baseline_active": "plastic scintillator",
+  "geometry_options": [
+   "box",
+   "cylinder_barrel",
+   "projective_tower"
+  ],
+  "absorber_materials": [
+   "steel",
+   "iron",
+   "tungsten",
+   "brass"
+  ],
+  "simulation_tool": "Geant4",
+  "max_design_variants": 4,
+  "magnetic_field": false
+ },
+ "context": "You are designing a compact hadronic calorimeter intended to measure hadronic particle energies in the 10–200 GeV range at a mid-energy collider experiment.\n\nThe detector must be capable of resolving particle energy with minimal non-compensation effects while operating under tight spatial constraints and moderate radiation exposure. You may assume a simplified experimental environment with no magnetic field.\n\n**GEOMETRY EXPLORATION:**\nConsider different hadronic calorimeter topologies - this is as important as material choice:\n- Planar sampling (flat absorber/scintillator layers - simple baseline)\n- Projective towers (pointing toward IP - ATLAS TileCal style, minimizes cracks)\n- Cylindrical barrel (for collider hermetic coverage)\n- Tile geometry (small scintillator tiles - better granularity, ATLAS TileCal)\n\nReal-world examples:\n- ATLAS TileCal: Steel/scintillator tiles in projective wedges\n- CMS HCAL: Brass/sci
+REPORT words: 1810
+=== celeritas_run_files_v4\emcal_claude-sonnet-4-20250514_20260125_192551
+{
+ "task_description": "Design and evaluate a homogeneous electromagnetic calorimeter for precision electron energy measurement, involving systematic comparison of different detector geometries and materials. The task requires testing multiple calorimeter topologies (homogeneous block, projective towers, shashlik, accordion) with dense scintillating materials to determine optimal configuration for electron detection. This is a multi-parameter detector design study that combines geometry optimization with material selection, requiring evaluation of energy linearity, resolution performance, and shower containment characteristics across a specific energy range.",
+ "goal": "Design an optimal homogeneous electromagnetic calorimeter configuration that achieves precision measurement of electrons in the 0.5-10 GeV energy range with target energy resolution of 2-3%/√E",
+ "constraints": [
+  {
+   "description": "Energy range: 0.5-10 GeV electrons",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Target energy resolution: 2-3%/√E",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Must use dense scintillating material",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Require full electromagnetic shower containment",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Test maximum 4 configurations",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Must test both topology and material choices",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Starting point: ~16 radiation lengths of crystal material",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  }
+ ],
+ "parameters": {
+  "particle_type": "e- (electrons)",
+  "energies": [
+   0.5,
+   1,
+   2,
+   5,
+   10
+  ],
+  "energy_units": "GeV",
+  "detector_type": "sampling_calorimeter",
+  "topologies": [
+   "box/planar",
+   "projective_tower",
+   "shashlik",
+   "accordion"
+  ],
+  "materials": [
+   "CsI",
+   "BGO",
+   "PbWO4"
+  ],
+  "material_properties": {
+   "CsI_X0": "1.86cm",
+   "BGO_X0": "1.12cm",
+   "PbWO4_X0": "0.89cm"
+  },
+  "beam_position": "detector center",
+  "radiation_lengths": "~16"
+ },
+ "context": "Design a homogeneous electromagnetic calorimeter for precision measurement of electrons in the 0.5-10 GeV energy range.\n\nThe calorimeter uses dense scintillating material to fully contain electromagnetic showers.\n\n**GEOMETRY EXPLORATION:**\nConsider different EM calorimeter topologies:\n- Homogeneous block (single crystal/scintillator - simple, excellent resolution)\n- Projective towers (pointing toward interaction point - minimizes cracks)\n- Shashlik design (lead/scintillator tiles with WLS fiber readout - LHCb ECAL)\n- Accordion geometry (lead/LAr with accordion folds - ATLAS ECAL, very hermetic)\n\nReal-world examples: CMS uses PbWO4 crystals in projective geometry; ATLAS uses Pb/LAr accordion.\n\nThe geometry tool supports sampling_calorimeter mode with these topologies:\n- \"box\" or \"planar\" - Simple rectangular block (default)\n- \"projective_tower\" - Towers pointing toward interaction point\n- \"shashlik\" - Lead/scintillator sandwich with fiber readout (LHCb ECAL style)\n- \"accordion\" - Accordion-folded absorber plates (ATLAS ECAL style)\n\nUse detector_type=\"sampling_calorimeter\" with the
+REPORT words: 1638
+=== celeritas_run_files_v4\higgs_claude-sonnet-4-20250514_20260125_215832
+{
+ "task_description": "This is a high-energy physics machine learning classification task focused on particle physics discovery. The user needs to build a binary classifier to distinguish Higgs boson signal events (specifically H->tau tau decay channel) from background processes using the ATLAS detector simulation data from the 2014 Higgs Machine Learning Challenge. The task involves handling missing values encoded as -999.0, utilizing event weights for physics-meaningful scoring, and working with both derived quantities (DER_*) calculated from measurements and primary quantities (PRI_*) directly measured by the detector. The classifier's performance must be evaluated using the Approximate Median Significance (AMS) metric, which is specifically designed to measure the statistical significance of particle physics discoveries rather than standard ML metrics like accuracy or F1-score.",
+ "goal": "Maximize the Approximate Median Significance (AMS) score to achieve the highest statistical significance for Higgs boson discovery in the H->tau tau decay channel",
+ "constraints": [
+  {
+   "description": "Must use the specific dataset at /projects/bgde/grace/data/atlas-higgs-challenge-2014-v2.csv",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Cannot create synthetic data - must work with the ~250,000 events provided",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Must handle missing values indicated by -999.0",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Must use event weights for computing physics-meaningful AMS score",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Must evaluate performance using AMS metric rather than standard ML metrics",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  }
+ ],
+ "parameters": {
+  "dataset_path": "/projects/bgde/grace/data/atlas-higgs-challenge-2014-v2.csv",
+  "missing_value_indicator": -999.0,
+  "signal_label": "s",
+  "background_label": "b",
+  "b_reg": 10,
+  "ams_formula": "sqrt(2 * ((s + b + b_reg) * ln(1 + s/(b + b_reg)) - s))",
+  "dataset_size": "~250,000 events",
+  "decay_channel": "H->tau tau"
+ },
+ "context": "Analyze the ATLAS Higgs Machine Learning Challenge dataset to build a classifier that distinguishes Higgs boson signal events (H->tau tau decay) from background processes.\n\nCRITICAL: The dataset file is at the path specified in the data context. Load it using pandas:\n    import pandas as pd\n    df = pd.read_csv('<path_from_data_context>')\n\nThe goal is to maximize the Approximate Median Significance (AMS) metric, which measures the statistical significance of a potential Higgs discovery. The AMS formula is:\n    AMS = sqrt(2 * ((s + b + b_reg) * ln(1 + s/(b + b_reg)) - s))\nwhere s = weighted true positives, b = weighted false positives, b_reg = 10.\n\nKey considerations:\n- Some features have missing values indicated by -999.0\n- Event weights are crucial for computing the physics-meaningful AMS score\n- Features include both derived quantities (DER_*) calculated from measurements and\n  primary quantities (PRI_*) directly measured by the detector\n- The label column indicates 's' for signal (Higgs) and 'b' for background\n- The dataset has ~250,000 events - DO NOT create synthetic data\n\nReport the final AMS score achieved on the full dataset.",
+ "confidence": 0.98,
+ "geometry_topology": null
+}
+REPORT words: 1648
+=== celeritas_run_files_v4\muon_claude-sonnet-4-20250514_20260125_210505
+{
+ "task_description": "This is a detector design and performance evaluation task for a muon spectrometer system. The task involves designing a multi-layer detector system using iron absorbers and tracking layers to discriminate between muons and hadrons (specifically pions) in a high-energy physics context. The user needs to explore different geometric configurations (planar vs cylindrical) and evaluate the detector's ability to identify muons while rejecting background particles through systematic simulation studies. The task requires testing multiple detector topologies, analyzing particle interaction profiles through the detector layers, and optimizing the balance between muon detection efficiency and pion rejection capability.",
+ "goal": "Design an optimal muon spectrometer that achieves high muon identification efficiency in the 5-100 GeV energy range while effectively rejecting punch-through pions using iron absorbers",
+ "constraints": [
+  {
+   "description": "Energy range: 5-100 GeV",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Must use iron absorbers to stop hadrons",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Test up to 4 different configurations",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Must explore both topology and absorber thickness variations",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Starting configuration: 4 iron/scintillator pairs with 20 cm iron per layer",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Total iron thickness: 80 cm (≈ 4.8 interaction lengths)",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  }
+ ],
+ "parameters": {
+  "particle_types": [
+   "mu-",
+   "pi-"
+  ],
+  "energies": [
+   "5 GeV",
+   "20 GeV",
+   "50 GeV",
+   "100 GeV"
+  ],
+  "iron_interaction_length": "16.8 cm",
+  "initial_iron_thickness_per_layer": "20 cm",
+  "initial_layer_count": "4",
+  "total_iron_thickness": "80 cm",
+  "topology_options": [
+   "box",
+   "cylinder_barrel"
+  ],
+  "detector_layers": "iron + scintillator pairs"
+ },
+ "context": "Design a muon spectrometer for identifying muons in the 5-100 GeV energy range using iron absorbers to stop hadrons.\n\nThe system should achieve high muon identification efficiency while rejecting punch-through pions.\n\n**GEOMETRY EXPLORATION:**\nConsider different muon system topologies:\n- Planar sandwich (iron + tracking layers stacked - simple baseline)\n- Cylindrical barrel (iron shells with tracking - ATLAS-style muon barrel)\n- Toroidal geometry (used for forward muons with magnetic field)\n\nReal-world examples: ATLAS muon spectrometer uses cylindrical barrel + endcap wheels; CMS uses interleaved iron/chambers.\n\nThe geometry tool supports topology=\"box\" or topology=\"cylinder_barrel\" for sampling calorimeter mode.\n\nStarting point: 4 iron/scintillator pairs, 20 cm iron per layer.\nTotal: 80 cm iron ≈ 4.8 interaction lengths (λ_I = 16.8 cm for iron).\n\nEvaluate:\n1. Muon detection efficiency vs energy (energy deposit in final scintillator layer)\n2. Pion stopping probability (pions should deposit all energy before last layer)\n3. Energy deposit profile through the detector\n\nIMPORTANT NOTES:\n- Use mu- particles at 5, 20, 50, 100 GeV\n- Use pi- particles at the same energies for comparison\n- Iron nuclear interaction length λ_I = 16.8 cm\n- Test up to 4 configurations exploring 
+REPORT words: 1751
+=== celeritas_run_files_v4\tof_claude-sonnet-4-20250514_20260125_214444
+{
+ "task_description": "This is a detector design and optimization task for a time-of-flight (TOF) scintillator system. The task involves designing a detector capable of particle identification through velocity measurements, specifically to distinguish between pions, kaons, and protons based on their different flight times over a known distance. The task requires exploring multiple detector geometries (planar slab, cylindrical barrel, segmented tiles) and optimizing both the topology and scintillator thickness. The design process involves using Geant4 Monte Carlo simulations to evaluate energy deposits in the scintillator material, which determines light yield and ultimately timing resolution. The task combines physics simulation, detector geometry optimization, and performance evaluation to achieve the required particle identification capabilities.",
+ "goal": "Design an optimal time-of-flight scintillator detector system that can reliably identify and distinguish between pions, kaons, and protons in the momentum range 0.5-3 GeV/c",
+ "constraints": [
+  {
+   "description": "Momentum range: 0.5-3 GeV/c",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Must distinguish between pions, kaons, and protons",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Use plastic scintillator material",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Test up to 4 configurations maximum",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Must explore both topology and thickness variations",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  }
+ ],
+ "parameters": {
+  "particle_types": [
+   "pi+",
+   "kaon+",
+   "proton"
+  ],
+  "test_momenta": [
+   "1.0 GeV/c",
+   "2.0 GeV/c",
+   "3.0 GeV/c"
+  ],
+  "momentum_range": "0.5-3 GeV/c",
+  "scintillator_material": "plastic scintillator",
+  "light_yield": "~10,000 photons/MeV",
+  "geometry_options": [
+   "box/planar/planar_slab",
+   "cylinder_barrel",
+   "segmented/tiles"
+  ],
+  "simulation_tool": "Geant4",
+  "detector_mode": "sampling_calorimeter",
+  "example_timing_differences": {
+   "pi-K_at_2GeV_1m": "~80 ps",
+   "K-p_at_2GeV_1m": "~180 ps"
+  }
+ },
+ "context": "Design a time-of-flight (TOF) scintillator detector for identifying pions, kaons, and protons in the momentum range 0.5-3 GeV/c.\n\nThe TOF system uses plastic scintillator to measure particle velocity via time-of-flight.\n\n**GEOMETRY EXPLORATION:**\nConsider different detector topologies for TOF systems:\n- Planar slab (simple, good for fixed-target)\n- Cylindrical barrel (wraps around interaction point - common in collider TOF)\n- Segmented tiles (better timing resolution, common in modern TOF)\n\nReal-world examples: ALICE TOF uses Multi-gap Resistive Plate Chambers in cylindrical geometry.\n\nThe geometry tool supports sampling_calorimeter mode with these topologies:\n- \"box\" or \"planar\" or \"planar_slab\" - Planar slab geometry\n- \"cylinder_barrel\" - Cylindrical barrel wrapping around beam axis\n- \"segmented\" or \"tiles\" - Grid of individual scintillator tiles\n\nKey physics: The time difference between particles of masses m1 and m2 at momentum p over path L is:\n  Δt = (L/c) × (√(1 + m1²c²/p²) - √(1 + m2²c²/p²))\n\nAt 2 GeV/c over 1 meter: π-K Δt ≈ 80 ps, K-p Δt ≈ 180 ps.\n\nUse Geant4 to simulate particles and evaluate:\n1. Energy deposit in scintillator (determines light yield)\n2. Compare deposits for pions vs kaons vs protons\n3. Optimize scintillator thickness AND topology 
+REPORT words: 1755
+=== celeritas_run_files_v4\tracking_claude-sonnet-4-20250514_20260125_205223
+{
+ "task_description": "This is a multi-physics detector design and optimization task that combines geometric design exploration with Monte Carlo simulation validation. The user needs to design a silicon pixel tracking detector by systematically exploring different detector topologies (planar layers, cylindrical barrel, forward disks) and optimizing geometric parameters (layer spacing, silicon thickness) to achieve optimal momentum resolution while minimizing material budget. The task requires using Geant4 simulations to validate designs by tracking muons at multiple energy points and evaluating key performance metrics including energy deposition, hit detection efficiency, and material budget contribution. This is specifically a detector physics engineering task that balances theoretical design principles with computational validation.",
+ "goal": "Design and optimize a silicon pixel tracking detector that achieves good momentum resolution for charged particles in the 1-50 GeV/c range while minimizing material budget",
+ "constraints": [
+  {
+   "description": "Momentum range must cover 1-50 GeV/c",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Must minimize material budget while maintaining hit detection",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Must test up to 4 different configurations",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Must explore both topology AND parameters",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Energy deposit should be approximately 0.1 MeV for MIP in 300 μm Si",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Must use mu- particles in Geant4 particle gun",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Must use G4_Si material (X₀ = 9.37 cm)",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  }
+ ],
+ "parameters": {
+  "initial_silicon_layers": 4,
+  "initial_silicon_thickness": "300 μm",
+  "initial_layer_spacing": "5 cm",
+  "test_momenta": [
+   1,
+   5,
+   10,
+   50
+  ],
+  "momentum_units": "GeV/c",
+  "particle_type": "mu-",
+  "silicon_material": "G4_Si",
+  "silicon_radiation_length": "9.37 cm",
+  "material_budget_per_layer": "0.032 X₀",
+  "expected_energy_deposit": "~0.1 MeV",
+  "detector_topologies": [
+   "planar layers",
+   "cylindrical barrel",
+   "forward disks"
+  ]
+ },
+ "context": "Design a silicon pixel tracking detector for measuring charged particle momenta in the 1-50 GeV/c range.\n\nThe tracker must achieve good momentum resolution while minimizing material budget.\n\n**GEOMETRY EXPLORATION:**\nConsider different detector topologies:\n- Planar layers (flat silicon wafers in a stack)\n- Cylindrical barrel (silicon layers wrapped around beam axis - common in collider experiments)\n- Forward disks (perpendicular to beam for forward tracking)\n\nThe geometry tool supports multiple modes:\n- sampling_calorimeter: layered structures (can use topology=\"box\" or topology=\"cylinder_barrel\")\n- custom_spec: full flexibility with solids, volumes, placements\n- raw_gdml: complete control via GDML\n\nStarting point: 4 silicon layers with 300 μm thickness each, 5 cm spacing.\n\nOptimize the detector geometry (topology, layer spacing, silicon thickness) to minimize multiple scattering while maintain
+REPORT words: 1671
+=== celeritas_run_files_v7\calorimeter_claude-sonnet-4-20250514_20260127_194626
+{
+ "task_description": "This is a detector design and performance evaluation task for a hadronic calorimeter system. The user needs to explore different geometric configurations and material choices for a compact hadronic calorimeter, then simulate hadronic particle interactions to measure key performance metrics. The task involves comparing multiple detector topologies (planar, projective towers, cylindrical barrel) and potentially different absorber materials, followed by Monte Carlo simulation of hadronic showers to quantify energy resolution, response linearity, and shower containment. This is a multi-parameter design space exploration with physics simulation validation, typical of experimental particle physics detector development.",
+ "goal": "Design and optimize a compact hadronic calorimeter capable of measuring hadronic particle energies in the 10-200 GeV range with good energy resolution and minimal non-compensation effects while meeting spatial constraints",
+ "constraints": [
+  {
+   "description": "Energy range: 10-200 GeV",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Compact design with tight spatial constraints",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Moderate radiation exposure environment",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "No magnetic field",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Total depth: 8-12 interaction lengths for full containment",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Sampling fraction: 2-5% typical",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Maximum 3 configurations to test",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Energy sweep limited to 3 points up to 50 GeV for simulation tractability",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  }
+ ],
+ "parameters": {
+  "particle_energy": "[10, 30, 50]",
+  "particle_type": "pi+ or protons",
+  "topology_options": [
+   "box",
+   "cylinder_barrel",
+   "projective_tower"
+  ],
+  "absorber_materials": {
+   "steel": "16.8 cm interaction length",
+   "iron": "16.8 cm interaction length",
+   "tungsten": "9.6 cm interaction length",
+   "brass": "15.1 cm interaction length"
+  },
+  "total_depth_range": "8-12 interaction lengths",
+  "sampling_fraction_range": "2-5%"
+ },
+ "context": "You are designing a compact hadronic calorimeter intended to measure hadronic particle energies in the 10–200 GeV range at a mid-energy collider experiment.\n\nThe detector must be capable of resolving particle energy with minimal non-compensation effects while operating under tight spatial constraints and moderate radiation exposure. You may assume a simplified experimental environment with no magnetic field.\n\n**GEOMETRY EXPLORATION:**\nConsider different hadronic calorimeter topologies - this is as important as material choice:\n- Planar sampling (flat absorber/scintillator layers - simple baseline)\n- Projective towers (pointing toward IP - minimizes cracks)\n- Cylindrical barrel (for collider hermetic coverage)\n- Tile geometry (small scintillator tiles - better granularity)\n\nThe geometry tool supports topology parameter
+REPORT words: 1561
+=== celeritas_run_files_v7\emcal_claude-sonnet-4-20250514_20260127_185530
+{
+ "task_description": "Design and simulate a homogeneous electromagnetic calorimeter using Monte Carlo methods to evaluate performance for precision electron energy measurements. This involves comparing 2-3 different scintillating crystal materials (BGO, PbWO4, CsI) in single-block or projective tower geometries, running Geant4 simulations with electron beams at multiple energies simultaneously on GPU, and analyzing the resulting energy deposits to determine linearity, resolution, and shower containment characteristics. The task specifically requires avoiding sampling calorimeter designs and focuses on optimizing a single active material detector.",
+ "goal": "Design an optimal homogeneous electromagnetic calorimeter that achieves the best energy resolution (target σ_E/E ~ 1-3% / √E) for precision measurement of electrons in the 0.5-10 GeV energy range",
+ "constraints": [
+  {
+   "description": "Energy range: 0.5-10 GeV electrons",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Total depth: 15-25 radiation lengths for full EM shower containment",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Must use homogeneous design (single material, no absorber layers)",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Cannot use shashlik or accordion sampling designs",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Must compare 2-3 material choices from BGO, PbWO4, CsI",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  }
+ ],
+ "parameters": {
+  "particle_type": "e- (electrons)",
+  "particle_energy": "[0.5, 2, 5] GeV",
+  "materials": [
+   "BGO (X₀=1.12cm)",
+   "PbWO4 (X₀=0.89cm)",
+   "CsI (X₀=1.86cm)"
+  ],
+  "geometry_options": [
+   "box topology",
+   "projective_tower topology"
+  ],
+  "target_resolution": "σ_E/E ~ 1-3% / √E",
+  "simulation_platform": "GPU parallel processing"
+ },
+ "context": "Design a homogeneous electromagnetic calorimeter for precision measurement of electrons in the 0.5-10 GeV energy range.\n\nA HOMOGENEOUS calorimeter uses a single dense scintillating crystal to fully contain electromagnetic showers.\nThere is NO absorber - the entire detector volume is active scintillating material.\n\n**MATERIAL COMPARISON (pick 2-3 to compare):**\n- BGO (Bi4Ge3O12): X₀ = 1.12 cm, high density, good light yield\n- PbWO4 (lead tungstate): X₀ = 0.89 cm, very compact, fast timing (CMS ECAL)\n- CsI (cesium iodide): X₀ = 1.86 cm, high light yield, lower cost\n\n**GEOMETRY OPTIONS (all homogeneous - single material throughout):**\n- \"box\" topology: Simple rectangular crystal block (baseline)\n- \"projective_tower\" topology: Crystal towers pointing toward IP (reduces cracks)\n\nDO NOT use shashlik or accordion - those are SAMPLING calorimeters with absorber layers.\n\n**PRACTICAL CONSTRAINTS:**\n- Total depth: 15-25 radiation lengths for full EM shower containment\n- Calculate physical depth from X₀: e.g., 20 X₀ of PbWO4 = 17.8 cm\n\n**ENERGY SWEEP:** Use particle_energy: [0.5, 2, 5] to run all energies in parallel on GPU.\n\nSimulate electrons and MEASURE:\n1. Energy deposit vs incident energy - check linearity\n2. Energy resolution: calculate σ_E/E from simulation results\n3. Shower containment at each energy\n\nIMPORTANT NOTES:\n- Use e- (electrons) in Geant4 particle gun\n- Shoot particles at detector center\n- Compare 2-3 material choices to find best resolution\n- A good homogeneous calorimeter achieves σ_E/E ~ 1-3% / √E",
+ "confidence": 0.98,
+ "geometry_topology": null
+}
+REPORT words: 1675
+=== celeritas_run_files_v7\higgs_claude-sonnet-4-20250514_20260128_022903
+{
+ "task_description": "This is a high-energy physics machine learning classification task that involves building a binary classifier to distinguish Higgs boson signal events from background processes using the ATLAS detector data. The task specifically focuses on the H->tau tau decay channel and requires handling physics-specific challenges including missing values encoded as -999.0, event weights that are crucial for physics-meaningful scoring, and a specialized evaluation metric (Approximate Median Significance) that measures statistical significance of particle discovery rather than standard classification accuracy. The dataset contains both derived quantities calculated from measurements and primary quantities directly measured by the detector, requiring domain knowledge for proper feature engineering and model development.",
+ "goal": "Maximize the Approximate Median Significance (AMS) metric to achieve the highest statistical significance for Higgs boson discovery in the H->tau tau decay channel",
+ "constraints": [
+  {
+   "description": "Must use the existing ATLAS dataset at specified path - no synthetic data creation allowed",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Dataset contains ~250,000 events with some features having missing values indicated by -999.0",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Must incorporate event weights in AMS calculation for physics-meaningful results",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Must use specific AMS formula: sqrt(2 * ((s + b + b_reg) * ln(1 + s/(b + b_reg)) - s)) where b_reg = 10",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  }
+ ],
+ "parameters": {
+  "dataset_path": "/projects/bgde/grace/data/atlas-higgs-challenge-2014-v2.csv",
+  "missing_value_indicator": -999.0,
+  "signal_label": "s",
+  "background_label": "b",
+  "b_reg_value": 10,
+  "decay_channel": "H->tau tau",
+  "dataset_size": "~250,000 events"
+ },
+ "context": "Analyze the ATLAS Higgs Machine Learning Challenge dataset to build a classifier that distinguishes Higgs boson signal events (H->tau tau decay) from background processes.\n\nCRITICAL: The dataset file is at the path specified in the data context. Load it using pandas:\n    import pandas as pd\n    df = pd.read_csv('<path_from_data_context>')\n\nThe goal is to maximize the Approximate Median Significance (AMS) metric, which measures the statistical significance of a potential Higgs discovery. The AMS formula is:\n    AMS = sqrt(2 * ((s + b + b_reg) * ln(1 + s/(b + b_reg)) - s))\nwhere s = weighted true positives, b = weighted false positives, b_reg = 10.\n\nKey considerations:\n- Some features have missing values indicated by -999.0\n- Event weights are crucial for computing the physics-meaningful AMS score\n- Features include both derived quantities (DER_*) calculated from measurements and\n  primary quantities (PRI_*) directly measured by the detector\n- The label column indicates 's' for signal (Higgs) and 'b' for background\n- The dataset has ~250,000 events - DO NOT create synthetic data\n\nReport the final AMS score achieved on the full dataset.",
+ "confidence": 0.98,
+ "geometry_topology": null
+}
+REPORT words: 1678
+=== celeritas_run_files_v7\muon_claude-sonnet-4-20250514_20260127_231937
+{
+ "task_description": "This is a comparative detector design and performance evaluation task for a muon spectrometer system. The task involves designing and simulating a multi-layer detector system that uses iron absorbers to stop hadrons while allowing muons to penetrate, then measuring the detection efficiency and particle discrimination capabilities. The user needs to explore different geometric configurations (planar vs cylindrical), simulate both muon and pion interactions at multiple energies, and quantitatively compare the performance metrics including muon detection efficiency, pion rejection capability, and energy deposition profiles. This is a physics detector optimization task that combines geometric design exploration with Monte Carlo simulation and comparative performance analysis.",
+ "goal": "Design a muon spectrometer that achieves high muon identification efficiency in the 5-100 GeV energy range while effectively rejecting punch-through pions",
+ "constraints": [
+  {
+   "description": "Energy range: 5-100 GeV (simulation capped at 50 GeV)",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Number of iron/scintillator pairs: 3-6 layers",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Iron absorber thickness: 10-30 cm per layer",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Total depth: 3-6 nuclear interaction lengths",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Maximum 3 configurations to test",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Iron nuclear interaction length: 16.8 cm",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  }
+ ],
+ "parameters": {
+  "particle_energy": "[5, 20, 50]",
+  "muon_particle_type": "mu-",
+  "pion_particle_type": "pi-",
+  "iron_interaction_length": "16.8 cm",
+  "topology_options": [
+   "box",
+   "cylinder_barrel"
+  ],
+  "absorber_material": "iron",
+  "tracking_material": "scintillator"
+ },
+ "context": "Design a muon spectrometer for identifying muons in the 5-100 GeV energy range using iron absorbers to stop hadrons.\n\nThe system should achieve high muon identification efficiency while rejecting punch-through pions.\n\n**GEOMETRY EXPLORATION:**\nConsider different muon system topologies:\n- Planar sandwich (iron + tracking layers stacked - simple baseline)\n- Cylindrical barrel (iron shells with tracking - ATLAS-style muon barrel)\n- Toroidal geometry (used for forward muons with magnetic field)\n\nThe geometry tool supports topology=\"box\" or topology=\"cylinder_barrel\" for sampling calorimeter mode.\n\nPRACTICAL CONSTRAINTS:\n- Number of iron/scintillator pairs: typically 3-6 for muon spectrometers\n- Iron absorber thickness: 10-30 cm per layer typical\n- Iron nuclear interaction length λ_I = 16.8 cm (material property)\n- Total depth: 3-6 λ_I typical for pion rejection\n\n**ENERGY SWEEP:** Use particle_energy: [5, 20, 50] to run all energies in parallel on GPU.\n(Capped at 50 GeV and 3 points to keep simulation tractable)\n\nSimulate BOTH muons and pions, then MEASURE and COMPARE:\n1. Muon detection efficiency vs energy (energy deposit in final scintillator layer)\n2. Pion stopping probability - measure where pions deposit their energy\n3. Energy deposit profile through the detector for each particle type\n4. Determine the muon/pion separation power from your measurements\n\nIMPORTANT NOTES:\n-
+REPORT words: 1790
+=== celeritas_run_files_v7\tof_claude-sonnet-4-20250514_20260128_020039
+{
+ "task_description": "Design and simulate a time-of-flight (TOF) scintillator detector system for particle identification in high-energy physics experiments. This involves exploring different detector geometries (planar slab, cylindrical barrel, or segmented tiles), optimizing scintillator thickness, and evaluating the system's capability to distinguish between pions, kaons, and protons based on their different flight times over a measured path length. The task requires running Geant4 simulations to measure energy deposits in plastic scintillator for different particle types, calculating expected timing separations using relativistic physics formulas, and comparing the performance of different detector topologies for particle identification in the specified momentum range.",
+ "goal": "Design an optimal TOF scintillator detector configuration that can reliably identify and distinguish between pions, kaons, and protons in the momentum range 0.5-3 GeV/c",
+ "constraints": [
+  {
+   "description": "Momentum range: 0.5-3 GeV/c",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Scintillator thickness: 1-5 cm typical",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Path length: 0.5-2 m typical for TOF systems",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Test at most 3 configurations",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Use pi+, kaon+, and proton particles in Geant4",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Scintillator light yield: ~10,000 photons/MeV",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  }
+ ],
+ "parameters": {
+  "particle_types": [
+   "pi+",
+   "kaon+",
+   "proton"
+  ],
+  "momentum_range": "0.5-3 GeV/c",
+  "particle_energy": "[1.0, 2.0, 3.0]",
+  "detector_material": "plastic scintillator",
+  "geometry_options": [
+   "planar_slab",
+   "cylinder_barrel",
+   "segmented"
+  ],
+  "scintillator_thickness_range": "1-5 cm",
+  "typical_path_length": "0.5-2 m",
+  "light_yield": "10,000 photons/MeV",
+  "simulation_mode": "sampling_calorimeter"
+ },
+ "context": "Design a time-of-flight (TOF) scintillator detector for identifying pions, kaons, and protons in the momentum range 0.5-3 GeV/c.\n\nThe TOF system uses plastic scintillator to measure particle velocity via time-of-flight.\n\n**GEOMETRY EXPLORATION:**\nConsider different detector topologies for TOF systems:\n- Planar slab (simple, good for fixed-target)\n- Cylindrical barrel (wraps around interaction point - common in collider TOF)\n- Segmented tiles (better timing resolution, common in modern TOF)\n\nThe geometry tool supports sampling_calorimeter mode with these topologies:\n- \"box\" or \"planar\" or \"planar_slab\" - Planar slab geometry\n- \"cylinder_barrel\" - Cylindrical barrel wrapping around beam axis\n- \"segmented\" or \"tiles\" - Grid of individual scintillator tiles\n\nPRACTICAL CONSTRAINTS:\n- Scintillator thickness: 1-5 cm typical (trade-off: more light vs timing spread)\n- Path length: 0.5-2 m typical for TOF systems\n- Scintillator light yield: ~10,000 photons/MeV (material property)\n\nPhysics formula for TOF separation:\n  Δt = (L/c) × (√(1 + m1²c²/p²) - √(1 + m2²c²/p²))\nUse this to calculate expected timing from your measured path lengths.\n\n**ENERGY SWEEP:** Use particle_energy: [1.0, 2.0, 3.0] to run all momenta in parallel on GPU.\n\nSimulate particles 
+REPORT words: 1983
+=== celeritas_run_files_v7\tracking_claude-sonnet-4-20250514_20260127_230511
+{
+ "task_description": "This is a detector design and optimization task for a silicon pixel tracking detector used in high-energy physics experiments. The task involves designing the geometric configuration of silicon detector layers to measure charged particle momenta in the 1-50 GeV/c range. It requires exploring different detector topologies (planar layers, cylindrical barrel, forward disks) and optimizing key parameters like layer spacing, silicon thickness, and number of layers. The task combines physics simulation using Geant4 with performance analysis, specifically measuring energy deposits, hit detection efficiency, and material budget contributions. The unique aspect is the multi-objective optimization balancing momentum resolution against material budget minimization, while considering the trade-offs between different geometric configurations and their impact on multiple scattering and track reconstruction capabilities.",
+ "goal": "Design an optimal silicon pixel tracking detector geometry that achieves good momentum resolution for charged particles in the 1-50 GeV/c range while minimizing material budget",
+ "constraints": [
+  {
+   "description": "Number of silicon layers: typically 3-8",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Layer thickness: 100-500 μm typical",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Layer spacing: 2-10 cm typical",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Test at most 3 configurations",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Energy sweep capped at 30 GeV and 3 points",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Must minimize multiple scattering while maintaining hit detection",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  }
+ ],
+ "parameters": {
+  "momentum_range": "1-50 GeV/c",
+  "particle_type": "mu-",
+  "particle_energy": "[1, 10, 30]",
+  "silicon_radiation_length": "9.37 cm",
+  "typical_layer_thickness": "100-500 μm",
+  "typical_layer_spacing": "2-10 cm",
+  "typical_layer_count": "3-8",
+  "geometry_modes": [
+   "sampling_calorimeter",
+   "custom_spec",
+   "raw_gdml"
+  ],
+  "topology_options": [
+   "box",
+   "cylinder_barrel",
+   "forward_disks"
+  ]
+ },
+ "context": "Design a silicon pixel tracking detector for measuring charged particle momenta in the 1-50 GeV/c range.\n\nThe tracker must achieve good momentum resolution while minimizing material budget.\n\n**GEOMETRY EXPLORATION:**\nConsider different detector topologies:\n- Planar layers (flat silicon wafers in a stack)\n- Cylindrical barrel (silicon layers wrapped around beam axis - common in collider experiments)\n- Forward disks (perpendicular to beam for forward tracking)\n\nThe geometry tool supports multiple modes:\n- sampling_calorimeter: layered structures (can use topology=\"box\" or topology=\"cylinder_barrel\")\n- custom_spec: full flexibility with solids, volumes, placements\n- raw_gdml: complete control via GDML\n\nPRACTICAL CONSTRAINTS:\n- Number of silicon layers: typically 3-8 for trackers\n- Layer thickness: 100-500 μm typical (trade-off: thicker = more signal, but more scattering)\n- Layer spacing: 2-10 cm typical (affects lever arm for momentum measurement)\n- Silicon radiation length X₀ = 9.37 cm (material property)\n\nOptimize the detector geometry (topology, layer spacing, silicon thickness) to minimize mu
+REPORT words: 1486
+=== opticks_run_files_v5\darkside_lar_claude-sonnet-4-20250514_20260125_214528
+{
+ "task_description": "This is a comprehensive physics detector simulation workflow that combines literature analysis, computational modeling, and optimization. The task requires autonomously reading a scientific paper to extract experimental design specifications, then implementing a scaled-down computational simulation of the DarkSide-50 dark matter detector using GDML geometry modeling. The unique aspect is that it explicitly separates design extraction from performance measurement, requiring the user to discover detector characteristics through their own simulation rather than comparing against published results. The workflow includes GPU-constrained Monte Carlo particle simulations, performance characterization through light yield and signal analysis, and iterative optimization of detector geometry based on simulation findings.",
+ "goal": "Extract DarkSide-50 detector design parameters from literature and use them to create an independent scaled simulation that discovers detector performance characteristics and optimizes geometry for improved low-energy dark matter detection capability",
+ "constraints": [
+  {
+   "description": "Maximum detector size: 1m diameter × 1m height due to GPU memory limits",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Maximum 50 PMTs total",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Must maintain same PMT density ratio as original paper design",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Maximum 100 simulation events",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Energy deposits limited to 0.1-1 MeV range",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Extract design specs only, not measured performance values from paper",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Do not compare simulation results against paper's measured values",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  }
+ ],
+ "parameters": {
+  "paper_reference": "arXiv:1802.07198",
+  "detector_type": "Dual-phase LAr TPC",
+  "scintillation_wavelength": "128nm VUV",
+  "simulation_geometry_format": "GDML",
+  "energy_range": "0.1-1 MeV",
+  "max_events": 100,
+  "target_material": "underground argon with low radioactivity",
+  "pmt_configuration": "top and bottom arrays with VUV sensitivity"
+ },
+ "context": "Read the DarkSide-50 dark matter detector paper (arXiv:1802.07198) and autonomously:\n\n1. EXTRACT the experimental DESIGN (not measured results):\n   - Dual-phase LAr TPC geometry (cylindrical active volume dimensions)\n   - Underground argon properties (low radioactivity specifications)\n   - PMT array configuration (top and bottom arrays, coverage)\n   - NOTE: Extract DESIGN specs only, not measured performance values\n\n2. IMPLEMENT a SCALED-DOWN simulation based on the extracted design:\n   - Generate a GDML geometry that SCALES DOWN the paper's detector to fit GPU limits\n   - GPU MEMORY LIMITS (CRITICAL): Maximum 1m diameter × 1m height, maximum 50 PMTs total\n   - Scale proportionally: keep same PMT density ratio as the paper design\n   - Configure LAr optical properties (VUV scintillation at 128nm)\n   - Configure PMT arrays with appropriate VUV sensitivity\n   - Run simulations with 0.1-1 MeV energy deposits, max
+REPORT words: 1582
+=== opticks_run_files_v5\detector_claude-sonnet-4-20250514_20260125_211842
+{
+ "task_description": "This is a computational physics optimization task focused on designing a cylindrical liquid argon neutrino detector with maximum light collection efficiency. The task involves running GPU-accelerated optical photon simulations using Opticks to test different detector geometries and photosensor arrangements. The user needs to systematically vary detector design parameters (aspect ratio, sensor placement strategies, sensor sizes) while staying within strict GPU memory constraints, then evaluate each configuration's performance in terms of scintillation light collection efficiency and spatial uniformity. This is a constrained multi-parameter optimization problem that combines particle physics detector design with computational resource management.",
+ "goal": "Maximize scintillation light collection efficiency in a cylindrical liquid argon detector for neutrino detection while achieving uniform detector response and optimizing photosensor cost-effectiveness",
+ "constraints": [
+  {
+   "description": "Maximum detector size: 1 meter diameter, 1 meter height (~0.8 m³)",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Maximum sensor count: 50 photosensors",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Maximum events per run: 100",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "GPU memory buffer size limitations",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Use 1-5 MeV electrons for testing",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Start at 1 MeV energy",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Must test at least 3 configurations",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Cannot exceed detector size or sensor count limits",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Must vary placement strategy and aspect ratio",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  }
+ ],
+ "parameters": {
+  "detector_material": "liquid argon (LAr)",
+  "scintillation_wavelength": "128nm",
+  "light_yield": "40,000 photons/MeV",
+  "initial_diameter": "1 meter",
+  "initial_height": "1 meter",
+  "initial_sensor_count": "50",
+  "test_particle": "electrons",
+  "energy_range": "1-5 MeV",
+  "starting_energy": "1 MeV",
+  "detector_geometry": "cylindrical",
+  "photosensor_types": "SiPMs or PMTs with VUV sensitivity",
+  "wavelength_shifter": "TPB (tetraphenyl butadiene)"
+ },
+ "context": "Optimize a cylindrical liquid argon (LAr) detector for neutrino detection to maximize scintillation light collection efficiency.\n\nLiquid argon scintillates in the vacuum ultraviolet (VUV) at 128nm with ~40,000 photons/MeV - one of the highest light yields of any scintillator. This makes LAr ideal for low-energy neutrino detection.\n\nDESIGN REQUIREMENTS:\n- Cylindrical LAr volume as the active detector medium\n- Silicon photomultipliers (SiPMs) or PMTs with VUV sensitivity for photon detection\n- Consider wavelength shifters (TPB) to convert VUV to visible if using standard PMTs\n- Optimize for MeV-sca
+REPORT words: 2255
+=== opticks_run_files_v5\protodune_lar_claude-sonnet-4-20250514_20260125_213335
+{
+ "task_description": "This is a multi-phase reverse engineering and optimization task that involves extracting design specifications from a scientific paper, implementing a scaled-down computational simulation based on those specifications, and then using the simulation results to propose improvements. The task requires reading a specific arXiv paper about the ProtoDUNE detector, extracting only the design parameters (not experimental results), creating a GDML-based Monte Carlo simulation that scales down the original detector geometry to fit GPU computational constraints, running photon transport simulations in liquid argon, analyzing the simulation output to characterize detector performance, and finally proposing optimizations based on the simulation findings. This is essentially a computational physics workflow that combines literature review, geometric modeling, Monte Carlo simulation, data analysis, and design optimization.",
+ "goal": "Extract ProtoDUNE detector design specifications and use them to create a scaled-down simulation for discovering detector performance characteristics and proposing photon detection system improvements",
+ "constraints": [
+  {
+   "description": "Maximum detector volume of 1m × 1m × 1m due to GPU memory limits",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Maximum 50 photosensors due to GPU constraints",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Scale proportionally while maintaining sensor density ratios",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Maximum 5 MeV energy deposits to prevent GPU overflow",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Maximum 100 simulation events",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Extract design specs only, not measured performance values from paper",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Do not compare simulation results against measured values from paper",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  }
+ ],
+ "parameters": {
+  "paper_reference": "arXiv:2108.01902",
+  "detector_type": "ProtoDUNE Single-Phase",
+  "scintillation_wavelength": "128nm VUV",
+  "scintillation_yield": "~40k photons/MeV",
+  "energy_deposit_range": "1-5 MeV",
+  "max_events": "100",
+  "target_medium": "liquid argon",
+  "wavelength_shifter": "TPB coating",
+  "photosensor_types": "SiPM/PMT"
+ },
+ "context": "Read the ProtoDUNE Single-Phase detector paper (arXiv:2108.01902) and autonomously:\n\n1. EXTRACT the experimental DESIGN (not measured results):\n   - LAr TPC geometry (drift volume dimensions, active mass)\n   - Photon detection system (PDS) configuration\n   - Design specifications for SiPM/PMT coverage and wavelength shifter (TPB) coating\n   - NOTE: Extract DESIGN specs only, not measured performance values\n\n2. IMPLEMENT a SCALED-DOWN simulation based on the extracted design:\n   - Generate a GDML geometry that SCALES DOWN the paper's detector to fit GPU limits\n   - GPU MEMORY LIMITS (CRITICAL): Maximum 1m × 1m × 1m volume, maximum 50 photosensors\n   - Scale proportionally: if paper has 7m TPC, scale to 1m but keep same sensor density ratio\n   - Configure LAr optical properties (VUV scintillation at 128nm, ~40k photons/MeV)\n   - Configure p
+REPORT words: 1507
+=== opticks_run_files_v9\darkside_lar_claude-sonnet-4-20250514_20260127_212110
+{
+ "task_description": "This is a comprehensive physics detector simulation and optimization task that involves extracting experimental design specifications from a scientific paper, implementing a computational simulation based on those specifications, and then using the simulation results to characterize detector performance and propose improvements. The task specifically focuses on a dual-phase liquid argon time projection chamber (LAr TPC) for dark matter detection, requiring the user to autonomously read and interpret technical literature, translate physical detector designs into computational geometry models, run optical photon simulations at appropriate energy scales for dark matter interactions, analyze the resulting data to measure detector characteristics, and finally optimize the design based on simulation findings rather than literature comparisons.",
+ "goal": "Extract DarkSide-50 detector design specifications from scientific literature, implement a GDML-based simulation of the detector, characterize its performance through optical photon simulations, and optimize the detector design for improved low-energy dark matter detection capabilities",
+ "constraints": [
+  {
+   "description": "Extract design specifications only, not measured performance values from the paper",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Use 50-100 PMTs for tractable simulation",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "GPU photon budget auto-managed at 500M photons",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Energy deposits must be 0.1-5 MeV scale (dark matter relevant energies)",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Use particle energies of 0.0001, 0.001, 0.005 GeV (0.1, 1, 5 MeV)",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Do NOT use GeV-scale energies due to optical simulation caps",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Do NOT compare simulation results against measured values from the paper",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Event counts are auto-adjusted based on photon budget",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  }
+ ],
+ "parameters": {
+  "paper_reference": "arXiv:1802.07198",
+  "detector_type": "Dual-phase LAr TPC",
+  "photon_budget": "500M photons",
+  "pmt_count_range": "50-100 PMTs",
+  "particle_energy_gev": [
+   0.0001,
+   0.001,
+   0.005
+  ],
+  "particle_energy_mev": [
+   0.1,
+   1,
+   5
+  ],
+  "lar_scintillation_wavelength": "128nm VUV",
+  "lar_light_yield": "~40k photons/MeV",
+  "underground_argon": "low radioactivity specifications",
+  "geometry_format": "GDML"
+ },
+ "context": "Read the DarkSide-50 dark matter detector paper (arXiv:1802.07198) and autonomously:\n\n1. EXTRACT the experimental DESIGN (not measured results):\n   - Dual-phase LAr TPC geometry (cylindrical active volume dimensions)\n   - Underground argon properties (low radioactivity specifications)\n   - PMT array configuration (top and bottom arrays, coverage)\n   - NOTE: Extract DESIGN specs only, not measured performance values\n\n2. IMPLEMENT a simulation based on the extracted des
+REPORT words: 1715
+=== opticks_run_files_v9\detector_claude-sonnet-4-20250514_20260127_191124
+{
+ "task_description": "Design optimization of a cylindrical liquid argon detector for neutrino detection using GPU-accelerated optical photon simulation. This involves systematically varying detector geometry (aspect ratio), photosensor placement strategies (endcap-heavy vs barrel-heavy vs uniform distribution), and sensor configurations to maximize scintillation light collection from VUV photons produced by neutrino interactions. The task requires testing multiple detector configurations using MeV-scale electron primaries as proxies for neutrino interaction secondaries, then measuring and comparing light collection efficiency and spatial uniformity across each design variant.",
+ "goal": "Maximize scintillation light collection efficiency while achieving uniform detector response across the cylindrical LAr volume for optimal neutrino detection performance",
+ "constraints": [
+  {
+   "description": "Detector dimensions: 1-5m diameter typical for neutrino detectors",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Photosensor count: 50-100 sensors for tractable simulation",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Use 1-5 MeV electrons for testing (MeV-scale energy deposits)",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "GPU photon budget auto-managed with 500M photon buffer limit",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Test at most 3 configurations",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Energy sweep must use [0.001, 0.002, 0.005] GeV (1, 2, 5 MeV)",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Do NOT use GeV-scale energies to prevent photon buffer overflow",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  }
+ ],
+ "parameters": {
+  "detector_medium": "liquid argon (LAr)",
+  "scintillation_wavelength": "128nm VUV",
+  "light_yield": "40,000 photons/MeV",
+  "photosensors": "SiPMs or PMTs with VUV sensitivity",
+  "wavelength_shifter": "TPB for VUV to visible conversion",
+  "particle_energy": "[0.001, 0.002, 0.005] GeV",
+  "detector_geometry": "cylindrical",
+  "optimization_variables": [
+   "sensor placement",
+   "detector aspect ratio",
+   "sensor size and count"
+  ]
+ },
+ "context": "Optimize a cylindrical liquid argon (LAr) detector for neutrino detection to maximize scintillation light collection efficiency.\n\nLiquid argon scintillates in the vacuum ultraviolet (VUV) at 128nm with ~40,000 photons/MeV - one of the highest light yields of any scintillator. This makes LAr ideal for low-energy neutrino detection.\n\nDESIGN REQUIREMENTS:\n- Cylindrical LAr volume as the active detector medium\n- Silicon photomultipliers (SiPMs) or PMTs with VUV sensitivity for photon detection\n- Consider wavelength shifters (TPB) to convert VUV to visible if using standard PMTs\n- Optimize for MeV-scale energy deposits from neutrino interactions\n\nGPU PHOTON BUDGET (auto-managed):\nThe Opticks GPU simulation automatically manages photon budget - events and energy are auto-capped if photon production exceeds the 500M buffer. You can use realistic detector sizes.\n\nPRACTICAL CONSTRAINTS (for tractable simulation):\n- Detector dimensions: 1-5m diameter typical for neutrino detectors\n- Photosensor count: 50-100 sensors keeps si
+REPORT words: 1379
+=== opticks_run_files_v9\protodune_lar_claude-sonnet-4-20250514_20260127_195626
+{
+ "task_description": "This is a comprehensive detector physics research task that combines literature analysis, computational simulation, and optimization. The user wants to extract experimental design specifications from a scientific paper about the ProtoDUNE detector, implement a physics-based optical simulation using those specifications, analyze the simulated detector performance to characterize light collection properties, and then propose design improvements based on the simulation results. The task specifically emphasizes using design parameters rather than measured results from the paper, and focuses on optical photon transport simulation in liquid argon with VUV scintillation light detection.",
+ "goal": "Extract ProtoDUNE detector design specifications, simulate optical photon detection performance, characterize light yield and detection efficiency, and optimize photon detection system design",
+ "constraints": [
+  {
+   "description": "Extract design specs only, not measured performance values",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "GPU photon budget limited to 500M photons",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Use 50-100 photosensors for tractable simulation",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Energy deposits limited to 1-5 MeV scale (not GeV scale)",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  },
+  {
+   "description": "Do not compare simulation results against measured values from paper",
+   "constraint_type": "preference",
+   "parameter": null,
+   "bounds": null,
+   "target_value": null,
+   "is_hard": true,
+   "priority": 1
+  }
+ ],
+ "parameters": {
+  "paper_reference": "arXiv:2108.01902",
+  "detector_type": "ProtoDUNE Single-Phase LAr TPC",
+  "scintillation_wavelength": "128nm",
+  "photon_yield": "~40k photons/MeV",
+  "particle_energy_range": "[0.001, 0.002, 0.005] GeV",
+  "energy_scale": "[1, 2, 5] MeV",
+  "wavelength_shifter": "TPB coating",
+  "photon_budget": "500M photons",
+  "photosensor_count": "50-100"
+ },
+ "context": "Read the ProtoDUNE Single-Phase detector paper (arXiv:2108.01902) and autonomously:\n\n1. EXTRACT the experimental DESIGN (not measured results):\n   - LAr TPC geometry (drift volume dimensions, active mass)\n   - Photon detection system (PDS) configuration\n   - Design specifications for SiPM/PMT coverage and wavelength shifter (TPB) coating\n   - NOTE: Extract DESIGN specs only, not measured performance values\n\n2. IMPLEMENT a simulation based on the extracted design:\n   - Generate a GDML geometry based on the paper's detector design\n   - Scale the detector as needed - the GPU photon budget is auto-managed (500M photons)\n   - Use 50-100 photosensors for tractable simulation (can optimize coverage within this)\n   - Configure LAr optical properties (VUV scintillation at 128nm, ~40k photons/MeV)\n   - Configure photon detectors with appropriate VUV sensitivity\n   - Run baseline simulation with 1-5 MeV energy deposits\n   - Event counts are auto-adjusted based on photon budget\n   - **ENERGY (MeV scale):** Use particle_energy: [0.001, 0.002, 0.005] (GeV) = [1, 2, 5] MeV\n     Do NOT use GeV-scale energies - optical simulations cap at 5 MeV\n\n3. ANALYZE your simulation results to DISCOVER detector performance:\n   - MEASURE light yield from YOUR simulation (photoelectrons per MeV)\n   - Calculate detection efficiency from YOUR results\n   - Characterize spatial uniformity of light collection\n   - NOTE: Do NOT compare against measured values from the paper\n\n4. PROPOSE improvements to the photon detection s
+REPORT words: 1598

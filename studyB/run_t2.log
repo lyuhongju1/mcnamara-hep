@@ -1,0 +1,11 @@
+320 calls to make
+0
+C:\Users\lyuho\Downloads\mcnamara-hep\studyB\pilot.py:140: DeprecationWarning: The model 'claude-sonnet-4-5-20250929' is deprecated and will reach end-of-life on November 30th, 2026.
+Please migrate to a newer model. Visit https://docs.anthropic.com/en/docs/resources/model-deprecations for more information.
+  r = client.messages.create(**kw)
+50
+100
+150
+200
+250
+300
