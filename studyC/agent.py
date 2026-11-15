@@ -17,10 +17,11 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 from scenarios import SCENARIOS, ARMS, SALIENCE  # noqa: E402
 
-MODELS = {
-    "claude-haiku-5-5": dict(betas=[], fallbacks=None, price=(0.10, 0.50)),
-    "claude-sonnet-5-5": dict(betas=["server-side-fallback-2026-07-01"], fallbacks="default", price=(2.0, 10.0)),
-    "claude-opus-5-5": dict(betas=["server-side-fallback-2026-07-01"], fallbacks="default", price=(4.0, 20.0)),
+MODELS = {  # per-model request settings; Sonnet 4.5 predates adaptive thinking and effort
+    "claude-haiku-5-5": dict(betas=[], fallbacks=None, price=(0.10, 0.50), kw={"thinking": {"type": "adaptive"}, "output_config": {"effort": "medium"}}),
+    "claude-sonnet-5-5": dict(betas=["server-side-fallback-2026-07-01"], fallbacks="default", price=(2.0, 10.0), kw={"thinking": {"type": "adaptive"}, "output_config": {"effort": "medium"}}),
+    "claude-opus-5-5": dict(betas=["server-side-fallback-2026-07-01"], fallbacks="default", price=(4.0, 20.0), kw={"thinking": {"type": "adaptive"}, "output_config": {"effort": "medium"}}),
+    "claude-sonnet-4-5-20250929": dict(betas=[], fallbacks=None, price=(3.0, 15.0), kw={}),
 }
 EFFORT = "medium"
 THINKING = {"type": "adaptive"}
@@ -105,14 +106,13 @@ def one_run(client, sid, arm, sal, model, rep, outdir):
     messages = [{"role": "user", "content": env["user"]}]
     log = open(d / "transcript.jsonl", "w", encoding="utf-8")
     log.write(json.dumps({"run_id": run_id, "system": SYSTEM, "user": env["user"], "tools": [t["name"] for t in env["tools"]],
-                          "role_of": env["role_of"], "model": model, "effort": EFFORT, "thinking": THINKING}) + "\n")
+                          "role_of": env["role_of"], "model": model, "settings": M["kw"]}) + "\n")
     cost, turns, outcome, submission, calls = 0.0, 0, None, None, []
     while True:
         turns += 1
         if turns > MAX_TURNS: outcome = "turn_cap"; break
         if cost > MAX_COST: outcome = "cost_cap"; break
-        kw = dict(model=model, max_tokens=MAX_TOKENS, system=SYSTEM, tools=env["tools"], messages=messages,
-                  thinking=THINKING, output_config={"effort": EFFORT})
+        kw = dict(model=model, max_tokens=MAX_TOKENS, system=SYSTEM, tools=env["tools"], messages=messages, **M["kw"])
         if M["betas"]: kw["betas"] = M["betas"]
         if M["fallbacks"]: kw["fallbacks"] = M["fallbacks"]
         try:
