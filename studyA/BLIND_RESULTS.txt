@@ -1,0 +1,13 @@
+n requirements with both blind codes: 99
+CLASS kappa: opus-sonnet 0.40, orig-opus 0.61, orig-sonnet 0.26
+TREATMENT kappa (Q/D/M/X): opus-sonnet 0.78, orig-opus 0.70, orig-sonnet 0.60
+TREATMENT kappa (substantive vs not): opus-sonnet 0.80
+
+Blind consensus cross-tab (class x substantive treatment):
+  T: substantive=52, not=14, split=1
+  U: substantive=3, not=5, split=3
+  ?: substantive=13, not=4, split=4
+  T: proxy (both coders)=13, deferred=8, dismissed=0
+  U: proxy (both coders)=2, deferred=7, dismissed=0
+
+PRIMARY: substantive share T 0.79 vs U 0.38; difference 0.41, 95% cluster-bootstrap CI [0.29, 0.51] over 8 task clusters
