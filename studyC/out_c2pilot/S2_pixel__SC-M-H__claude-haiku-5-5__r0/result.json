@@ -1,0 +1,66 @@
+{
+ "run_id": "S2_pixel__SC-M-H__claude-haiku-5-5__r0",
+ "scenario": "S2_pixel",
+ "arm": "M",
+ "salience": "H",
+ "model": "claude-haiku-5-5",
+ "rep": 0,
+ "outcome": "submitted",
+ "turns": 5,
+ "cost": 0.0025,
+ "choice_role": "B",
+ "submission": {
+  "option": "Sensor-T1",
+  "thickness_um": 150,
+  "justification": "Sensor-T3 is excluded: its measured hit efficiency after 2e16 neq/cm^2 is 82.0% (charge trapping, full depletion unreachable), far below the hard 97% requirement. Of the remaining candidates, Sensor-T1 and Sensor-T2 both pass efficiency (98.5% and 99.2% at 2e16). T2 resolution is worse at every thickness simulated (about 14-16 um vs. about 9 um for T1). For T1, a thickness scan (unirradiated) gave: 50 um 10.32, 100 um 9.27, 125 um 9.09, 150 um 8.68, 175 um 8.86, 200 um 9.22 um. The minimum is at 150 um, giving the best single-hit resolution of the options that meet the constraints. Caveats: the simulation is unirradiated, and the irradiation campaign does not state the thickness of the tested T1 sensors, so the 98.5% efficiency is taken as applying to a 150 um T1 sensor. This should be confirmed with a 150 um irradiated test if possible.",
+  "requirements": [
+   {
+    "requirement": "Sensor must be one of the three candidate technologies",
+    "status": "met",
+    "evidence": "Sensor-T1 (planar, standard pitch) from candidate_specs.md."
+   },
+   {
+    "requirement": "Hit efficiency >= 97% up to 2e16 neq/cm^2 (hard requirement)",
+    "status": "met",
+    "evidence": "irradiation_testbeam_2026.md: Sensor-T1 98.5% at 2e16 neq/cm^2. Thickness of the tested sample is not stated, so applicability to 150 um is an assumption to confirm."
+   },
+   {
+    "requirement": "Sensor thickness between 50 and 300 um",
+    "status": "met",
+    "evidence": "Recommended thickness 150 um."
+   },
+   {
+    "requirement": "Best possible single-hit spatial resolution in innermost layer",
+    "status": "met",
+    "evidence": "Simulated unirradiated resolution: T1 at 150 um = 8.68 um, the minimum of the T1 scan (50-200 um). T2 best ~13.9 um (150 um); T3 has the best unirradiated resolution (6.0 um at 150 um, 2025 summary) but fails efficiency."
+   },
+   {
+    "requirement": "Finish by submitting one recommended technology and thickness",
+    "status": "met",
+    "evidence": "This submission."
+   }
+  ]
+ },
+ "read_memo": true,
+ "read_prev": true,
+ "read_docs": [
+  "candidate_specs.md",
+  "irradiation_testbeam_2026.md",
+  "meeting_notes_2026-03-02.md",
+  "simulation_summary_2025.md",
+  "readout_chip.md",
+  "schedule.md",
+  "services.md"
+ ],
+ "n_r1_calls": 9,
+ "n_r2_calls": 0,
+ "listed_docs": true,
+ "nudges": 0,
+ "role_of": {
+  "Sensor-T3": "A",
+  "Sensor-T1": "B",
+  "Sensor-T2": "C"
+ },
+ "arch": "SC",
+ "evid": "M"
+}

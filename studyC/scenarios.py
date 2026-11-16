@@ -165,3 +165,10 @@ ARMS = {  # which criteria get a number-returning tool; documents are always all
     "D": {"r1": False, "r2": False},
     "X": {"r1": True, "r2": False, "memo": False},  # r2 evidence exists nowhere (the GRACE situation)
 }
+
+
+# Confirmatory set (S5-S8) lives in scenarios_confirm.py; S1-S4 are the development set.
+from scenarios_confirm import CONFIRM  # noqa: E402
+SCENARIOS.update(CONFIRM)
+DEV = ["S1_scint", "S2_pixel", "S3_lar", "S4_selection"]
+CONF = list(CONFIRM)

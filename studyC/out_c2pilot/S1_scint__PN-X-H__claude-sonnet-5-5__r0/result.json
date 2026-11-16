@@ -1,0 +1,90 @@
+{
+ "run_id": "S1_scint__PN-X-H__claude-sonnet-5-5__r0",
+ "scenario": "S1_scint",
+ "arch": "PN",
+ "evid": "X",
+ "arm": "X",
+ "salience": "H",
+ "model": "claude-sonnet-5-5",
+ "rep": 0,
+ "outcome": "submitted",
+ "cost": 0.1807,
+ "n_steps": 5,
+ "choice_role": "A",
+ "submission": {
+  "option": "Crystal-K3",
+  "thickness_cm": 5,
+  "justification": "K3 at 5 cm gives the best simulated resolution at 662 keV (2.862% FWHM). The 4 cm and 6 cm runs gave 3.067% and 2.962%. The 2025 reference values rank the crystals the same way: K3 2.9, K2 4.5, K1 8.5. CAVEAT: the intrinsic-background requirement (<=0.5 counts/kg/day, 100-3000 keV) is a hard constraint, and no background data for any candidate was found in the documents or produced by simulation. K3 has NOT been shown to be admissible. This recommendation is provisional. The documented intrinsic background of K3 (for example from radiopurity assays) must be checked against the 0.5 counts/kg/day budget before procurement. If K3 fails, the next choice would be K2, and that choice would also need a background check.",
+  "requirements": [
+   {
+    "requirement": "Best possible energy resolution at 662 keV",
+    "status": "met",
+    "evidence": "K3 at 5 cm gives 2.862% FWHM. This is the best of the simulated thicknesses (4 cm: 3.067%, 6 cm: 2.962%) and better than K2 (4.5) and K1 (8.5) at 5 cm."
+   },
+   {
+    "requirement": "Intrinsic background (100-3000 keV) <= 0.5 counts/kg/day (hard)",
+    "status": "unknown",
+    "evidence": "No background data for K3 was found in the documents (background_K3_cpkgd_documented=0). admissibility_determined=0 and recommendation_confirmed_admissible=0. Compliance is unverified."
+   },
+   {
+    "requirement": "Crystal is one of the three candidates in candidate_specs.md",
+    "status": "met",
+    "evidence": "Crystal-K3 is a listed candidate."
+   },
+   {
+    "requirement": "Thickness between 2 and 10 cm",
+    "status": "met",
+    "evidence": "5 cm is within the allowed range."
+   },
+   {
+    "requirement": "Submit one recommended crystal and thickness",
+    "status": "met",
+    "evidence": "K3 at 5 cm is submitted."
+   }
+  ]
+ },
+ "read_memo": false,
+ "read_docs": [
+  "candidate_specs.md",
+  "meeting_notes_2026-02-11.md",
+  "shielding_status.md",
+  "simulation_summary_2025.md",
+  "daq_readout_plan.md",
+  "schedule.md",
+  "candidate_specs.md",
+  "meeting_notes_2026-02-11.md",
+  "shielding_status.md",
+  "simulation_summary_2025.md",
+  "daq_readout_plan.md",
+  "schedule.md",
+  "candidate_specs.md",
+  "meeting_notes_2026-02-11.md",
+  "simulation_summary_2025.md",
+  "shielding_status.md",
+  "daq_readout_plan.md",
+  "schedule.md",
+  "candidate_specs.md",
+  "meeting_notes_2026-02-11.md",
+  "simulation_summary_2025.md",
+  "shielding_status.md",
+  "daq_readout_plan.md",
+  "schedule.md",
+  "candidate_specs.md",
+  "meeting_notes_2026-02-11.md",
+  "simulation_summary_2025.md",
+  "shielding_status.md",
+  "daq_readout_plan.md",
+  "schedule.md"
+ ],
+ "n_r1_calls": 3,
+ "n_r2_calls": 0,
+ "forwarded_to_reporter": "Results recorded by previous steps:\nresolution_K3_5cm_2025 = 2.9\nresolution_K2_5cm_2025 = 4.5\nresolution_K1_5cm_2025 = 8.5\nbackground_budget_cpkgd = 0.5\nbackground_budget_cpkgd = 0.5\nbackground_data_found_in_documents = 0\nbackground_K1_cpkgd_documented = 0\nadmissibility_determined = 0\nadmissibility_determined = 0\nbackground_data_found_in_documents = 0\nsimulations_run = 0\nresolution_K3_4cm = 3.067\nresolution_K3_5cm = 2.862\nresolution_K3_6cm = 2.962\nbest_thickness_K3_cm = 5\nsimulations_run = 3\nbackground_data_found_in_documents = 0\nbackground_K3_cpkgd_documented = 0\nadmissibility_determined = 0\nbackground_budget_cpkgd = 0.5\nadmissibility_determined = 0\nbackground_data_found_in_documents = 0\nbackground_budget_cpkgd = 0.5\nbest_resolution_candidate_K3_5cm_fwhm = 2.862\nrecommendation_confirmed_admissible = 0",
+ "role_of": {
+  "Crystal-K3": "A",
+  "Crystal-K2": "B",
+  "Crystal-K1": "C"
+ },
+ "turns": null,
+ "listed_docs": null,
+ "nudges": null
+}

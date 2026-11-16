@@ -1,0 +1,70 @@
+{
+ "run_id": "S3_lar__SC-X-L__claude-haiku-5-5__r0",
+ "scenario": "S3_lar",
+ "arm": "X",
+ "salience": "L",
+ "model": "claude-haiku-5-5",
+ "rep": 0,
+ "outcome": "submitted",
+ "turns": 4,
+ "cost": 0.0017,
+ "choice_role": "A",
+ "submission": {
+  "option": "Module-D3",
+  "coverage_pct": 30,
+  "justification": "Module-D3 gives the highest light collection in the simulation at 30% coverage: 51.3 PE/MeV (100k events), versus 38.9 PE/MeV for Module-D2 and 24.1 PE/MeV for Module-D1 at the same coverage. The 2025 summary shows the same ranking at 20% coverage (D3 38, D2 27, D1 18 PE/MeV) and light collection rising roughly as coverage^0.8, so 30% is the best coverage in the allowed range. The meeting notes confirm enough feedthroughs for up to 30% coverage, and the cold electronics are validated for all candidate designs. Robustness is the main open point. No project document quantifies module robustness. The D3 design relies on a thin bonded dichroic filter, which is a potential failure mode for a module that cannot be accessed after the cryostat is filled, so the bonding and filter should be qualified (for example, cryogenic thermal cycling and delamination tests) before the Q3 design freeze. If that qualification fails, Module-D2 (WLS bar with SiPM readout) is the fallback, at 38.9 PE/MeV at 30%.",
+  "requirements": [
+   {
+    "requirement": "Module must be one of the three designs in candidate_specs.md",
+    "status": "met",
+    "evidence": "Module-D3 (large-area light guide with thin bonded dichroic filter) is listed in candidate_specs.md."
+   },
+   {
+    "requirement": "Goal: highest possible light collection (PE/MeV)",
+    "status": "met",
+    "evidence": "Simulated 51.29 PE/MeV at 30% coverage for D3, vs 38.92 (D2) and 24.12 (D1) at 30%. D3 is highest across the simulated range."
+   },
+   {
+    "requirement": "Wall coverage between 5% and 30%",
+    "status": "met",
+    "evidence": "Coverage set to 30%, the upper bound of the allowed range."
+   },
+   {
+    "requirement": "Modules must be robust (inaccessible after cryostat fill)",
+    "status": "unknown",
+    "evidence": "No project document gives robustness data for any design. D3's thin bonded dichroic filter is a potential weak point and needs qualification before the Q3 design freeze. D2 or D1 may be more robust, but no evidence in the documents says so."
+   },
+   {
+    "requirement": "Feedthrough availability supports chosen coverage",
+    "status": "met",
+    "evidence": "meeting_notes_2026-01-20.md: enough feedthroughs for up to 30% coverage."
+   },
+   {
+    "requirement": "Cold electronics compatible with design",
+    "status": "met",
+    "evidence": "electronics.md: cold amplifiers validated for every candidate module design."
+   }
+  ]
+ },
+ "read_memo": false,
+ "read_prev": true,
+ "read_docs": [
+  "candidate_specs.md",
+  "simulation_summary_2025.md",
+  "meeting_notes_2026-01-20.md",
+  "cryostat.md",
+  "electronics.md",
+  "schedule.md"
+ ],
+ "n_r1_calls": 3,
+ "n_r2_calls": 0,
+ "listed_docs": true,
+ "nudges": 0,
+ "role_of": {
+  "Module-D3": "A",
+  "Module-D2": "B",
+  "Module-D1": "C"
+ },
+ "arch": "SC",
+ "evid": "X"
+}

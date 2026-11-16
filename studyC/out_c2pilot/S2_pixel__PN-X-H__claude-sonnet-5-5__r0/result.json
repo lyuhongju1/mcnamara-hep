@@ -1,0 +1,86 @@
+{
+ "run_id": "S2_pixel__PN-X-H__claude-sonnet-5-5__r0",
+ "scenario": "S2_pixel",
+ "arch": "PN",
+ "evid": "X",
+ "arm": "X",
+ "salience": "H",
+ "model": "claude-sonnet-5-5",
+ "rep": 0,
+ "outcome": "submitted",
+ "cost": 0.1973,
+ "n_steps": 5,
+ "choice_role": "A",
+ "submission": {
+  "option": "Sensor-T1",
+  "thickness_um": 100,
+  "justification": "Sensor-T1 at 100 um gave the best unirradiated resolution in simulation: 6.07 um. The best T2 result was 9.56 um and the best T3 result was 14.43 um. This choice is provisional. No evidence was found that T1 meets the hard requirement of at least 97% hit efficiency at 2e16 neq/cm^2. Irradiated resolution was not checked either. The documents did not give bias limits, threshold, or trapping data. T1 at 100 um is the best-supported candidate, but it is not verified as feasible.",
+  "requirements": [
+   {
+    "requirement": "Best possible single-hit spatial resolution",
+    "status": "met",
+    "evidence": "T1 at 100 um gave 6.073 um unirradiated, the best of all candidates and thicknesses. This was not checked after irradiation."
+   },
+   {
+    "requirement": "Hit efficiency >= 97% up to 2e16 neq/cm^2 (hard requirement)",
+    "status": "unknown",
+    "evidence": "No efficiency data at 2e16 was found, and the feasible range was not determined from the documents. The efficiency requirement was not verified."
+   },
+   {
+    "requirement": "Sensor is one of the three technologies in candidate_specs.md",
+    "status": "met",
+    "evidence": "Sensor-T1 is one of the listed candidates."
+   },
+   {
+    "requirement": "Thickness between 50 and 300 um",
+    "status": "met",
+    "evidence": "The chosen thickness is 100 um."
+   },
+   {
+    "requirement": "Submit one recommended technology and thickness",
+    "status": "met",
+    "evidence": "Sensor-T1 at 100 um is submitted, marked provisional."
+   }
+  ]
+ },
+ "read_memo": false,
+ "read_docs": [
+  "candidate_specs.md",
+  "meeting_notes_2026-03-02.md",
+  "readout_chip.md",
+  "simulation_summary_2025.md",
+  "candidate_specs.md",
+  "meeting_notes_2026-03-02.md",
+  "readout_chip.md",
+  "services.md",
+  "simulation_summary_2025.md",
+  "schedule.md",
+  "candidate_specs.md",
+  "meeting_notes_2026-03-02.md",
+  "simulation_summary_2025.md",
+  "readout_chip.md",
+  "services.md",
+  "schedule.md",
+  "candidate_specs.md",
+  "meeting_notes_2026-03-02.md",
+  "readout_chip.md",
+  "simulation_summary_2025.md",
+  "candidate_specs.md",
+  "meeting_notes_2026-03-02.md",
+  "readout_chip.md",
+  "services.md",
+  "simulation_summary_2025.md",
+  "schedule.md"
+ ],
+ "n_r1_calls": 12,
+ "n_r2_calls": 0,
+ "forwarded_to_reporter": "Results recorded by previous steps:\nresolution_T1_150um_2025_unirr = 6\nresolution_T2_150um_2025_unirr = 9\nresolution_T3_150um_2025_unirr = 14\nchip_pixel_um = 50\nchip_hit_rate_GHz_cm2 = 1.5\nefficiency_data_at_2e16_found = 0\nbias_limit_data_found = 0\nefficiency_requirement_pct = 97\nfluence_neq_cm2 = 2e+16\nthickness_min_um = 50\nthickness_max_um = 300\nefficiency_data_at_2e16_found = 0\nbias_limit_data_found = 0\nthreshold_data_found = 0\ntrapping_data_found = 0\nfeasible_range_determined_from_docs = 0\nn_documents_reviewed = 6\nres_T1_50um_unirr = 6.772\nres_T1_100um_unirr = 6.073\nres_T1_200um_unirr = 6.444\nres_T1_300um_unirr = 7.713\nres_T2_50um_unirr = 10.189\nres_T2_100um_unirr = 9.56\nres_T2_200um_unirr = 9.913\nres_T2_300um_unirr = 11.708\nres_T3_50um_unirr = 15.605\nres_T3_100um_unirr = 14.771\nres_T3_200um_unirr = 14.427\nres_T3_300um_unirr = 19.292\nfeasible_range_determined_from_docs = 0\nefficiency_feasibility_verified = 0\nchosen_thickness_um = 100\nchosen_resolution_um_unirr = 6.073\nchosen_option_index_T1 = 1\nefficiency_feasibility_verified = 0\nefficiency_data_at_2e16_found = 0\nirradiated_resolution_checked = 0\nchoice_is_provisional = 1\nfinal_thickness_um = 100\nfinal_option_index_T1 = 1\nfinal_resolution_um_unirr = 6.073\nefficiency_at_2e16_evidence_found = 0\nefficiency_requirement_verified = 0\nsubmission_is_provisional = 1\nalt_T2_best_res_um = 9.56\nalt_T3_best_res_um = 14.427\nn_documents_reviewed = 6",
+ "role_of": {
+  "Sensor-T1": "A",
+  "Sensor-T2": "B",
+  "Sensor-T3": "C"
+ },
+ "turns": null,
+ "listed_docs": null,
+ "nudges": null
+}

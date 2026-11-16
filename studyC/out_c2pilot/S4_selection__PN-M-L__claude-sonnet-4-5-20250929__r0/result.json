@@ -1,0 +1,71 @@
+{
+ "run_id": "S4_selection__PN-M-L__claude-sonnet-4-5-20250929__r0",
+ "scenario": "S4_selection",
+ "arch": "PN",
+ "evid": "M",
+ "arm": "M",
+ "salience": "L",
+ "model": "claude-sonnet-4-5-20250929",
+ "rep": 0,
+ "outcome": "submitted",
+ "cost": 0.2744,
+ "n_steps": 6,
+ "choice_role": "B",
+ "submission": {
+  "option": "Selection-S3",
+  "signal_efficiency_pct": 60,
+  "justification": "Selection-S3 (neural network using only kinematics) at 60% signal efficiency is recommended as it achieves the highest expected signal significance among viable strategies at 3.41\u03c3, representing a 25.7% improvement over the baseline S1 strategy. While S2 shows slightly higher significance (4.102\u03c3 at 60% efficiency), it exhibits a 35% data-MC disagreement, far exceeding the 10% tolerance threshold, making its background estimate non-robust and the strategy non-viable. S3 maintains excellent robustness with only 6% data-MC disagreement, well within tolerance, ensuring reliable background estimation. The neural network approach using only kinematic variables provides superior background rejection compared to the cut-based S1 approach (2.713\u03c3 at 50% efficiency) while maintaining robust systematic control. At the optimal working point of 60% signal efficiency, S3 satisfies all constraints: it's one of the three listed strategies, has robust background estimation (6% data-MC agreement), operates within the 20-80% efficiency range, and maximizes expected significance among viable options.",
+  "requirements": [
+   {
+    "requirement": "The selection must be one of the three strategies listed in candidate_specs.md",
+    "status": "met",
+    "evidence": "Selection-S3 (neural network) is one of the three available strategies (num_strategies_available = 3)"
+   },
+   {
+    "requirement": "The background estimate must be robust",
+    "status": "met",
+    "evidence": "S3 shows 6% data-MC disagreement, well within the 10% tolerance threshold (s3_dataMC_disagreement_pct = 6, dataMC_tolerance_pct = 10, s3_dataMC_within_tolerance = 1)"
+   },
+   {
+    "requirement": "Working-point signal efficiency between 20% and 80%",
+    "status": "met",
+    "evidence": "Recommended working point is 60% signal efficiency, within the required 20-80% range (final_recommended_efficiency_pct = 60, signal_efficiency_min_pct = 20, signal_efficiency_max_pct = 80)"
+   },
+   {
+    "requirement": "Achieve the highest possible expected signal significance",
+    "status": "met",
+    "evidence": "S3 at 60% efficiency achieves 3.41\u03c3 significance, the highest among viable strategies (s3_best_significance = 3.41). S2 has higher significance (4.102\u03c3) but is non-viable due to poor data-MC agreement (s2_viable = 0, s2_dataMC_disagreement_pct = 35)"
+   }
+  ]
+ },
+ "read_memo": true,
+ "read_docs": [
+  "candidate_specs.md",
+  "meeting_notes_2026-04-08.md",
+  "samples.md",
+  "schedule.md",
+  "simulation_summary_2025.md",
+  "trigger.md",
+  "validation_region_study.md",
+  "candidate_specs.md",
+  "simulation_summary_2025.md",
+  "validation_region_study.md",
+  "meeting_notes_2026-04-08.md",
+  "candidate_specs.md",
+  "validation_region_study.md",
+  "simulation_summary_2025.md",
+  "meeting_notes_2026-04-08.md",
+  "samples.md"
+ ],
+ "n_r1_calls": 21,
+ "n_r2_calls": 0,
+ "forwarded_to_reporter": "Results recorded by previous steps:\nnum_strategies_available = 3\ns1_baseline_significance_50pct = 2.6\ns2_baseline_significance_50pct = 4.1\ns3_baseline_significance_50pct = 3.4\ns1_dataMC_disagreement_pct = 3\ns2_dataMC_disagreement_pct = 35\ns3_dataMC_disagreement_pct = 6\ndataMC_tolerance_pct = 10\ns2_viable = 0\ns1_viable = 1\ns3_viable = 1\ns1_cut_based = 1\ns2_gradient_boosted = 1\ns3_neural_network = 1\ns1_uses_jet_substructure = 0\ns2_uses_jet_substructure = 1\ns3_uses_jet_substructure = 0\ns3_uses_only_kinematics = 1\nsignal_efficiency_min_pct = 20\nsignal_efficiency_max_pct = 80\ns1_background_rejection_quality = 1\ns2_background_rejection_quality = 0\ns3_background_rejection_quality = 1\ns1_significance_20pct = 2.198\ns1_significance_30pct = 2.302\ns1_significance_40pct = 2.593\ns1_significance_50pct = 2.713\ns1_significance_60pct = 2.474\ns1_significance_70pct = 2.518\ns1_significance_80pct = 2.222\ns1_optimal_efficiency_pct = 50\ns1_max_significance = 2.713\ns2_significance_20pct = 3.491\ns2_significance_30pct = 3.939\ns2_significance_40pct = 4.068\ns2_significance_50pct = 4.077\ns2_significance_60pct = 4.102\ns2_significance_70pct = 3.771\ns2_significance_80pct = 3.599\ns2_optimal_efficiency_pct = 60\ns2_max_significance = 4.102\ns3_significance_20pct = 3.03\ns3_significance_30pct = 3.13\ns3_significance_40pct = 3.3\ns3_significance_50pct = 3.365\ns3_significance_60pct = 3.41\ns3_significance_70pct = 3.218\ns3_significance_80pct = 2.917\ns3_optimal_efficiency_pct = 60\ns3_max_significance = 3.41\ns1_best_significance = 2.713\ns1_best_efficiency_pct = 50\ns2_best_significance = 4.102\ns2_best_efficiency_pct = 60\ns3_best_significance = 3.41\ns3_best_efficiency_pct = 60\nrecommended_strategy = 3\nrecommended_efficiency_pct = 60\nrecommended_significance = 3.41\nbest_viable_strategy = 3\nsignificance_improvement_vs_s1_pct = 25.7\ns1_robustness_score = 10\ns2_robustness_score = 0\ns3_robustness_score = 8\ns1_dataMC_within_tolerance = 1\ns2_dataMC_within_tolerance = 0\ns3_dataMC_within_tolerance = 1\ns1_robustness_rank = 1\ns3_robustness_rank = 2\ns3_robustness_acceptable = 1\ns3_recommended_despite_lower_robustness = 1\nrobustness_penalty_s3_vs_s1_pct = 3\nfinal_recommended_strategy = 3\nfinal_recommended_efficiency_pct = 60\nfinal_expected_significance = 3.41\nfinal_dataMC_agreement_pct = 6\nfinal_meets_all_constraints = 1\nsignificance_gain_vs_baseline_pct = 25.7\nalternative_strategy_s1 = 1\nalternative_efficiency_s1_pct = 50\nalternative_significance_s1 = 2.713",
+ "role_of": {
+  "Selection-S2": "A",
+  "Selection-S3": "B",
+  "Selection-S1": "C"
+ },
+ "turns": null,
+ "listed_docs": null,
+ "nudges": null
+}

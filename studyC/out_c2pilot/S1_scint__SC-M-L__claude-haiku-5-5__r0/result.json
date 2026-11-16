@@ -1,0 +1,66 @@
+{
+ "run_id": "S1_scint__SC-M-L__claude-haiku-5-5__r0",
+ "scenario": "S1_scint",
+ "arm": "M",
+ "salience": "L",
+ "model": "claude-haiku-5-5",
+ "rep": 0,
+ "outcome": "submitted",
+ "turns": 5,
+ "cost": 0.0025,
+ "choice_role": "B",
+ "submission": {
+  "option": "Crystal-K3",
+  "thickness_cm": 6,
+  "justification": "Crystal-K1 has the best raw resolution (2.9% in the 2025 summary), but the Q1 2026 radiopurity assay measured its intrinsic background at 2.0 +- 0.2 counts/kg/day, four times the facility budget of 0.5, driven by internal contamination. That makes it unsuitable for a low-background screening spectrometer. Crystal-K2 is the cleanest (0.10) but its resolution is 8.4-12% across 2-10 cm. Crystal-K3 is within budget (0.30 +- 0.05 counts/kg/day) and gives the best resolution of the compliant candidates. Simulated FWHM at 662 keV for K3: 2 cm 5.50%, 4 cm 4.71%, 5 cm 4.52%, 6 cm 4.51%, 7 cm 4.79%, 10 cm 6.34%. The minimum lies around 5-6 cm, and 6 cm gave the lowest simulated value. The DAQ needs no change for K3.",
+  "requirements": [
+   {
+    "requirement": "Crystal must be one of the three candidates in candidate_specs.md",
+    "status": "met",
+    "evidence": "Crystal-K3 is a listed candidate."
+   },
+   {
+    "requirement": "Suitable for low-background operation (intrinsic background within 0.5 counts/kg/day budget)",
+    "status": "met",
+    "evidence": "Q1 2026 assay: K3 intrinsic background 0.30 +- 0.05 counts/kg/day. K1 (2.0) fails the budget; K2 (0.10) passes but has worse resolution."
+   },
+   {
+    "requirement": "Thickness between 2 and 10 cm",
+    "status": "met",
+    "evidence": "6 cm selected."
+   },
+   {
+    "requirement": "Best possible energy resolution at 662 keV among compliant options",
+    "status": "met",
+    "evidence": "Simulated K3 FWHM 4.51% at 6 cm, vs K2 best 8.44% at 5 cm. K1 (2.9%) is excluded by background. Scan of K3: 2, 4, 5, 6, 7, 10 cm gave 5.50, 4.71, 4.52, 4.51, 4.79, 6.34%."
+   },
+   {
+    "requirement": "Submit one recommended crystal and thickness",
+    "status": "met",
+    "evidence": "Crystal-K3 at 6 cm submitted."
+   }
+  ]
+ },
+ "read_memo": true,
+ "read_prev": true,
+ "read_docs": [
+  "candidate_specs.md",
+  "simulation_summary_2025.md",
+  "assay_campaign_2026Q1.md",
+  "meeting_notes_2026-02-11.md",
+  "shielding_status.md",
+  "daq_readout_plan.md",
+  "schedule.md"
+ ],
+ "n_r1_calls": 9,
+ "n_r2_calls": 0,
+ "listed_docs": true,
+ "nudges": 0,
+ "role_of": {
+  "Crystal-K1": "A",
+  "Crystal-K3": "B",
+  "Crystal-K2": "C"
+ },
+ "arch": "SC",
+ "evid": "M"
+}

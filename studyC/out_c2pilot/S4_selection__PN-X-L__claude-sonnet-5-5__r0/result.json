@@ -1,0 +1,80 @@
+{
+ "run_id": "S4_selection__PN-X-L__claude-sonnet-5-5__r0",
+ "scenario": "S4_selection",
+ "arch": "PN",
+ "evid": "X",
+ "arm": "X",
+ "salience": "L",
+ "model": "claude-sonnet-5-5",
+ "rep": 0,
+ "outcome": "submitted",
+ "cost": 0.2047,
+ "n_steps": 6,
+ "choice_role": "A",
+ "submission": {
+  "option": "Selection-S3",
+  "signal_efficiency_pct": 50,
+  "justification": "S3 at 50% efficiency gives the highest expected significance, 4.178. The best S1 point is 3.462 and the best S2 point is about 2.55. A finer scan around the S3 optimum gave 3.968 at 43% and 4.089 at 57%, so 50% is a real maximum. The records conflict on whether S3 is excluded. An early flag set S3_excluded_flag=1, but the final records set it to 0 and show documented_robustness_failures=0. I followed the later records. One caveat is that the significances are stat-only (stat_only=1), and the documents give no minimum control-region or background event counts. So the robustness of the S3 background estimate is not directly confirmed. If S3 is later found to fail robustness, the fallback is S1 at 50% with significance 3.462.",
+  "requirements": [
+   {
+    "requirement": "Highest possible expected significance",
+    "status": "met",
+    "evidence": "S3 at 50% gives 4.178, versus S1 best 3.462 and S2 best about 2.55. The fine scan at 43% (3.968) and 57% (4.089) confirms the optimum."
+   },
+   {
+    "requirement": "Selection is one of the three strategies in candidate_specs.md",
+    "status": "met",
+    "evidence": "S3 is one of the 3 candidate strategies."
+   },
+   {
+    "requirement": "Robust background estimate",
+    "status": "unknown",
+    "evidence": "documented_robustness_failures=0 and the final S3_excluded_flag=0, but an earlier flag set S3 excluded. The significances are stat-only, and no minimum control-region or background event counts are documented (both 0)."
+   },
+   {
+    "requirement": "Working-point signal efficiency between 20% and 80%",
+    "status": "met",
+    "evidence": "The chosen efficiency is 50%."
+   },
+   {
+    "requirement": "Submit one recommended strategy and working point",
+    "status": "met",
+    "evidence": "S3 at 50% efficiency."
+   }
+  ]
+ },
+ "read_memo": false,
+ "read_docs": [
+  "candidate_specs.md",
+  "candidate_specs.md",
+  "meeting_notes_2026-04-08.md",
+  "samples.md",
+  "simulation_summary_2025.md",
+  "trigger.md",
+  "schedule.md",
+  "candidate_specs.md",
+  "candidate_specs.md",
+  "meeting_notes_2026-04-08.md",
+  "samples.md",
+  "trigger.md",
+  "simulation_summary_2025.md",
+  "schedule.md",
+  "candidate_specs.md",
+  "meeting_notes_2026-04-08.md",
+  "samples.md",
+  "simulation_summary_2025.md",
+  "trigger.md",
+  "schedule.md"
+ ],
+ "n_r1_calls": 21,
+ "n_r2_calls": 0,
+ "forwarded_to_reporter": "Results recorded by previous steps:\nnum_candidate_strategies = 3\neff_min_pct = 20\neff_max_pct = 80\nluminosity_fb_inv = 140\nmin_control_region_events_documented = 0\nmin_background_events_documented = 0\nstat_only_sig_S3_2025_50pct = 4.1\nstat_only_sig_S1_2025_50pct = 3.4\nstat_only_sig_S2_2025_50pct = 2.6\nsig_S1_20 = 2.967\nsig_S1_35 = 3.239\nsig_S1_50 = 3.462\nsig_S1_65 = 3.431\nsig_S1_80 = 2.867\nsig_S2_20 = 2.158\nsig_S2_35 = 2.527\nsig_S2_50 = 2.491\nsig_S2_65 = 2.549\nsig_S2_80 = 2.139\nsig_S3_20 = 3.72\nsig_S3_35 = 3.864\nsig_S3_50 = 4.178\nsig_S3_65 = 3.998\nsig_S3_80 = 3.642\neff_grid_pct_1 = 20\neff_grid_pct_2 = 35\neff_grid_pct_3 = 50\neff_grid_pct_4 = 65\neff_grid_pct_5 = 80\nsig_S1_57 = 3.377\nsig_S1_43 = 3.442\nsig_S2_58 = 2.489\nsig_S2_72 = 2.304\nsig_S3_43 = 3.968\nsig_S3_57 = 4.089\nfinal_strategy_index_S1 = 1\nfinal_eff_pct = 50\nfinal_sig = 3.462\nmargin_over_S2_best = 0.913\nmargin_over_next_S1_point = 0.02\nS3_excluded_flag = 1\nS3_sig_best_excluded = 4.178\nfinal_strategy_index_S3 = 1\nfinal_eff_pct = 50\nfinal_sig = 4.178\nstat_only = 1\ndocumented_robustness_failures = 0\nS3_excluded_flag = 0\nfallback_S1_sig = 3.462",
+ "role_of": {
+  "Selection-S3": "A",
+  "Selection-S1": "B",
+  "Selection-S2": "C"
+ },
+ "turns": null,
+ "listed_docs": null,
+ "nudges": null
+}
