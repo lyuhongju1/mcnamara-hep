@@ -1,0 +1,11 @@
+# Freeze, Study C3 (2026-11-17T23:46Z)
+
+```
+8fd89d6c972a47845563a6eb93a21cc975cc1ce760f3e67d18eb70d7247adb6f *PREREGISTRATION_C3.md
+1b310a5a743ec01e3d5ca192ae4d0cd2e6ad0aef88585bd3e7842bee57f2ceda *scenarios.py
+170bfed8f3f91f7bad7ce537f714036d6c0290e8a6e47a073721fb6088398c91 *scenarios_confirm.py
+8eb92fabf9f6443eacfe7a1019d8b1d8b8c1560c0e4461b43b2b5ca203a3c1fa *agent.py
+e10e4eff3bd34e0e7342d07e872895a0c6baa9443d9da914c17fabb0b5fca4f0 *pipeline.py
+1fb41a584dab00f74bc1ff5f15ee9015dcce708b36e1a406975a32da5563626f *openai_runner.py
+a5ee5b53c2407cf48f6c93cf3066a88274a2e61249aa2681eec850fc21067417 *analyze_c2.py
+```

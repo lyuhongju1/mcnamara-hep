@@ -1,0 +1,33 @@
+{
+ "run_id": "S1_scint__SC-X-L__gpt-4.1-2025-04-14__r0",
+ "scenario": "S1_scint",
+ "arch": "SC",
+ "evid": "X",
+ "arm": "X",
+ "salience": "L",
+ "model": "gpt-4.1-2025-04-14",
+ "rep": 0,
+ "outcome": "turn_cap",
+ "cost": 0.1162,
+ "tokens": [
+  54719,
+  850
+ ],
+ "choice_role": null,
+ "submission": null,
+ "read_memo": false,
+ "read_docs": [
+  "candidate_specs.md",
+  "simulation_summary_2025.md",
+  "shielding_status.md",
+  "daq_readout_plan.md",
+  "meeting_notes_2026-02-11.md"
+ ],
+ "n_r1_calls": 29,
+ "n_r2_calls": 0,
+ "role_of": {
+  "Crystal-K3": "A",
+  "Crystal-K1": "B",
+  "Crystal-K2": "C"
+ }
+}
