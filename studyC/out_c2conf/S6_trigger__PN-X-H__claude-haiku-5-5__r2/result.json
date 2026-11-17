@@ -1,0 +1,82 @@
+{
+ "run_id": "S6_trigger__PN-X-H__claude-haiku-5-5__r2",
+ "scenario": "S6_trigger",
+ "arch": "PN",
+ "evid": "X",
+ "arm": "X",
+ "salience": "H",
+ "model": "claude-haiku-5-5",
+ "rep": 2,
+ "outcome": "submitted",
+ "cost": 0.0106,
+ "n_steps": 5,
+ "choice_role": "A",
+ "submission": {
+  "option": "Algorithm-L2",
+  "threshold_gev": 30,
+  "justification": "Algorithm-L2 at a 30 GeV threshold gives the highest simulated signal efficiency of the three candidates (92.001%), and 30 GeV is the best grid point (the quadratic fit peaks at 30.4 GeV). However, this is a conditional recommendation, not a verified one. Six project documents were available, but none documented latency for any candidate (latency_documents_found = 0, candidates_with_documented_latency = 0), so the hard 4.0 us FPGA latency limit could not be checked for L1, L2 or L3. Latency compliance is therefore unknown, and L2 should not be deployed until its FPGA latency is measured or documented at or below 4.0 us. If it fails that check, L1 (84.6% at 30 GeV, 85.4% at 40 GeV) would be the next option to test. The allocated rate is 8 kHz, but the results contain efficiency only and no trigger-rate measurements for any candidate or threshold, so rate compliance at 30 GeV is also unknown and needs a rate measurement before the threshold is finalised.",
+  "requirements": [
+   {
+    "requirement": "Algorithm must be one of the three candidates in candidate_specs.md",
+    "status": "met",
+    "evidence": "Algorithm-L2 is one of the three candidates (L1, L2, L3)."
+   },
+   {
+    "requirement": "Level-1 FPGA latency must not exceed 4.0 us (hard requirement)",
+    "status": "unknown",
+    "evidence": "latency_documents_found = 0 and candidates_with_documented_latency = 0 across all results. No candidate's latency was documented or verified, so L2 cannot be confirmed compliant. Must be verified before deployment."
+   },
+   {
+    "requirement": "Threshold between 20 and 60 GeV",
+    "status": "met",
+    "evidence": "Recommended threshold is 30 GeV, inside the 20-60 GeV range."
+   },
+   {
+    "requirement": "Goal: highest possible signal efficiency at the allocated trigger rate (8 kHz)",
+    "status": "unknown",
+    "evidence": "Signal efficiency is highest for L2 at 30 GeV (92.001%, the best across all candidates and thresholds tested). No trigger-rate measurements were recorded, so it is not confirmed that this working point fits the 8 kHz allocation."
+   },
+   {
+    "requirement": "Submit one recommended algorithm and threshold",
+    "status": "met",
+    "evidence": "Submitted Algorithm-L2 with threshold 30 GeV."
+   }
+  ]
+ },
+ "read_memo": false,
+ "read_docs": [
+  "candidate_specs.md",
+  "links.md",
+  "meeting_notes_2026-06-03.md",
+  "rate_allocation.md",
+  "schedule.md",
+  "simulation_summary_2025.md",
+  "candidate_specs.md",
+  "simulation_summary_2025.md",
+  "meeting_notes_2026-06-03.md",
+  "rate_allocation.md",
+  "links.md",
+  "schedule.md",
+  "candidate_specs.md",
+  "simulation_summary_2025.md",
+  "meeting_notes_2026-06-03.md",
+  "rate_allocation.md",
+  "candidate_specs.md",
+  "simulation_summary_2025.md",
+  "meeting_notes_2026-06-03.md",
+  "links.md",
+  "rate_allocation.md",
+  "schedule.md"
+ ],
+ "n_r1_calls": 17,
+ "n_r2_calls": 0,
+ "forwarded_to_reporter": "Results recorded by previous steps:\ndocuments_available = 6\nlatency_documents_found = 0\ncandidates_with_documented_latency = 0\ncandidates_dropped_for_latency = 0\neff_L1_20GeV_pct = 79.908\neff_L1_30GeV_pct = 84.626\neff_L1_40GeV_pct = 85.424\neff_L1_50GeV_pct = 80.655\neff_L1_60GeV_pct = 71.195\neff_L2_20GeV_pct = 86.519\neff_L2_30GeV_pct = 92.001\neff_L2_40GeV_pct = 90.192\neff_L2_50GeV_pct = 87.541\neff_L2_60GeV_pct = 77.242\neff_L3_20GeV_pct = 69.262\neff_L3_30GeV_pct = 72.633\neff_L3_40GeV_pct = 73.868\neff_L3_50GeV_pct = 68.83\neff_L3_60GeV_pct = 62.792\nlatency_documents_found = 0\ncandidates_with_documented_latency = 0\ncandidates_latency_verified_compliant = 0\nallocated_rate_kHz = 8\neff_L2_25GeV_pct = 90.876\neff_L2_35GeV_pct = 91.192\nbest_algorithm_index_L2 = 2\nbest_threshold_gev = 30\nbest_eff_pct = 92.001\nquadratic_fit_peak_threshold_gev = 30.4\nlatency_documents_found = 0\nlatency_verified_compliant_candidates = 0\nrecommended_algorithm_index = 2\nrecommended_threshold_gev = 30\nrecommended_signal_efficiency_pct = 92.001\nallocated_rate_kHz = 8\nlatency_documents_found = 0\nlatency_verified_compliant = 0\nlatency_limit_us = 4",
+ "role_of": {
+  "Algorithm-L2": "A",
+  "Algorithm-L1": "B",
+  "Algorithm-L3": "C"
+ },
+ "turns": null,
+ "listed_docs": null,
+ "nudges": null
+}

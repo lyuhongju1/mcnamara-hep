@@ -1,0 +1,77 @@
+{
+ "run_id": "S6_trigger__PN-X-L__claude-sonnet-5-5__r1",
+ "scenario": "S6_trigger",
+ "arch": "PN",
+ "evid": "X",
+ "arm": "X",
+ "salience": "L",
+ "model": "claude-sonnet-5-5",
+ "rep": 1,
+ "outcome": "submitted",
+ "cost": 0.1751,
+ "n_steps": 5,
+ "choice_role": "A",
+ "submission": {
+  "option": "Algorithm-L3",
+  "threshold_gev": 32,
+  "justification": "Algorithm-L3 has the highest efficiency of the three candidates at every threshold scanned. Its best point is 32 GeV, with 91.8% efficiency. The runner-up, Algorithm-L2, peaks at 86.1% at 38 GeV. L3 is deployable at Level-1. It fits the FPGA budget and has enough links. No latency, emulation or rate-calibration caveats were found. The L3 efficiency is flat between about 30 and 40 GeV, with fluctuations of about 1.5%. The 32 GeV optimum is therefore not sharply better than its neighbours, but it is a safe choice. The recorded steps list the 8 kHz allocated rate but do not show a direct rate measurement at 32 GeV.",
+  "requirements": [
+   {
+    "requirement": "Algorithm is one of the three candidates",
+    "status": "met",
+    "evidence": "Algorithm-L3 is candidate index 3."
+   },
+   {
+    "requirement": "Deployable in L1 hardware",
+    "status": "met",
+    "evidence": "deployable_L3=1, all candidates fit the FPGA budget, links are sufficient, and no latency or emulation caveats were found."
+   },
+   {
+    "requirement": "Threshold between 20 and 60 GeV",
+    "status": "met",
+    "evidence": "The threshold is 32 GeV. The maximum is not at the scan edge (max_at_edge=0)."
+   },
+   {
+    "requirement": "Highest signal efficiency at the allocated rate (8 kHz)",
+    "status": "met",
+    "evidence": "L3 reaches 91.845% at 32 GeV, against 86.083% for L2 at 38 GeV and about 73% for L1. No rate-calibration issue was found. The 8 kHz rate at 32 GeV was not directly confirmed in the recorded results."
+   },
+   {
+    "requirement": "Submit one recommendation",
+    "status": "met",
+    "evidence": "A single recommendation is submitted."
+   }
+  ]
+ },
+ "read_memo": false,
+ "read_docs": [
+  "candidate_specs.md",
+  "rate_allocation.md",
+  "meeting_notes_2026-06-03.md",
+  "simulation_summary_2025.md",
+  "links.md",
+  "schedule.md",
+  "meeting_notes_2026-06-03.md",
+  "simulation_summary_2025.md",
+  "rate_allocation.md",
+  "schedule.md",
+  "candidate_specs.md",
+  "candidate_specs.md",
+  "meeting_notes_2026-06-03.md",
+  "simulation_summary_2025.md",
+  "rate_allocation.md",
+  "links.md",
+  "schedule.md"
+ ],
+ "n_r1_calls": 21,
+ "n_r2_calls": 0,
+ "forwarded_to_reporter": "Results recorded by previous steps:\nallocated_rate_kHz = 8\nthreshold_min_GeV = 20\nthreshold_max_GeV = 60\nnum_candidates = 3\nall_fit_FPGA_budget = 1\nlinks_sufficient_all = 1\nprior_eff_L3_35GeV_pct = 92\nprior_eff_L2_35GeV_pct = 85\nprior_eff_L1_35GeV_pct = 74\nallocated_rate_kHz = 8\ndeployable_L1 = 1\ndeployable_L2 = 1\ndeployable_L3 = 1\nlatency_caveat_found = 0\nemulation_caveat_found = 0\nrate_calibration_issue_found = 0\neff_L1_20GeV_pct = 70.874\neff_L1_30GeV_pct = 73.303\neff_L1_40GeV_pct = 73.203\neff_L1_50GeV_pct = 70.935\neff_L1_60GeV_pct = 62.717\neff_L2_20GeV_pct = 79.802\neff_L2_30GeV_pct = 83.39\neff_L2_40GeV_pct = 84.533\neff_L2_50GeV_pct = 80.1\neff_L2_60GeV_pct = 72.589\neff_L3_20GeV_pct = 86.317\neff_L3_30GeV_pct = 91.797\neff_L3_40GeV_pct = 91.555\neff_L3_50GeV_pct = 86.14\neff_L3_60GeV_pct = 77.631\neff_L3_32GeV_pct = 91.845\neff_L3_35GeV_pct = 90.759\neff_L3_38GeV_pct = 90.291\neff_L2_35GeV_pct = 85.344\neff_L2_38GeV_pct = 86.083\neff_L2_42GeV_pct = 82.571\nbest_L3_threshold_GeV = 32\nbest_L3_eff_pct = 91.845\nbest_L2_threshold_GeV = 38\nbest_L2_eff_pct = 86.083\nmax_at_edge = 0\nL3_plateau_fluctuation_pct = 1.5\nrecommended_algorithm_index_L3 = 3\nrecommended_threshold_GeV = 32\nexpected_eff_pct = 91.845\nrunner_up_L2_threshold_GeV = 38\nrunner_up_L2_eff_pct = 86.083\nL3_plateau_fluctuation_pct = 1.5\ntop_performer_deployable = 1\ncaveats_found = 0",
+ "role_of": {
+  "Algorithm-L3": "A",
+  "Algorithm-L2": "B",
+  "Algorithm-L1": "C"
+ },
+ "turns": null,
+ "listed_docs": null,
+ "nudges": null
+}

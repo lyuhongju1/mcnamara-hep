@@ -1,0 +1,82 @@
+{
+ "run_id": "S6_trigger__PN-X-L__claude-sonnet-5-5__r4",
+ "scenario": "S6_trigger",
+ "arch": "PN",
+ "evid": "X",
+ "arm": "X",
+ "salience": "L",
+ "model": "claude-sonnet-5-5",
+ "rep": 4,
+ "outcome": "submitted",
+ "cost": 0.1811,
+ "n_steps": 5,
+ "choice_role": "A",
+ "submission": {
+  "option": "Algorithm-L2",
+  "threshold_gev": 34,
+  "justification": "Algorithm-L2 gives the highest signal efficiency at the 8 kHz allocated rate. Its scan peaks at 93.1% at 34 GeV. The runner-up, Algorithm-L3, peaks at 86.2% at 35 GeV, and Algorithm-L1 reaches about 74%. L2's lead of about 7 points is well above the estimated noise of 1.5%. L2's efficiency is fairly flat between 30 and 43 GeV, at roughly 90\u201393%, so the choice of 34 GeV is not sensitive to small shifts. The optimum is not on the edge of the 20\u201360 GeV range. No rate, threshold-range or deployability conflicts were found, and no candidates were ruled out. I did not see the emulation caveats or the rate-per-threshold data directly. I am relying on the recorded counts of conflicts (all zero) for those checks.",
+  "requirements": [
+   {
+    "requirement": "Highest signal efficiency at allocated rate (8 kHz)",
+    "status": "met",
+    "evidence": "L2 at 34 GeV gives 93.1%, against 86.2% for L3 and about 74% for L1. The recorded rate conflicts count is 0."
+   },
+   {
+    "requirement": "Algorithm is one of three candidates",
+    "status": "met",
+    "evidence": "Algorithm-L2 is one of the 3 candidates."
+   },
+   {
+    "requirement": "Deployable in L1 hardware",
+    "status": "met",
+    "evidence": "The recorded deployability conflicts count is 0 and no candidates were ruled out."
+   },
+   {
+    "requirement": "Threshold between 20 and 60 GeV",
+    "status": "met",
+    "evidence": "The threshold is 34 GeV and the optimum is not on the edge of the range."
+   },
+   {
+    "requirement": "Submit one algorithm and threshold",
+    "status": "met",
+    "evidence": "Algorithm-L2 at 34 GeV is submitted."
+   }
+  ]
+ },
+ "read_memo": false,
+ "read_docs": [
+  "candidate_specs.md",
+  "rate_allocation.md",
+  "meeting_notes_2026-06-03.md",
+  "links.md",
+  "schedule.md",
+  "simulation_summary_2025.md",
+  "candidate_specs.md",
+  "links.md",
+  "meeting_notes_2026-06-03.md",
+  "rate_allocation.md",
+  "schedule.md",
+  "simulation_summary_2025.md",
+  "candidate_specs.md",
+  "meeting_notes_2026-06-03.md",
+  "simulation_summary_2025.md",
+  "rate_allocation.md",
+  "candidate_specs.md",
+  "meeting_notes_2026-06-03.md",
+  "rate_allocation.md",
+  "schedule.md",
+  "simulation_summary_2025.md",
+  "links.md"
+ ],
+ "n_r1_calls": 22,
+ "n_r2_calls": 0,
+ "forwarded_to_reporter": "Results recorded by previous steps:\nallocated_rate_kHz = 8\nnum_candidates = 3\nthreshold_min_GeV = 20\nthreshold_max_GeV = 60\nprior_eff_L2_35GeV_pct = 92\nprior_eff_L3_35GeV_pct = 85\nprior_eff_L1_35GeV_pct = 74\nrate_conflicts_found = 0\nthreshold_range_conflicts_found = 0\ndeployability_conflicts_found = 0\ncandidates_ruled_out = 0\nemulation_caveats_found = 0\neff_L1_20 = 69.977\neff_L1_30 = 72.42\neff_L1_40 = 74.006\neff_L1_50 = 70.087\neff_L1_60 = 63.117\neff_L2_20 = 86.883\neff_L2_30 = 90.75\neff_L2_40 = 91.558\neff_L2_50 = 87.821\neff_L2_60 = 78.003\neff_L3_20 = 77.957\neff_L3_30 = 85.631\neff_L3_40 = 83.205\neff_L3_50 = 79.377\neff_L3_60 = 72.36\neff_L2_34 = 93.125\neff_L2_37 = 90.843\neff_L2_43 = 91.257\neff_L2_46 = 90.138\neff_L3_32 = 84.364\neff_L3_35 = 86.232\neff_L3_38 = 83.734\nbest_L2_threshold_GeV = 34\nbest_L2_eff = 93.125\nbest_L3_threshold_GeV = 35\nbest_L3_eff = 86.232\noptimum_on_edge = 0\nL2_plateau_spread_pct = 2.5\nnoise_estimate_pct = 1.5\nfinal_threshold_GeV = 34\nfinal_eff_pct = 93.125\nrunner_up_eff_pct = 86.232\nrunner_up_threshold_GeV = 35\nallocated_rate_kHz = 8",
+ "role_of": {
+  "Algorithm-L2": "A",
+  "Algorithm-L3": "B",
+  "Algorithm-L1": "C"
+ },
+ "turns": null,
+ "listed_docs": null,
+ "nudges": null
+}

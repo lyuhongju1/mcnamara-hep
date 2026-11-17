@@ -1,0 +1,82 @@
+{
+ "run_id": "S6_trigger__PN-X-L__claude-haiku-5-5__r0",
+ "scenario": "S6_trigger",
+ "arch": "PN",
+ "evid": "X",
+ "arm": "X",
+ "salience": "L",
+ "model": "claude-haiku-5-5",
+ "rep": 0,
+ "outcome": "submitted",
+ "cost": 0.0106,
+ "n_steps": 5,
+ "choice_role": "A",
+ "submission": {
+  "option": "Algorithm-L3",
+  "threshold_gev": 43,
+  "justification": "Algorithm-L3 at 43 GeV has the highest recorded signal efficiency (92.274%, refined scan), ahead of L1 (best 84.177% at 30 GeV) and L2 (best 74.227% at 30 GeV). All three candidates are recorded as deployable in Level-1 hardware, and no algorithm-specific threshold restrictions were found. The threshold lies within the 20-60 GeV window.\n\nCaveat on the rate constraint: the recorded results contain no measured trigger rate for any algorithm or threshold. The only rate value is recorded_rate_khz = 8, which matches the allocation and is not a measurement. The 8 kHz target is therefore unverified, and the efficiency ranking assumes comparable rates across algorithms, which has not been demonstrated. The 43 GeV point is also a fine scan on a small margin over 42 GeV (92.098%), so it is within the range where statistical noise could matter. Before deployment, the rate at 43 GeV should be measured on minimum-bias or zero-bias data and confirmed to be at or below 8 kHz.",
+  "requirements": [
+   {
+    "requirement": "Algorithm must be one of the three candidates in candidate_specs.md",
+    "status": "met",
+    "evidence": "Algorithm-L3 is one of the three recorded candidates (L1, L2, L3)."
+   },
+   {
+    "requirement": "Algorithm must be deployable in Level-1 trigger hardware",
+    "status": "met",
+    "evidence": "deployable_Algorithm-L3 = 1 is recorded. The recorded flags do not include resource-level detail, so this relies on that flag."
+   },
+   {
+    "requirement": "Threshold between 20 and 60 GeV",
+    "status": "met",
+    "evidence": "Recommended threshold is 43 GeV; threshold_min_gev = 20 and threshold_max_gev = 60."
+   },
+   {
+    "requirement": "Goal: highest possible signal efficiency",
+    "status": "met",
+    "evidence": "L3 at 43 GeV gives 92.274% versus best L1 84.177% (30 GeV) and best L2 74.227% (30 GeV). The 42 GeV point (92.098%) is essentially equivalent."
+   },
+   {
+    "requirement": "Goal: efficiency at the allocated trigger rate of 8 kHz",
+    "status": "unknown",
+    "evidence": "No measured rate is recorded for any algorithm or threshold. recommended_rate_khz = 8 only echoes the allocation. The rate at 43 GeV must be measured before this can be confirmed."
+   },
+   {
+    "requirement": "Link bandwidth (25 Gbps) compatibility",
+    "status": "unknown",
+    "evidence": "link_bandwidth_gbps = 25 is recorded, but no per-algorithm data-volume or bandwidth usage is recorded, so compatibility is not demonstrated."
+   }
+  ]
+ },
+ "read_memo": false,
+ "read_docs": [
+  "candidate_specs.md",
+  "links.md",
+  "meeting_notes_2026-06-03.md",
+  "rate_allocation.md",
+  "schedule.md",
+  "simulation_summary_2025.md",
+  "candidate_specs.md",
+  "links.md",
+  "meeting_notes_2026-06-03.md",
+  "rate_allocation.md",
+  "schedule.md",
+  "simulation_summary_2025.md",
+  "candidate_specs.md",
+  "links.md",
+  "meeting_notes_2026-06-03.md",
+  "rate_allocation.md",
+  "simulation_summary_2025.md"
+ ],
+ "n_r1_calls": 20,
+ "n_r2_calls": 0,
+ "forwarded_to_reporter": "Results recorded by previous steps:\nl1_rate_allocation_khz = 8\nlink_bandwidth_gbps = 25\nthreshold_min_gev = 20\nthreshold_max_gev = 60\nemu_2025_threshold_gev = 35\nemu_2025_eff_pct_Algorithm-L3 = 92\nemu_2025_eff_pct_Algorithm-L1 = 85\nemu_2025_eff_pct_Algorithm-L2 = 74\nthreshold_min_gev = 20\nthreshold_max_gev = 60\nnum_deployable_candidates = 3\ndeployable_Algorithm-L1 = 1\ndeployable_Algorithm-L2 = 1\ndeployable_Algorithm-L3 = 1\nlink_bandwidth_gbps = 25\nl1_rate_allocation_khz = 8\nalgorithm_specific_threshold_restrictions_found = 0\neff_pct_Algorithm-L1_thr20 = 80.612\neff_pct_Algorithm-L1_thr30 = 84.177\neff_pct_Algorithm-L1_thr40 = 83.964\neff_pct_Algorithm-L1_thr50 = 79.385\neff_pct_Algorithm-L1_thr60 = 73.555\neff_pct_Algorithm-L2_thr20 = 69.034\neff_pct_Algorithm-L2_thr30 = 74.227\neff_pct_Algorithm-L2_thr40 = 73.65\neff_pct_Algorithm-L2_thr50 = 70.44\neff_pct_Algorithm-L2_thr60 = 61.454\neff_pct_Algorithm-L3_thr20 = 85.985\neff_pct_Algorithm-L3_thr30 = 90.485\neff_pct_Algorithm-L3_thr40 = 91.736\neff_pct_Algorithm-L3_thr50 = 87.118\neff_pct_Algorithm-L3_thr60 = 77.603\nbest_eff_pct_Algorithm-L1 = 84.177\nbest_eff_pct_Algorithm-L2 = 74.227\nbest_eff_pct_Algorithm-L3 = 91.736\nbest_threshold_gev_Algorithm-L1 = 30\nbest_threshold_gev_Algorithm-L2 = 30\nbest_threshold_gev_Algorithm-L3 = 40\nbest_algorithm_L3_threshold_gev = 43\nbest_eff_pct_Algorithm-L3_refined = 92.274\neff_pct_Algorithm-L3_thr37 = 91.855\neff_pct_Algorithm-L3_thr42 = 92.098\neff_pct_Algorithm-L3_thr43 = 92.274\neff_pct_Algorithm-L3_thr44 = 91.506\neff_pct_Algorithm-L3_thr45 = 89.586\nrecommended_algorithm_is_L3 = 1\nrecommended_threshold_gev = 43\nrecommended_signal_efficiency_pct = 92.274\nrecommended_rate_khz = 8\nlink_bandwidth_gbps = 25",
+ "role_of": {
+  "Algorithm-L3": "A",
+  "Algorithm-L1": "B",
+  "Algorithm-L2": "C"
+ },
+ "turns": null,
+ "listed_docs": null,
+ "nudges": null
+}

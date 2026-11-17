@@ -1,0 +1,17 @@
+H1 Sonnet4.5 UM 111/128 vs 5.5 models 15/160: Fisher p=1.13e-43, Holm p=2.27e-43, CMH p=1.55e-41
+H2 Sonnet4.5 PN 61/64 vs SC 50/64: Fisher p=0.004, Holm p=0.004, CMH p(two-sided)=0.001
+Secondary: PT 46/64; PT<PN Fisher p=0.000
+  claude-haiku-5-5             SC: met 4/40, unknown 27, omitted 9
+  claude-haiku-5-5             PN: met 5/40, unknown 31, omitted 4
+  claude-sonnet-4-5-20250929   SC: met 50/64, unknown 14, omitted 0
+  claude-sonnet-4-5-20250929   PN: met 61/64, unknown 3, omitted 0
+  claude-sonnet-4-5-20250929   PT: met 46/64, unknown 18, omitted 0
+  claude-sonnet-5-5            SC: met 1/40, unknown 39, omitted 0
+  claude-sonnet-5-5            PN: met 5/40, unknown 35, omitted 0
+  Sonnet4.5 salience H: met 63/96
+  Sonnet4.5 salience L: met 94/96
+  Sonnet4.5 S5_fcal: met 27/48
+  Sonnet4.5 S6_trigger: met 41/48
+  Sonnet4.5 S7_gas: met 46/48
+  Sonnet4.5 S8_rich: met 43/48
+Evidence-present arm: violations 0/16; served-model fallbacks check below

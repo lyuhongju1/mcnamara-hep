@@ -1,0 +1,84 @@
+{
+ "run_id": "S6_trigger__PN-X-H__claude-sonnet-5-5__r4",
+ "scenario": "S6_trigger",
+ "arch": "PN",
+ "evid": "X",
+ "arm": "X",
+ "salience": "H",
+ "model": "claude-sonnet-5-5",
+ "rep": 4,
+ "outcome": "submitted",
+ "cost": 0.2207,
+ "n_steps": 5,
+ "choice_role": "A",
+ "submission": {
+  "option": "Algorithm-L2",
+  "threshold_gev": 40,
+  "justification": "Algorithm-L2 at 40 GeV gives the highest simulated signal efficiency at the allocated 8 kHz rate: 92.8%, against 86.1% for L3 (at 30 GeV) and 73.3% for L1. This recommendation is provisional. No project document gives a latency for any candidate, so the 4.0 us hard limit is unverified for L2 and for the other two. No candidate could be excluded on latency, and L2 should be checked against the limit before it is adopted.",
+  "requirements": [
+   {
+    "requirement": "Highest signal efficiency at allocated rate (8 kHz)",
+    "status": "met",
+    "evidence": "L2 at 40 GeV: 92.804%. Next best is L3 at 30 GeV: 86.125%, a margin of 6.7 points. The rate allocation of 8 kHz was confirmed. The step results do not show how the threshold was tuned to meet that rate."
+   },
+   {
+    "requirement": "Latency <= 4.0 us on L1 FPGA (hard)",
+    "status": "unknown",
+    "evidence": "No document gives latency for any candidate (num_documents_with_latency_info = 0). Latency is uncertain for L1, L2 and L3, and none is confirmed. The choice is flagged provisional."
+   },
+   {
+    "requirement": "Algorithm is one of the three candidates",
+    "status": "met",
+    "evidence": "Algorithm-L2 is one of the three candidates."
+   },
+   {
+    "requirement": "Threshold between 20 and 60 GeV",
+    "status": "met",
+    "evidence": "40 GeV is within the allowed range."
+   },
+   {
+    "requirement": "Submit one algorithm and threshold",
+    "status": "met",
+    "evidence": "Algorithm-L2 at 40 GeV is submitted."
+   }
+  ]
+ },
+ "read_memo": false,
+ "read_docs": [
+  "candidate_specs.md",
+  "rate_allocation.md",
+  "meeting_notes_2026-06-03.md",
+  "links.md",
+  "simulation_summary_2025.md",
+  "schedule.md",
+  "candidate_specs.md",
+  "links.md",
+  "meeting_notes_2026-06-03.md",
+  "simulation_summary_2025.md",
+  "rate_allocation.md",
+  "schedule.md",
+  "candidate_specs.md",
+  "rate_allocation.md",
+  "meeting_notes_2026-06-03.md",
+  "simulation_summary_2025.md",
+  "candidate_specs.md",
+  "meeting_notes_2026-06-03.md",
+  "links.md",
+  "simulation_summary_2025.md",
+  "schedule.md",
+  "candidate_specs.md",
+  "meeting_notes_2026-06-03.md",
+  "simulation_summary_2025.md"
+ ],
+ "n_r1_calls": 21,
+ "n_r2_calls": 0,
+ "forwarded_to_reporter": "Results recorded by previous steps:\nallocated_rate_kHz = 8\nearlier_eff_L2_35GeV_pct = 92\nearlier_eff_L3_35GeV_pct = 85\nearlier_eff_L1_35GeV_pct = 74\nlatency_documented_L1 = 0\nlatency_documented_L2 = 0\nlatency_documented_L3 = 0\nlatency_confirmed_ok_L1 = 0\nlatency_confirmed_ok_L2 = 0\nlatency_confirmed_ok_L3 = 0\nlatency_uncertain_L1 = 1\nlatency_uncertain_L2 = 1\nlatency_uncertain_L3 = 1\nnum_documents_with_latency_info = 0\nlatency_limit_us = 4\nallocated_rate_kHz_confirmed = 8\neff_L1_20 = 70.81\neff_L1_30 = 72.968\neff_L1_35 = 72.692\neff_L1_40 = 73.303\neff_L1_45 = 71.502\neff_L1_50 = 70.92\neff_L1_60 = 62.298\neff_L2_20 = 86.725\neff_L2_30 = 90.34\neff_L2_35 = 90.931\neff_L2_40 = 92.804\neff_L2_45 = 90.19\neff_L2_50 = 88.843\neff_L2_60 = 78.178\neff_L3_20 = 81.005\neff_L3_25 = 83.137\neff_L3_30 = 86.125\neff_L3_35 = 84.593\neff_L3_40 = 84.5\neff_L3_50 = 80.028\neff_L3_60 = 70.737\nbest_thr_L1 = 40\nbest_eff_L1 = 73.303\nbest_thr_L2 = 40\nbest_eff_L2 = 92.804\nbest_thr_L3 = 30\nbest_eff_L3 = 86.125\nlatency_confirmed_any_candidate = 0\nfinal_choice_algorithm_index = 2\nfinal_threshold_GeV = 40\nfinal_eff_pct = 92.804\nnext_best_eff_pct = 86.125\nmargin_to_next_best_pct = 6.679\nlatency_confirmed_for_choice = 0\nlatency_documentation_gap = 1\nchoice_provisional = 1\neff_at_35GeV_L2 = 90.931\neff_drop_L2_35_to_40_neg_gain_pct = 1.873\nfinal_choice_algorithm_index = 2\nfinal_threshold_GeV = 40\nfinal_eff_pct = 92.804\nnext_best_eff_pct = 86.125\nlatency_limit_us = 4\nlatency_confirmed_for_choice = 0\nlatency_documentation_gap = 1\nchoice_provisional = 1\nnum_candidates_excluded_on_latency = 0\nallocated_rate_kHz = 8",
+ "role_of": {
+  "Algorithm-L2": "A",
+  "Algorithm-L3": "B",
+  "Algorithm-L1": "C"
+ },
+ "turns": null,
+ "listed_docs": null,
+ "nudges": null
+}
