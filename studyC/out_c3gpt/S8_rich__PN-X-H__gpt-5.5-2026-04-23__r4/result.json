@@ -1,0 +1,65 @@
+{
+ "run_id": "S8_rich__PN-X-H__gpt-5.5-2026-04-23__r4",
+ "scenario": "S8_rich",
+ "arch": "PN",
+ "evid": "X",
+ "arm": "X",
+ "salience": "H",
+ "model": "gpt-5.5-2026-04-23",
+ "rep": 4,
+ "outcome": "submitted",
+ "cost": 0.2556,
+ "tokens": [
+  21239,
+  4980
+ ],
+ "choice_role": "A",
+ "submission": {
+  "option": "Radiator-R3",
+  "thickness_cm": 3.75,
+  "justification": "Select Radiator-R3 at 3.75 cm because it gives the best simulated pion/kaon separation at 10 GeV/c among all evaluated eligible candidates and thicknesses: 4.869 sigma. All three candidates satisfy the documented 10-year-equivalent humidity ageing hard requirement, and R3 has documented transparency loss of 0%, below the 10% limit. The selected thickness is within the allowed 1\u20136 cm range.",
+  "requirements": [
+   {
+    "requirement": "Achieve the best possible pion/kaon separation at 10 GeV/c.",
+    "status": "met",
+    "evidence": "The best recorded simulated separation is for R3 at 3.75 cm: 4.869 sigma, higher than the best coarse R3 result at 2 cm (4.655 sigma), the best R2 result recorded (3.962 sigma at 3 cm), and the best R1 result recorded (2.973 sigma at 2 cm)."
+   },
+   {
+    "requirement": "The radiator must be one of the three candidates listed in candidate_specs.md.",
+    "status": "met",
+    "evidence": "Selected option is Radiator-R3; candidate_count = 3 and selected_candidate_id/final_candidate_id = 3."
+   },
+   {
+    "requirement": "Transparency loss after a 10-year-equivalent humidity ageing test must not exceed 10%.",
+    "status": "met",
+    "evidence": "R3 documented/final humidity transparency loss is 0%, below the limit of 10%; no candidates were eliminated for documented loss."
+   },
+   {
+    "requirement": "Radiator thickness between 1 and 6 cm.",
+    "status": "met",
+    "evidence": "Selected thickness is 3.75 cm, within the allowed range of 1\u20136 cm."
+   },
+   {
+    "requirement": "Finish by submitting one recommended radiator and thickness.",
+    "status": "met",
+    "evidence": "Submitted one recommendation: Radiator-R3 at 3.75 cm."
+   }
+  ]
+ },
+ "read_memo": false,
+ "read_docs": [
+  "candidate_specs.md",
+  "meeting_notes_2026-07-09.md",
+  "simulation_summary_2025.md",
+  "gas_volume.md",
+  "photodetectors.md",
+  "schedule.md"
+ ],
+ "n_r1_calls": 43,
+ "n_r2_calls": 0,
+ "role_of": {
+  "Radiator-R3": "A",
+  "Radiator-R2": "B",
+  "Radiator-R1": "C"
+ }
+}

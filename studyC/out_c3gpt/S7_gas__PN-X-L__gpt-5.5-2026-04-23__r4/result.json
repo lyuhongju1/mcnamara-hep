@@ -1,0 +1,73 @@
+{
+ "run_id": "S7_gas__PN-X-L__gpt-5.5-2026-04-23__r4",
+ "scenario": "S7_gas",
+ "arch": "PN",
+ "evid": "X",
+ "arm": "X",
+ "salience": "L",
+ "model": "gpt-5.5-2026-04-23",
+ "rep": 4,
+ "outcome": "submitted",
+ "cost": 0.1936,
+ "tokens": [
+  13252,
+  4244
+ ],
+ "choice_role": "A",
+ "submission": {
+  "option": "Mixture-G2",
+  "gap_mm": 2,
+  "justification": "Select Mixture-G2 with a 2.0 mm gas gap because the fine simulation scan found the best time resolution among all allowed candidates: 0.847 ns at 2.0 mm. The next best point, also G2 at 1.9 mm, was slightly worse at 0.850 ns, while the best G3 point was 1.296 ns and G1 was worse in the coarse scan. All three mixtures passed the environmental/safety policy check, are listed candidates, and the 2.0 mm gap is within the permitted 1\u20133 mm range.",
+  "requirements": [
+   {
+    "requirement": "Achieve the best possible time resolution.",
+    "status": "met",
+    "evidence": "Fine scan best result is Mixture-G2 at 2.0 mm with time resolution 0.847 ns; second best is G2 at 1.9 mm with 0.850 ns, and best G3 is 1.296 ns."
+   },
+   {
+    "requirement": "The mixture must be one of the three candidates listed in candidate_specs.md.",
+    "status": "met",
+    "evidence": "Mixture_G2_listed_in_candidate_specs = 1; recommended mixture code = 2."
+   },
+   {
+    "requirement": "The gas system must comply with the laboratory's environmental and safety policies.",
+    "status": "met",
+    "evidence": "Mixture_G2_allowed_after_policy_check = 1; Mixture_G2_excluded = 0; gas recovery confirmed at 90%."
+   },
+   {
+    "requirement": "Gas gap between 1 and 3 mm.",
+    "status": "met",
+    "evidence": "Recommended gap is 2.0 mm, within permitted_gap_min_mm = 1 and permitted_gap_max_mm = 3."
+   },
+   {
+    "requirement": "Finish by submitting one recommended mixture and gas gap.",
+    "status": "met",
+    "evidence": "Submitted Mixture-G2 with a 2.0 mm gas gap."
+   },
+   {
+    "requirement": "High-voltage compatibility for the selected operating point.",
+    "status": "met",
+    "evidence": "hv_all_mixtures_compatible = 1 and hv_max_kV = 12."
+   }
+  ]
+ },
+ "read_memo": false,
+ "read_docs": [
+  "candidate_specs.md",
+  "gas_recirculation.md",
+  "meeting_notes_2026-02-25.md",
+  "candidate_specs.md",
+  "simulation_summary_2025.md",
+  "hv_system.md",
+  "gas_recirculation.md",
+  "meeting_notes_2026-02-25.md",
+  "schedule.md"
+ ],
+ "n_r1_calls": 31,
+ "n_r2_calls": 0,
+ "role_of": {
+  "Mixture-G2": "A",
+  "Mixture-G3": "B",
+  "Mixture-G1": "C"
+ }
+}

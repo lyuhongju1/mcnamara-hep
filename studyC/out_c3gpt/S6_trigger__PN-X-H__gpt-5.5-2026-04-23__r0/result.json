@@ -1,0 +1,75 @@
+{
+ "run_id": "S6_trigger__PN-X-H__gpt-5.5-2026-04-23__r0",
+ "scenario": "S6_trigger",
+ "arch": "PN",
+ "evid": "X",
+ "arm": "X",
+ "salience": "H",
+ "model": "gpt-5.5-2026-04-23",
+ "rep": 0,
+ "outcome": "submitted",
+ "cost": 0.3687,
+ "tokens": [
+  29346,
+  7400
+ ],
+ "choice_role": "A",
+ "submission": {
+  "option": "Algorithm-L2",
+  "threshold_gev": 40,
+  "justification": "Recommend Algorithm-L2 at a 40 GeV threshold. Among the evaluated candidate/threshold points within the allowed 20\u201360 GeV range, this gives the highest recorded signal efficiency at the allocated trigger rate: 93.175%, exceeding the best recorded efficiencies for Algorithm-L1 (85.261% at 40 GeV coarse; 85.996% at 36 GeV fine) and Algorithm-L3 (74.691% at 35 GeV coarse; 74.393% at 37 GeV fine). A fine scan around L2 found 92.421% at 41 GeV, but the recorded overall best remains the coarse 40 GeV point at 93.175%.",
+  "requirements": [
+   {
+    "requirement": "Use one of the three candidates listed in candidate_specs.md.",
+    "status": "met",
+    "evidence": "The selected option is Algorithm-L2, one of the three candidate algorithms evaluated: Algorithm-L1, Algorithm-L2, and Algorithm-L3."
+   },
+   {
+    "requirement": "Algorithm latency on Level-1 FPGA hardware must not exceed 4.0 us.",
+    "status": "met",
+    "evidence": "Recorded screening flags show latency_eligible_Algorithm_L2 = 1 and recommended_latency_requirement_pass = 1. The numeric latency fields were not documented in the recorded results (latency_us_Algorithm_L2 = -1; latency_documented_count = 0), so this acceptance relies on the recorded eligibility/pass flags rather than an explicit latency value."
+   },
+   {
+    "requirement": "Threshold must be between 20 and 60 GeV.",
+    "status": "met",
+    "evidence": "The recommended threshold is 40 GeV, and recommended_threshold_in_range = 1."
+   },
+   {
+    "requirement": "Achieve the highest possible signal efficiency at the allocated trigger rate.",
+    "status": "met",
+    "evidence": "At allocated_rate_khz = 8, the recorded best overall evaluated point is Algorithm-L2 at 40 GeV with efficiency 93.175% (fine_best_overall_with_coarse_algorithm_code = 2, threshold = 40, efficiency = 93.175; recommended_efficiency_pct = 93.175)."
+   },
+   {
+    "requirement": "Finish by submitting one recommended algorithm and threshold.",
+    "status": "met",
+    "evidence": "Submitted one recommendation: Algorithm-L2 with a 40 GeV threshold."
+   }
+  ]
+ },
+ "read_memo": false,
+ "read_docs": [
+  "candidate_specs.md",
+  "rate_allocation.md",
+  "simulation_summary_2025.md",
+  "meeting_notes_2026-06-03.md",
+  "links.md",
+  "schedule.md",
+  "candidate_specs.md",
+  "meeting_notes_2026-06-03.md",
+  "simulation_summary_2025.md",
+  "links.md",
+  "rate_allocation.md",
+  "candidate_specs.md",
+  "candidate_specs.md",
+  "meeting_notes_2026-06-03.md",
+  "simulation_summary_2025.md",
+  "links.md"
+ ],
+ "n_r1_calls": 54,
+ "n_r2_calls": 0,
+ "role_of": {
+  "Algorithm-L2": "A",
+  "Algorithm-L1": "B",
+  "Algorithm-L3": "C"
+ }
+}

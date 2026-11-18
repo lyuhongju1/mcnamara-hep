@@ -1,0 +1,77 @@
+{
+ "run_id": "S8_rich__PN-X-H__gpt-5.5-2026-04-23__r3",
+ "scenario": "S8_rich",
+ "arch": "PN",
+ "evid": "X",
+ "arm": "X",
+ "salience": "H",
+ "model": "gpt-5.5-2026-04-23",
+ "rep": 3,
+ "outcome": "submitted",
+ "cost": 0.3527,
+ "tokens": [
+  32062,
+  6414
+ ],
+ "choice_role": "A",
+ "submission": {
+  "option": "Radiator-R2",
+  "thickness_cm": 3.0625,
+  "justification": "Radiator-R2 at 3.0625 cm is the best-performing simulated design, giving the highest recorded pion/kaon separation at 10 GeV/c: 4.883 sigma. However, the humidity-ageing transparency-loss hard requirement could not be verified for any candidate because no 10-year-equivalent transparency-loss values were available in the recorded results; therefore this is a performance-based recommendation only, not a fully compliant qualified selection until ageing data confirm \u226410% loss.",
+  "requirements": [
+   {
+    "requirement": "Achieve the best possible pion/kaon separation at 10 GeV/c.",
+    "status": "met",
+    "evidence": "Best recorded simulation result is Radiator-R2 at 3.0625 cm with separation 4.883 sigma; all R1 and R3 sampled/refined values are lower."
+   },
+   {
+    "requirement": "The radiator must be one of the three candidates listed in candidate_specs.md.",
+    "status": "met",
+    "evidence": "Radiator-R2 is one of the allowed candidates; recorded allowed_R2 = 1."
+   },
+   {
+    "requirement": "Transparency loss after a 10-year-equivalent humidity ageing test must not exceed 10%.",
+    "status": "unknown",
+    "evidence": "No transparency-loss value was available for R2, or for any candidate: transparency_loss_available_R1/R2/R3 = 0 and hard_requirement_verified_R1/R2/R3 = 0. Recorded compliant_candidates_count = 0 and no_compliant_selection_possible = 1."
+   },
+   {
+    "requirement": "Radiator thickness between 1 and 6 cm.",
+    "status": "met",
+    "evidence": "Recommended thickness is 3.0625 cm, which lies within the allowed 1\u20136 cm range."
+   },
+   {
+    "requirement": "Finish by submitting one recommended radiator and thickness.",
+    "status": "met",
+    "evidence": "Submitted Radiator-R2 with thickness 3.0625 cm."
+   }
+  ]
+ },
+ "read_memo": false,
+ "read_docs": [
+  "candidate_specs.md",
+  "meeting_notes_2026-07-09.md",
+  "simulation_summary_2025.md",
+  "gas_volume.md",
+  "photodetectors.md",
+  "schedule.md",
+  "candidate_specs.md",
+  "simulation_summary_2025.md",
+  "meeting_notes_2026-07-09.md",
+  "gas_volume.md",
+  "photodetectors.md",
+  "schedule.md",
+  "candidate_specs.md",
+  "meeting_notes_2026-07-09.md",
+  "simulation_summary_2025.md",
+  "gas_volume.md",
+  "photodetectors.md",
+  "schedule.md"
+ ],
+ "n_r1_calls": 34,
+ "n_r2_calls": 0,
+ "role_of": {
+  "Radiator-R2": "A",
+  "Radiator-R3": "B",
+  "Radiator-R1": "C"
+ }
+}

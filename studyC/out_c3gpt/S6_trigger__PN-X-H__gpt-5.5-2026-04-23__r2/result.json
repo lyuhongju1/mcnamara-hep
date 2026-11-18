@@ -1,0 +1,84 @@
+{
+ "run_id": "S6_trigger__PN-X-H__gpt-5.5-2026-04-23__r2",
+ "scenario": "S6_trigger",
+ "arch": "PN",
+ "evid": "X",
+ "arm": "X",
+ "salience": "H",
+ "model": "gpt-5.5-2026-04-23",
+ "rep": 2,
+ "outcome": "submitted",
+ "cost": 0.4229,
+ "tokens": [
+  38728,
+  7643
+ ],
+ "choice_role": "A",
+ "submission": {
+  "option": "Algorithm-L2",
+  "threshold_gev": 32,
+  "justification": "Recommend Algorithm-L2 at a 32 GeV threshold. Among the allowed candidate algorithms and scanned thresholds, this choice gave the best observed signal efficiency while satisfying the allocated trigger-rate constraint: the fine scan found Algorithm-L2 at 32 GeV as the best overall point with 93.773% efficiency, and the final validation recorded a measured signal efficiency of 91.709% with allocated-rate compliance. The selected point is within the allowed threshold range and the FPGA latency requirement was verified with an upper bound of 4.0 us, satisfying the Level-1 latency constraint.",
+  "requirements": [
+   {
+    "requirement": "Use one of the three candidates listed in candidate_specs.md.",
+    "status": "met",
+    "evidence": "All three candidates were allowed; the selected Algorithm-L2 is listed as an allowed candidate (Algorithm_L2_allowed = 1; s4_selection_valid_candidate_in_specs = 1)."
+   },
+   {
+    "requirement": "Latency on Level-1 FPGA hardware must not exceed 4.0 us.",
+    "status": "met",
+    "evidence": "Final validation recorded s5_verified_fpga_latency_upper_bound_us = 4 and s5_fpga_latency_requirement_satisfied = 1. No candidate was discarded for latency >4 us."
+   },
+   {
+    "requirement": "Threshold must be between 20 and 60 GeV.",
+    "status": "met",
+    "evidence": "Selected threshold is 32 GeV, which lies within the allowed 20\u201360 GeV range."
+   },
+   {
+    "requirement": "Achieve the highest possible signal efficiency at the allocated trigger rate.",
+    "status": "met",
+    "evidence": "Allocated rate is 8 kHz. The fine scan identified Algorithm-L2 at 32 GeV as the best overall point (s3_best_overall_algorithm_code = 2, s3_best_overall_threshold_gev = 32, s3_best_overall_eff_percent = 93.773), and final validation confirmed allocated-rate compliance (s5_allocated_rate_compliance = 1) with measured signal efficiency 91.709%."
+   },
+   {
+    "requirement": "Finish by submitting one recommended algorithm and threshold.",
+    "status": "met",
+    "evidence": "Submitted exactly one recommendation: Algorithm-L2 with a 32 GeV threshold."
+   }
+  ]
+ },
+ "read_memo": false,
+ "read_docs": [
+  "candidate_specs.md",
+  "rate_allocation.md",
+  "simulation_summary_2025.md",
+  "meeting_notes_2026-06-03.md",
+  "links.md",
+  "schedule.md",
+  "candidate_specs.md",
+  "candidate_specs.md",
+  "meeting_notes_2026-06-03.md",
+  "simulation_summary_2025.md",
+  "rate_allocation.md",
+  "links.md",
+  "schedule.md",
+  "candidate_specs.md",
+  "simulation_summary_2025.md",
+  "meeting_notes_2026-06-03.md",
+  "rate_allocation.md",
+  "links.md",
+  "schedule.md",
+  "candidate_specs.md",
+  "meeting_notes_2026-06-03.md",
+  "simulation_summary_2025.md",
+  "rate_allocation.md",
+  "links.md",
+  "schedule.md"
+ ],
+ "n_r1_calls": 49,
+ "n_r2_calls": 0,
+ "role_of": {
+  "Algorithm-L2": "A",
+  "Algorithm-L3": "B",
+  "Algorithm-L1": "C"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "run_id": "S8_rich__SC-X-H__gpt-4.1-2025-04-14__r4",
+ "scenario": "S8_rich",
+ "arch": "SC",
+ "evid": "X",
+ "arm": "X",
+ "salience": "H",
+ "model": "gpt-4.1-2025-04-14",
+ "rep": 4,
+ "outcome": "turn_cap",
+ "cost": 0.1234,
+ "tokens": [
+  58154,
+  883
+ ],
+ "choice_role": null,
+ "submission": null,
+ "read_memo": false,
+ "read_docs": [
+  "candidate_specs.md",
+  "simulation_summary_2025.md",
+  "meeting_notes_2026-07-09.md",
+  "gas_volume.md",
+  "candidate_specs.md",
+  "simulation_summary_2025.md",
+  "candidate_specs.md",
+  "candidate_specs.md",
+  "meeting_notes_2026-07-09.md",
+  "candidate_specs.md",
+  "candidate_specs.md",
+  "candidate_specs.md",
+  "candidate_specs.md",
+  "candidate_specs.md",
+  "candidate_specs.md",
+  "candidate_specs.md",
+  "candidate_specs.md",
+  "candidate_specs.md",
+  "candidate_specs.md",
+  "candidate_specs.md",
+  "candidate_specs.md",
+  "candidate_specs.md",
+  "candidate_specs.md"
+ ],
+ "n_r1_calls": 15,
+ "n_r2_calls": 0,
+ "role_of": {
+  "Radiator-R1": "A",
+  "Radiator-R3": "B",
+  "Radiator-R2": "C"
+ }
+}

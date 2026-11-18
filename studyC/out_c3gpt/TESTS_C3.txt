@@ -1,0 +1,23 @@
+H3 GPT-4.1 > GPT-5.5: 64/80 vs 53/80  p=3.69e-02  Holm p=7.38e-02
+H4 control > F2: 111/128 vs 47/80  p=5.76e-06  Holm p=1.73e-05
+H5 control > F1: 111/128 vs 62/80  p=6.31e-02  Holm p=7.38e-02
+
+Sensitivity, excluding runs without a decision:
+  H3 GPT-4.1 > GPT-5.5: 64/69 vs 53/80  p=5.51e-05
+  H4 control > F2: 111/128 vs 47/80  p=5.76e-06
+  H5 control > F1: 111/128 vs 62/80  p=6.31e-02
+
+Breakdown (met / not_evaluated|unknown / omitted / no decision):
+  GPT-4.1         SC: met 29/40, notev/unk 0, omitted 0, no-decision 11, mean r1 sims 12.5
+  GPT-4.1         PN: met 35/40, notev/unk 5, omitted 0, no-decision 0, mean r1 sims 17.3
+  GPT-5.5         SC: met 30/40, notev/unk 10, omitted 0, no-decision 0, mean r1 sims 66.7
+  GPT-5.5         PN: met 23/40, notev/unk 15, omitted 0, no-decision 0, mean r1 sims 33.4
+  Son4.5 control  SC: met 50/64, notev/unk 14, omitted 0, no-decision 0, mean r1 sims 23.1
+  Son4.5 control  PN: met 61/64, notev/unk 3, omitted 0, no-decision 0, mean r1 sims 16.1
+  Son4.5 F1       SC: met 27/40, notev/unk 13, omitted 0, no-decision 0, mean r1 sims 20.7
+  Son4.5 F1       PN: met 35/40, notev/unk 5, omitted 0, no-decision 0, mean r1 sims 14.9
+  Son4.5 F2       SC: met 29/40, notev/unk 11, omitted 0, no-decision 0, mean r1 sims 21.4
+  Son4.5 F2       PN: met 18/40, notev/unk 22, omitted 0, no-decision 0, mean r1 sims 16.5
+
+Rejections under F2: 42 across 27 runs
+cost $61.03
