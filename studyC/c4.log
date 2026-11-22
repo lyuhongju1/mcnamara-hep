@@ -1,0 +1,652 @@
+80 runs
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.1396
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted A memo=False $0.249
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.1425
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.1564
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.144
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0585
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.0472
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0669
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.0587
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.0616
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted A memo=False $0.24
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.2592
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.2353
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.2635
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.2261
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.2871
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.2533
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted C memo=True $0.2772
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.2468
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted A memo=False $0.1459
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.2687
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.2204
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.1786
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.1596
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.1501
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0578
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0421
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.0458
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.0547
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.0456
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.239
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.3071
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.2312
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.2973
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.2115
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted C memo=True $0.2418
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.2933
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.2446
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted C memo=True $0.3718
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.3097
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.1165
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.1499
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted B memo=False $0.1491
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.1044
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted B memo=False $0.1143
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0495
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0491
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted C memo=True $0.0451
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted C memo=True $0.0522
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.043
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.2275
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.2455
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted C memo=False $0.2477
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.2589
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.2531
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted C memo=False $0.3027
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted C memo=True $0.277
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted C memo=True $0.2639
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.2108
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.2638
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.158
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.1355
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.1455
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted B memo=False $0.1454
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.254
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0698
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0542
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.05
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.0615
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.0444
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.1973
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.1966
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.1895
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.3417
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted B memo=False $0.1907
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.3102
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.3946
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.2607
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted C memo=True $0.2917
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.2645
+40 runs
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+40 runs
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+80 runs
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted A memo=False $0.249
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.1396
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.1425
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.1564
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.144
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0669
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0585
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.0587
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.0472
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted A memo=False $0.24
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.0616
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.2592
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.2635
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.2353
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.2261
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.2533
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.2871
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.2468
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.2687
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted C memo=True $0.2772
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.2204
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted A memo=False $0.1459
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.1786
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.1596
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.1501
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0578
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.0547
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0421
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.0456
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.0458
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.239
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.3071
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.2312
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.2973
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.2115
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted C memo=True $0.2418
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.2933
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.2446
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted C memo=True $0.3718
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.1165
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.3097
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted B memo=False $0.1491
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.1499
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.1044
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted B memo=False $0.1143
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0495
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0491
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted C memo=True $0.0522
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted C memo=True $0.0451
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.043
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.2275
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.2455
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted C memo=False $0.2477
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.2589
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted C memo=False $0.3027
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted C memo=True $0.277
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.2531
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted C memo=True $0.2639
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.2108
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.158
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.2638
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.1355
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.1455
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.254
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted B memo=False $0.1454
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0698
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0542
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.0615
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.05
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.0444
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.1973
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.1966
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.3417
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.1895
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted B memo=False $0.1907
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.3102
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.3946
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.2607
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted C memo=True $0.2917
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.2645
+40 runs
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+40 runs
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+80 runs
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted A memo=False $0.249
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.1396
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.1564
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.144
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.1425
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0585
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0669
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.0587
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.0472
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.0616
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted A memo=False $0.24
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.2592
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.2353
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.2635
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.2871
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.2261
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.2533
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted C memo=True $0.2772
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.2468
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.2687
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted A memo=False $0.1459
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.1786
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.2204
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.1596
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0578
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.1501
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0421
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.0547
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.0458
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.0456
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.239
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.3071
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.2973
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.2312
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.2115
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted C memo=True $0.2418
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.2933
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.2446
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted C memo=True $0.3718
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.3097
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.1165
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.1499
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.1044
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted B memo=False $0.1491
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0495
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted B memo=False $0.1143
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted C memo=True $0.0522
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0491
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted C memo=True $0.0451
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.043
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.2455
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.2275
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted C memo=False $0.2477
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.2589
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted C memo=False $0.3027
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.2531
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted C memo=True $0.277
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted C memo=True $0.2639
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.2108
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.2638
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.158
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.1355
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.1455
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.254
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted B memo=False $0.1454
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0698
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0542
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.05
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.0615
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.0444
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.1973
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.1966
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.1895
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.3417
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted B memo=False $0.1907
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.3102
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.2607
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.3946
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted C memo=True $0.2917
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.2645
+40 runs
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+40 runs
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+80 runs
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted A memo=False $0.249
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.1396
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.1425
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.144
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.1564
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0585
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0669
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.0587
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.0472
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.0616
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted A memo=False $0.24
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.2592
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.2635
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.2261
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.2353
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.2533
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted C memo=True $0.2772
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.2871
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.2468
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted A memo=False $0.1459
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.2204
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.2687
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.1596
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.1786
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.1501
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0578
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0421
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.0547
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.0458
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.0456
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.239
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.3071
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.2312
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.2973
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.2115
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted C memo=True $0.2418
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.2933
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.2446
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted C memo=True $0.3718
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.3097
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.1165
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.1499
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted B memo=False $0.1491
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.1044
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted B memo=False $0.1143
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0495
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0491
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted C memo=True $0.0522
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted C memo=True $0.0451
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.043
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.2275
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.2455
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted C memo=False $0.2477
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.2589
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted C memo=False $0.3027
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.2531
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted C memo=True $0.277
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted C memo=True $0.2639
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.2108
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.2638
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.158
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.1355
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.1455
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.254
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted B memo=False $0.1454
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0698
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0542
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.0615
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.05
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.0444
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.1973
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.1966
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.3417
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.1895
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted B memo=False $0.1907
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.3102
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.3946
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.2607
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted C memo=True $0.2917
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.2645
+40 runs
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+40 runs
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S5_fcal', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S6_trigger', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'SC', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 0) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 1) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 3) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')
+FAILED ('S8_rich', 'PN', 'H', 'gpt-5.5-2026-04-23', 4) AuthenticationError('Error code: 401 - Your API key has expired. Create a new API key to continue.')

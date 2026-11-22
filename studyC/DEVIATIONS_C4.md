@@ -1,0 +1,2 @@
+2026-11-22: run interrupted by OS memory pressure (Sonnet 4.5 59/80, GPT-5.5 0/80); restarted with the same run ids.
+2026-11-23: all GPT-5.5 runs failed with 401 'API key has expired' (the key was rotated after C3). The Sonnet 4.5 half completed (80/80). H6 is pooled over both models per the prereg, so it is not evaluated until the GPT-5.5 half runs with a new key; the Sonnet-only numbers are reported as interim and descriptive.
