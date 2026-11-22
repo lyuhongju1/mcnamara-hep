@@ -15,7 +15,7 @@ import anthropic
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
-from scenarios import SCENARIOS, ARMS, SALIENCE  # noqa: E402
+from scenarios import SCENARIOS, ARMS, SALIENCE, R1_HARD  # noqa: E402
 
 MODELS = {  # per-model request settings; Sonnet 4.5 predates adaptive thinking and effort
     "claude-haiku-5-5": dict(betas=[], fallbacks=None, price=(0.10, 0.50), kw={"thinking": {"type": "adaptive"}, "output_config": {"effort": "medium"}}),
@@ -28,6 +28,7 @@ THINKING = {"type": "adaptive"}
 MAX_TOKENS = 16000
 MAX_TURNS = 30
 MAX_COST = 1.50
+SYM = False  # C4: add a hard numeric r1 threshold as a constraint
 FIX = None  # None (C2 behaviour) | "F1" status schema with not_evaluated + evidence_source | "F2" F1 + harness rejects unsupported "met"
 MAX_REJECTIONS = 2
 
@@ -55,6 +56,7 @@ def setup(sid, arm, run_key, sal="H"):
     fmt = lambda s: s.format(**name_of)
     docs = {"candidate_specs.md": fmt(sc["specs"]), sc["memo_name"]: fmt(sc["memo"]), sc["prev_name"]: fmt(sc["prev"])}
     if not ARMS[arm].get("memo", True): del docs[sc["memo_name"]]
+    if not ARMS[arm].get("prev", True): del docs[sc["prev_name"]]
     docs.update(sc["distract"])
     docs = dict(sorted(docs.items()))
     p = sc["param"]
@@ -85,6 +87,7 @@ def setup(sid, arm, run_key, sal="H"):
                       "required": ["option", p["name"], "justification", "requirements"]}})
     brief = dict(sc["brief"]); cons = list(sc["brief"]["constraints"])
     if sal == "L": cons[1] = sc["r2_vague"]
+    if SYM: cons.insert(1, R1_HARD[sid])
     brief["constraints"] = [fmt(c) for c in cons]
     user = "Task brief:\n" + json.dumps(brief, indent=2)
     return dict(sc=sc, docs=docs, tools=tools, user=user, role_of=role_of, name_of=name_of, rng=rng)

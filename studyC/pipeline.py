@@ -172,11 +172,11 @@ def main():
     ap.add_argument("--scenarios", default=None); ap.add_argument("--arch", default="PN,PT,SC"); ap.add_argument("--evid", default="M,X")
     ap.add_argument("--salience", default="H,L"); ap.add_argument("--models", default="claude-haiku-5-5")
     ap.add_argument("--reps", type=int, default=1); ap.add_argument("--rep0", type=int, default=0)
-    ap.add_argument("--fix", default=None); ap.add_argument("--out", default="out_c2pilot"); ap.add_argument("--workers", type=int, default=4)
+    ap.add_argument("--fix", default=None); ap.add_argument("--sym", action="store_true"); ap.add_argument("--out", default="out_c2pilot"); ap.add_argument("--workers", type=int, default=4)
     a = ap.parse_args()
     from scenarios import SCENARIOS
     scen = a.scenarios.split(",") if a.scenarios else list(SCENARIOS)
-    agent.FIX = a.fix
+    agent.FIX = a.fix; agent.SYM = a.sym
     client = anthropic.Anthropic(max_retries=6)
     jobs = [(s, ar, e, sl, m, r) for s in scen for ar in a.arch.split(",") for e in a.evid.split(",") for sl in a.salience.split(",")
             for m in a.models.split(",") for r in range(a.rep0, a.rep0 + a.reps)]

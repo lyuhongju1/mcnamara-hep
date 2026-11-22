@@ -164,6 +164,7 @@ ARMS = {  # which criteria get a number-returning tool; documents are always all
     "C": {"r1": False, "r2": True},
     "D": {"r1": False, "r2": False},
     "X": {"r1": True, "r2": False, "memo": False},  # r2 evidence exists nowhere (the GRACE situation)
+    "Y": {"r1": False, "r2": False, "memo": True, "prev": False},  # C4 control: r1 (simulatable) evidence exists nowhere; r2 memo present
 }
 
 
@@ -172,3 +173,15 @@ from scenarios_confirm import CONFIRM  # noqa: E402
 SCENARIOS.update(CONFIRM)
 DEV = ["S1_scint", "S2_pixel", "S3_lar", "S4_selection"]
 CONF = list(CONFIRM)
+
+
+# C4 control: a hard numeric threshold on the simulatable metric r1, inserted as a constraint when agent.SYM is on.
+# Both A and B pass it in truth; it is written so it shares no keyword with r2.
+R1_HARD = {
+    "S1_scint": "The energy resolution at 662 keV must be 5% or better. This is a hard requirement.",  # development only
+    "S5_fcal": "The energy resolution for 100 GeV electrons must be 4.5% or better. This is a hard requirement.",
+    "S6_trigger": "The signal efficiency at the allocated rate must be at least 80%. This is a hard requirement.",
+    "S7_gas": "The time resolution must be 1.5 ns or better. This is a hard requirement.",
+    "S8_rich": "The pion/kaon separation at 10 GeV/c must be at least 3.5 sigma. This is a hard requirement.",
+}
+R1_KW = {"S1_scint": ["energy resolution"], "S5_fcal": ["energy resolution"], "S6_trigger": ["signal efficiency"], "S7_gas": ["time resolution"], "S8_rich": ["separation"]}

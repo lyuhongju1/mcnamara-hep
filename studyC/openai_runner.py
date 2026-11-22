@@ -64,10 +64,10 @@ class Conv:
 def out_item(cid, txt): return {"type": "function_call_output", "call_id": cid, "output": txt}
 
 
-def sc_run(client, sid, sal, model, rep, outdir):
-    run_id = f"{sid}__SC-X-{sal}__{model}__r{rep}"; d = Path(outdir) / run_id
+def sc_run(client, sid, sal, model, rep, outdir, evid="X"):
+    run_id = f"{sid}__SC-{evid}-{sal}__{model}__r{rep}"; d = Path(outdir) / run_id
     if (d / "result.json").exists(): return json.loads((d / "result.json").read_text(encoding="utf-8"))
-    d.mkdir(parents=True, exist_ok=True); env = setup(sid, "X", run_id, sal)
+    d.mkdir(parents=True, exist_ok=True); env = setup(sid, evid, run_id, sal)
     log = open(d / "transcript.jsonl", "w", encoding="utf-8"); chat = Cost()
     log.write(json.dumps({"run_id": run_id, "user": env["user"], "role_of": env["role_of"]}) + NL)
     conv = Conv(client, model, log, chat, SYSTEM, env["tools"], "sc")
@@ -84,13 +84,13 @@ def sc_run(client, sid, sal, model, rep, outdir):
             calls.append({"tool": name, "input": args}); items.append(out_item(cid, txt))
         if submission is not None: outcome = "submitted"; break
     log.close()
-    return _finish(d, run_id, env, sid, "SC", sal, model, rep, outcome or "turn_cap", submission, calls, chat)
+    return _finish(d, run_id, env, sid, "SC", sal, model, rep, outcome or "turn_cap", submission, calls, chat, evid)
 
 
-def pn_run(client, sid, sal, model, rep, outdir):
-    run_id = f"{sid}__PN-X-{sal}__{model}__r{rep}"; d = Path(outdir) / run_id
+def pn_run(client, sid, sal, model, rep, outdir, evid="X"):
+    run_id = f"{sid}__PN-{evid}-{sal}__{model}__r{rep}"; d = Path(outdir) / run_id
     if (d / "result.json").exists(): return json.loads((d / "result.json").read_text(encoding="utf-8"))
-    d.mkdir(parents=True, exist_ok=True); env = setup(sid, "X", run_id, sal)
+    d.mkdir(parents=True, exist_ok=True); env = setup(sid, evid, run_id, sal)
     log = open(d / "transcript.jsonl", "w", encoding="utf-8"); chat = Cost()
     work = [t for t in env["tools"] if t["name"] != "submit_recommendation"] + [record_tool("PN")]
     submit = [t for t in env["tools"] if t["name"] == "submit_recommendation"]
@@ -120,12 +120,12 @@ def pn_run(client, sid, sal, model, rep, outdir):
         if cs: submission = cs[0][2]; outcome = "submitted"; break
         items = [{"role": "user", "content": "Please call submit_recommendation."}]
     log.close()
-    return _finish(d, run_id, env, sid, "PN", sal, model, rep, outcome or "no_submission", submission, calls, chat)
+    return _finish(d, run_id, env, sid, "PN", sal, model, rep, outcome or "no_submission", submission, calls, chat, evid)
 
 
-def _finish(d, run_id, env, sid, arch, sal, model, rep, outcome, submission, calls, chat):
+def _finish(d, run_id, env, sid, arch, sal, model, rep, outcome, submission, calls, chat, evid="X"):
     sc = env["sc"]; read = [c["input"].get("name") for c in calls if c["tool"] == "read_document"]
-    res = dict(run_id=run_id, scenario=sid, arch=arch, evid="X", arm="X", salience=sal, model=model, rep=rep, outcome=outcome,
+    res = dict(run_id=run_id, scenario=sid, arch=arch, evid=evid, arm=evid, salience=sal, model=model, rep=rep, outcome=outcome,
                cost=round(chat.cost, 4), tokens=chat.tok, choice_role=env["role_of"].get((submission or {}).get("option")),
                submission=submission, read_memo=sc["memo_name"] in read, read_docs=read,
                n_r1_calls=sum(c["tool"] == sc["r1"]["tool"] for c in calls), n_r2_calls=0, role_of=env["role_of"])
@@ -136,13 +136,13 @@ def main():
     ap = argparse.ArgumentParser(); ap.add_argument("cmd")
     ap.add_argument("--scenarios", required=True); ap.add_argument("--arch", default="SC,PN"); ap.add_argument("--salience", default="H,L")
     ap.add_argument("--models", required=True); ap.add_argument("--reps", type=int, default=1); ap.add_argument("--out", default="out_c3gpt")
-    ap.add_argument("--workers", type=int, default=2)
-    a = ap.parse_args(); client = OpenAI(api_key=key(), max_retries=6)
+    ap.add_argument("--workers", type=int, default=2); ap.add_argument("--evid", default="X"); ap.add_argument("--sym", action="store_true")
+    a = ap.parse_args(); agent.SYM = a.sym; client = OpenAI(api_key=key(), max_retries=6)
     jobs = [(s, ar, sl, m, r) for s in a.scenarios.split(",") for ar in a.arch.split(",") for sl in a.salience.split(",")
             for m in a.models.split(",") for r in range(a.reps)]
     out = HERE / a.out; print(len(jobs), "runs", flush=True)
     def go(j):
-        s, ar, sl, m, r = j; return (sc_run if ar == "SC" else pn_run)(client, s, sl, m, r, out)
+        s, ar, sl, m, r = j; return (sc_run if ar == "SC" else pn_run)(client, s, sl, m, r, out, a.evid)
     with cf.ThreadPoolExecutor(a.workers) as ex:
         futs = {ex.submit(go, j): j for j in jobs}
         for f in cf.as_completed(futs):
