@@ -47,4 +47,4 @@ The data (transcripts, results, coding) are licensed under CC BY 4.0. The script
 
 ## Funding and disclosure
 
-This work was supported by the NSF Graduate Research Fellowship Program under Grant No. DGE-2139757, and by API credits from Anthropic's AI for Science program. Four of the five models evaluated in the confirmatory studies are Anthropic products. The author is a co-developer of GRACE, whose archived runs are analysed in Study A.
+This work was supported by the NSF Graduate Research Fellowship Program under Grant No. DGE-2139757, and by API credits from Anthropic's AI for Science program. Three of the five models evaluated in the confirmatory studies are Anthropic products. The author is a co-developer of GRACE, whose archived runs are analysed in Study A.
