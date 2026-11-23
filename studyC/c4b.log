@@ -1,0 +1,652 @@
+80 runs
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted A memo=False $0.249
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.1425
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.1396
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.1564
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.144
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0585
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0669
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.0587
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.0472
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.0616
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.2592
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.2635
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.2353
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted A memo=False $0.24
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.2261
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.2533
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.2871
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted C memo=True $0.2772
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.2468
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.2687
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted A memo=False $0.1459
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.2204
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.1786
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.1501
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0578
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.1596
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0421
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.0547
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.0458
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.0456
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.239
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.3071
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.2312
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.2115
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.2973
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted C memo=True $0.2418
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.2933
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.2446
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted C memo=True $0.3718
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.3097
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.1165
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted B memo=False $0.1491
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.1499
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.1044
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted B memo=False $0.1143
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0495
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0491
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted C memo=True $0.0522
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted C memo=True $0.0451
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.043
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.2455
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.2275
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted C memo=False $0.2477
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.2589
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted C memo=False $0.3027
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.2531
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted C memo=True $0.277
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted C memo=True $0.2639
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.2108
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.2638
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.158
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.1355
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.1455
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.254
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted B memo=False $0.1454
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0698
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0542
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.0615
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.05
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.0444
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.1973
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.1966
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.3417
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.1895
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted B memo=False $0.1907
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.3946
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.3102
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.2607
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted C memo=True $0.2917
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.2645
+40 runs
+S5_fcal__SC-X-H__gpt-5.5-2026-04-23__r0 submitted A $0.1892
+S5_fcal__SC-X-H__gpt-5.5-2026-04-23__r1 submitted A $0.2228
+S5_fcal__SC-X-H__gpt-5.5-2026-04-23__r2 submitted A $0.3174
+S5_fcal__SC-X-H__gpt-5.5-2026-04-23__r3 submitted A $0.27
+S5_fcal__SC-X-H__gpt-5.5-2026-04-23__r4 submitted A $0.2916
+S5_fcal__PN-X-H__gpt-5.5-2026-04-23__r0 submitted A $0.2855
+S5_fcal__PN-X-H__gpt-5.5-2026-04-23__r1 submitted A $0.394
+S5_fcal__PN-X-H__gpt-5.5-2026-04-23__r2 submitted A $0.2587
+S5_fcal__PN-X-H__gpt-5.5-2026-04-23__r3 submitted A $0.1954
+S5_fcal__PN-X-H__gpt-5.5-2026-04-23__r4 submitted A $0.3555
+S6_trigger__SC-X-H__gpt-5.5-2026-04-23__r0 submitted B $0.4
+S6_trigger__SC-X-H__gpt-5.5-2026-04-23__r1 submitted A $0.3557
+S6_trigger__SC-X-H__gpt-5.5-2026-04-23__r2 submitted A $0.4199
+S6_trigger__SC-X-H__gpt-5.5-2026-04-23__r3 submitted B $0.3111
+S6_trigger__SC-X-H__gpt-5.5-2026-04-23__r4 submitted B $0.3937
+S6_trigger__PN-X-H__gpt-5.5-2026-04-23__r0 submitted A $0.5191
+S6_trigger__PN-X-H__gpt-5.5-2026-04-23__r1 submitted A $0.4605
+S6_trigger__PN-X-H__gpt-5.5-2026-04-23__r2 submitted A $0.324
+S6_trigger__PN-X-H__gpt-5.5-2026-04-23__r4 submitted A $0.2873
+S6_trigger__PN-X-H__gpt-5.5-2026-04-23__r3 submitted A $0.3979
+S7_gas__SC-X-H__gpt-5.5-2026-04-23__r0 submitted B $0.1554
+S7_gas__SC-X-H__gpt-5.5-2026-04-23__r1 submitted B $0.2416
+S7_gas__SC-X-H__gpt-5.5-2026-04-23__r2 submitted B $0.1614
+S7_gas__SC-X-H__gpt-5.5-2026-04-23__r3 submitted B $0.2412
+S7_gas__SC-X-H__gpt-5.5-2026-04-23__r4 submitted B $0.1892
+S7_gas__PN-X-H__gpt-5.5-2026-04-23__r1 submitted A $0.2309
+S7_gas__PN-X-H__gpt-5.5-2026-04-23__r0 submitted A $0.3512
+S7_gas__PN-X-H__gpt-5.5-2026-04-23__r2 submitted A $0.3275
+S7_gas__PN-X-H__gpt-5.5-2026-04-23__r3 submitted A $0.3346
+S8_rich__SC-X-H__gpt-5.5-2026-04-23__r0 submitted B $0.1988
+S8_rich__SC-X-H__gpt-5.5-2026-04-23__r1 submitted B $0.1867
+S7_gas__PN-X-H__gpt-5.5-2026-04-23__r4 submitted A $0.4118
+S8_rich__SC-X-H__gpt-5.5-2026-04-23__r2 submitted B $0.2548
+S8_rich__SC-X-H__gpt-5.5-2026-04-23__r3 submitted B $0.2429
+S8_rich__SC-X-H__gpt-5.5-2026-04-23__r4 submitted B $0.1924
+S8_rich__PN-X-H__gpt-5.5-2026-04-23__r0 submitted A $0.2008
+S8_rich__PN-X-H__gpt-5.5-2026-04-23__r1 submitted A $0.4653
+S8_rich__PN-X-H__gpt-5.5-2026-04-23__r2 submitted A $0.3808
+S8_rich__PN-X-H__gpt-5.5-2026-04-23__r3 submitted A $0.3792
+S8_rich__PN-X-H__gpt-5.5-2026-04-23__r4 submitted A $0.3758
+40 runs
+S5_fcal__SC-Y-H__gpt-5.5-2026-04-23__r1 submitted B $0.0539
+S5_fcal__SC-Y-H__gpt-5.5-2026-04-23__r0 submitted B $0.0626
+S5_fcal__SC-Y-H__gpt-5.5-2026-04-23__r2 submitted B $0.0489
+S5_fcal__SC-Y-H__gpt-5.5-2026-04-23__r3 submitted B $0.0699
+S5_fcal__SC-Y-H__gpt-5.5-2026-04-23__r4 submitted B $0.0607
+S5_fcal__PN-Y-H__gpt-5.5-2026-04-23__r0 submitted B $0.2343
+S5_fcal__PN-Y-H__gpt-5.5-2026-04-23__r1 submitted C $0.1898
+S5_fcal__PN-Y-H__gpt-5.5-2026-04-23__r2 submitted B $0.218
+S5_fcal__PN-Y-H__gpt-5.5-2026-04-23__r3 submitted C $0.1837
+S6_trigger__SC-Y-H__gpt-5.5-2026-04-23__r0 submitted B $0.0485
+S6_trigger__SC-Y-H__gpt-5.5-2026-04-23__r1 submitted B $0.043
+S5_fcal__PN-Y-H__gpt-5.5-2026-04-23__r4 submitted C $0.1557
+S6_trigger__SC-Y-H__gpt-5.5-2026-04-23__r2 submitted B $0.0505
+S6_trigger__SC-Y-H__gpt-5.5-2026-04-23__r4 submitted B $0.0502
+S6_trigger__SC-Y-H__gpt-5.5-2026-04-23__r3 submitted B $0.0531
+S6_trigger__PN-Y-H__gpt-5.5-2026-04-23__r1 submitted C $0.1812
+S6_trigger__PN-Y-H__gpt-5.5-2026-04-23__r0 submitted C $0.191
+S6_trigger__PN-Y-H__gpt-5.5-2026-04-23__r2 submitted B $0.2223
+S6_trigger__PN-Y-H__gpt-5.5-2026-04-23__r3 submitted B $0.2193
+S7_gas__SC-Y-H__gpt-5.5-2026-04-23__r0 submitted B $0.0489
+S7_gas__SC-Y-H__gpt-5.5-2026-04-23__r1 submitted B $0.0453
+S7_gas__SC-Y-H__gpt-5.5-2026-04-23__r2 submitted B $0.0517
+S7_gas__SC-Y-H__gpt-5.5-2026-04-23__r3 submitted B $0.0442
+S6_trigger__PN-Y-H__gpt-5.5-2026-04-23__r4 submitted C $0.2034
+S7_gas__SC-Y-H__gpt-5.5-2026-04-23__r4 submitted B $0.0485
+S7_gas__PN-Y-H__gpt-5.5-2026-04-23__r1 submitted B $0.181
+S7_gas__PN-Y-H__gpt-5.5-2026-04-23__r0 submitted C $0.238
+S7_gas__PN-Y-H__gpt-5.5-2026-04-23__r2 submitted C $0.193
+S7_gas__PN-Y-H__gpt-5.5-2026-04-23__r3 submitted C $0.1875
+S8_rich__SC-Y-H__gpt-5.5-2026-04-23__r0 submitted B $0.064
+S7_gas__PN-Y-H__gpt-5.5-2026-04-23__r4 submitted C $0.1681
+S8_rich__SC-Y-H__gpt-5.5-2026-04-23__r1 submitted B $0.0815
+S8_rich__SC-Y-H__gpt-5.5-2026-04-23__r2 submitted B $0.0481
+S8_rich__SC-Y-H__gpt-5.5-2026-04-23__r3 submitted B $0.0672
+S8_rich__SC-Y-H__gpt-5.5-2026-04-23__r4 submitted B $0.0844
+S8_rich__PN-Y-H__gpt-5.5-2026-04-23__r0 submitted C $0.1994
+S8_rich__PN-Y-H__gpt-5.5-2026-04-23__r1 submitted C $0.2976
+S8_rich__PN-Y-H__gpt-5.5-2026-04-23__r2 submitted C $0.2247
+S8_rich__PN-Y-H__gpt-5.5-2026-04-23__r3 submitted C $0.1776
+S8_rich__PN-Y-H__gpt-5.5-2026-04-23__r4 submitted C $0.1924
+80 runs
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted A memo=False $0.249
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.1396
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.1425
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.144
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.1564
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0585
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.0472
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0669
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.0587
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.0616
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.2592
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.2635
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted A memo=False $0.24
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.2261
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.2353
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.2871
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted C memo=True $0.2772
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.2533
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.2468
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted A memo=False $0.1459
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.2687
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.1786
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.2204
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.1596
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0578
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.1501
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0421
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.0458
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.0547
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.239
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.0456
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.3071
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.2312
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.2973
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.2115
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted C memo=True $0.2418
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.2933
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.2446
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted C memo=True $0.3718
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.1165
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.3097
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted B memo=False $0.1491
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.1499
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.1044
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted B memo=False $0.1143
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0495
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0491
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted C memo=True $0.0522
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.043
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted C memo=True $0.0451
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.2455
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.2275
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.2589
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted C memo=False $0.2477
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.2531
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted C memo=False $0.3027
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted C memo=True $0.277
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.2108
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted C memo=True $0.2639
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.2638
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.158
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.1355
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.1455
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.254
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted B memo=False $0.1454
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0698
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0542
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.0615
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.0444
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.05
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.1966
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.1973
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.3417
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.1895
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted B memo=False $0.1907
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.3102
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.3946
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.2607
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted C memo=True $0.2917
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.2645
+40 runs
+S5_fcal__SC-X-H__gpt-5.5-2026-04-23__r1 submitted A $0.2228
+S5_fcal__SC-X-H__gpt-5.5-2026-04-23__r0 submitted A $0.1892
+S5_fcal__SC-X-H__gpt-5.5-2026-04-23__r2 submitted A $0.3174
+S5_fcal__SC-X-H__gpt-5.5-2026-04-23__r4 submitted A $0.2916
+S5_fcal__PN-X-H__gpt-5.5-2026-04-23__r0 submitted A $0.2855
+S5_fcal__SC-X-H__gpt-5.5-2026-04-23__r3 submitted A $0.27
+S5_fcal__PN-X-H__gpt-5.5-2026-04-23__r2 submitted A $0.2587
+S5_fcal__PN-X-H__gpt-5.5-2026-04-23__r3 submitted A $0.1954
+S5_fcal__PN-X-H__gpt-5.5-2026-04-23__r1 submitted A $0.394
+S5_fcal__PN-X-H__gpt-5.5-2026-04-23__r4 submitted A $0.3555
+S6_trigger__SC-X-H__gpt-5.5-2026-04-23__r1 submitted A $0.3557
+S6_trigger__SC-X-H__gpt-5.5-2026-04-23__r0 submitted B $0.4
+S6_trigger__SC-X-H__gpt-5.5-2026-04-23__r3 submitted B $0.3111
+S6_trigger__SC-X-H__gpt-5.5-2026-04-23__r4 submitted B $0.3937
+S6_trigger__SC-X-H__gpt-5.5-2026-04-23__r2 submitted A $0.4199
+S6_trigger__PN-X-H__gpt-5.5-2026-04-23__r0 submitted A $0.5191
+S6_trigger__PN-X-H__gpt-5.5-2026-04-23__r1 submitted A $0.4605
+S6_trigger__PN-X-H__gpt-5.5-2026-04-23__r2 submitted A $0.324
+S6_trigger__PN-X-H__gpt-5.5-2026-04-23__r3 submitted A $0.3979
+S7_gas__SC-X-H__gpt-5.5-2026-04-23__r0 submitted B $0.1554
+S7_gas__SC-X-H__gpt-5.5-2026-04-23__r1 submitted B $0.2416
+S6_trigger__PN-X-H__gpt-5.5-2026-04-23__r4 submitted A $0.2873
+S7_gas__SC-X-H__gpt-5.5-2026-04-23__r3 submitted B $0.2412
+S7_gas__SC-X-H__gpt-5.5-2026-04-23__r2 submitted B $0.1614
+S7_gas__SC-X-H__gpt-5.5-2026-04-23__r4 submitted B $0.1892
+S7_gas__PN-X-H__gpt-5.5-2026-04-23__r1 submitted A $0.2309
+S7_gas__PN-X-H__gpt-5.5-2026-04-23__r2 submitted A $0.3275
+S7_gas__PN-X-H__gpt-5.5-2026-04-23__r0 submitted A $0.3512
+S7_gas__PN-X-H__gpt-5.5-2026-04-23__r4 submitted A $0.4118
+S7_gas__PN-X-H__gpt-5.5-2026-04-23__r3 submitted A $0.3346
+S8_rich__SC-X-H__gpt-5.5-2026-04-23__r0 submitted B $0.1988
+S8_rich__SC-X-H__gpt-5.5-2026-04-23__r2 submitted B $0.2548
+S8_rich__SC-X-H__gpt-5.5-2026-04-23__r1 submitted B $0.1867
+S8_rich__SC-X-H__gpt-5.5-2026-04-23__r3 submitted B $0.2429
+S8_rich__SC-X-H__gpt-5.5-2026-04-23__r4 submitted B $0.1924
+S8_rich__PN-X-H__gpt-5.5-2026-04-23__r0 submitted A $0.2008
+S8_rich__PN-X-H__gpt-5.5-2026-04-23__r2 submitted A $0.3808
+S8_rich__PN-X-H__gpt-5.5-2026-04-23__r1 submitted A $0.4653
+S8_rich__PN-X-H__gpt-5.5-2026-04-23__r4 submitted A $0.3758
+S8_rich__PN-X-H__gpt-5.5-2026-04-23__r3 submitted A $0.3792
+40 runs
+S5_fcal__SC-Y-H__gpt-5.5-2026-04-23__r0 submitted B $0.0626
+S5_fcal__SC-Y-H__gpt-5.5-2026-04-23__r1 submitted B $0.0539
+S5_fcal__SC-Y-H__gpt-5.5-2026-04-23__r2 submitted B $0.0489
+S5_fcal__SC-Y-H__gpt-5.5-2026-04-23__r3 submitted B $0.0699
+S5_fcal__SC-Y-H__gpt-5.5-2026-04-23__r4 submitted B $0.0607
+S5_fcal__PN-Y-H__gpt-5.5-2026-04-23__r0 submitted C $0.2061
+S5_fcal__PN-Y-H__gpt-5.5-2026-04-23__r1 submitted C $0.1927
+S5_fcal__PN-Y-H__gpt-5.5-2026-04-23__r2 submitted C $0.1544
+S5_fcal__PN-Y-H__gpt-5.5-2026-04-23__r3 submitted C $0.233
+S5_fcal__PN-Y-H__gpt-5.5-2026-04-23__r4 submitted C $0.1539
+S6_trigger__SC-Y-H__gpt-5.5-2026-04-23__r0 submitted B $0.0485
+S6_trigger__SC-Y-H__gpt-5.5-2026-04-23__r1 submitted B $0.043
+S6_trigger__SC-Y-H__gpt-5.5-2026-04-23__r3 submitted B $0.0531
+S6_trigger__SC-Y-H__gpt-5.5-2026-04-23__r2 submitted B $0.0656
+S6_trigger__SC-Y-H__gpt-5.5-2026-04-23__r4 submitted B $0.0502
+S6_trigger__PN-Y-H__gpt-5.5-2026-04-23__r0 submitted C $0.1902
+S6_trigger__PN-Y-H__gpt-5.5-2026-04-23__r1 submitted A $0.1999
+S6_trigger__PN-Y-H__gpt-5.5-2026-04-23__r2 submitted B $0.2223
+S6_trigger__PN-Y-H__gpt-5.5-2026-04-23__r3 submitted C $0.2209
+S6_trigger__PN-Y-H__gpt-5.5-2026-04-23__r4 submitted C $0.2034
+S7_gas__SC-Y-H__gpt-5.5-2026-04-23__r1 submitted B $0.0474
+S7_gas__SC-Y-H__gpt-5.5-2026-04-23__r0 submitted B $0.0478
+S7_gas__SC-Y-H__gpt-5.5-2026-04-23__r2 submitted B $0.0514
+S7_gas__SC-Y-H__gpt-5.5-2026-04-23__r3 submitted B $0.0713
+S7_gas__PN-Y-H__gpt-5.5-2026-04-23__r0 submitted C $0.238
+S7_gas__SC-Y-H__gpt-5.5-2026-04-23__r4 submitted B $0.0485
+S7_gas__PN-Y-H__gpt-5.5-2026-04-23__r1 submitted C $0.2414
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) JSONDecodeError('Extra data: line 82 column 2 (char 2998)')
+S7_gas__PN-Y-H__gpt-5.5-2026-04-23__r3 submitted C $0.1876
+S7_gas__PN-Y-H__gpt-5.5-2026-04-23__r4 submitted C $0.1942
+S8_rich__SC-Y-H__gpt-5.5-2026-04-23__r0 submitted B $0.0653
+S8_rich__SC-Y-H__gpt-5.5-2026-04-23__r1 submitted B $0.0815
+S8_rich__SC-Y-H__gpt-5.5-2026-04-23__r2 submitted B $0.0635
+S8_rich__SC-Y-H__gpt-5.5-2026-04-23__r3 submitted B $0.0665
+S8_rich__SC-Y-H__gpt-5.5-2026-04-23__r4 submitted B $0.0844
+S8_rich__PN-Y-H__gpt-5.5-2026-04-23__r0 submitted C $0.2542
+S8_rich__PN-Y-H__gpt-5.5-2026-04-23__r1 submitted C $0.3131
+S8_rich__PN-Y-H__gpt-5.5-2026-04-23__r2 submitted C $0.2372
+S8_rich__PN-Y-H__gpt-5.5-2026-04-23__r3 submitted C $0.238
+S8_rich__PN-Y-H__gpt-5.5-2026-04-23__r4 submitted C $0.1924
+80 runs
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted A memo=False $0.249
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.1396
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.1564
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.144
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.1425
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0585
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.0472
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0669
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.0616
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.0587
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted A memo=False $0.24
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.2635
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.2592
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.2353
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.2261
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.2871
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted C memo=True $0.2772
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.2468
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.2533
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted A memo=False $0.1459
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.2204
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.1786
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.1596
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.2687
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.1501
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0421
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0578
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.0547
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.0458
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.0456
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.239
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.3071
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.2312
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.2973
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.2115
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted C memo=True $0.2418
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.2933
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.2446
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted C memo=True $0.3718
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.3097
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.1165
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted B memo=False $0.1491
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.1044
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.1499
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted B memo=False $0.1143
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0495
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0491
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted C memo=True $0.0522
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted C memo=True $0.0451
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.2275
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.043
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.2455
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.2589
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted C memo=False $0.2477
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted C memo=False $0.3027
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.2531
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted C memo=True $0.277
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted C memo=True $0.2639
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.2638
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.2108
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.158
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.1355
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.1455
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.254
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted B memo=False $0.1454
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0698
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.0615
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0542
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.05
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.0444
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.1966
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.1973
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.1895
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.3417
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted B memo=False $0.1907
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.3102
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.3946
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.2607
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted C memo=True $0.2917
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.2645
+40 runs
+S5_fcal__SC-X-H__gpt-5.5-2026-04-23__r0 submitted A $0.1892
+S5_fcal__SC-X-H__gpt-5.5-2026-04-23__r2 submitted A $0.3174
+S5_fcal__SC-X-H__gpt-5.5-2026-04-23__r1 submitted A $0.2228
+S5_fcal__SC-X-H__gpt-5.5-2026-04-23__r4 submitted A $0.2916
+S5_fcal__SC-X-H__gpt-5.5-2026-04-23__r3 submitted A $0.27
+S5_fcal__PN-X-H__gpt-5.5-2026-04-23__r1 submitted A $0.394
+S5_fcal__PN-X-H__gpt-5.5-2026-04-23__r0 submitted A $0.2855
+S5_fcal__PN-X-H__gpt-5.5-2026-04-23__r2 submitted A $0.2587
+S5_fcal__PN-X-H__gpt-5.5-2026-04-23__r3 submitted A $0.1954
+S6_trigger__SC-X-H__gpt-5.5-2026-04-23__r0 submitted B $0.4
+S5_fcal__PN-X-H__gpt-5.5-2026-04-23__r4 submitted A $0.3555
+S6_trigger__SC-X-H__gpt-5.5-2026-04-23__r1 submitted A $0.3557
+S6_trigger__SC-X-H__gpt-5.5-2026-04-23__r3 submitted B $0.3111
+S6_trigger__SC-X-H__gpt-5.5-2026-04-23__r2 submitted A $0.4199
+S6_trigger__SC-X-H__gpt-5.5-2026-04-23__r4 submitted B $0.3937
+S6_trigger__PN-X-H__gpt-5.5-2026-04-23__r0 submitted A $0.5191
+S6_trigger__PN-X-H__gpt-5.5-2026-04-23__r2 submitted A $0.324
+S6_trigger__PN-X-H__gpt-5.5-2026-04-23__r3 submitted A $0.3979
+S6_trigger__PN-X-H__gpt-5.5-2026-04-23__r4 submitted A $0.2873
+S6_trigger__PN-X-H__gpt-5.5-2026-04-23__r1 submitted A $0.4605
+S7_gas__SC-X-H__gpt-5.5-2026-04-23__r0 submitted B $0.1554
+S7_gas__SC-X-H__gpt-5.5-2026-04-23__r1 submitted B $0.2416
+S7_gas__SC-X-H__gpt-5.5-2026-04-23__r2 submitted B $0.1614
+S7_gas__SC-X-H__gpt-5.5-2026-04-23__r3 submitted B $0.2412
+S7_gas__SC-X-H__gpt-5.5-2026-04-23__r4 submitted B $0.1892
+S7_gas__PN-X-H__gpt-5.5-2026-04-23__r1 submitted A $0.2309
+S7_gas__PN-X-H__gpt-5.5-2026-04-23__r0 submitted A $0.3512
+S7_gas__PN-X-H__gpt-5.5-2026-04-23__r2 submitted A $0.3275
+S7_gas__PN-X-H__gpt-5.5-2026-04-23__r3 submitted A $0.3346
+S8_rich__SC-X-H__gpt-5.5-2026-04-23__r0 submitted B $0.1988
+S7_gas__PN-X-H__gpt-5.5-2026-04-23__r4 submitted A $0.4118
+S8_rich__SC-X-H__gpt-5.5-2026-04-23__r1 submitted B $0.1867
+S8_rich__SC-X-H__gpt-5.5-2026-04-23__r3 submitted B $0.2429
+S8_rich__SC-X-H__gpt-5.5-2026-04-23__r2 submitted B $0.2548
+S8_rich__SC-X-H__gpt-5.5-2026-04-23__r4 submitted B $0.1924
+S8_rich__PN-X-H__gpt-5.5-2026-04-23__r0 submitted A $0.2008
+S8_rich__PN-X-H__gpt-5.5-2026-04-23__r1 submitted A $0.4653
+S8_rich__PN-X-H__gpt-5.5-2026-04-23__r2 submitted A $0.3808
+S8_rich__PN-X-H__gpt-5.5-2026-04-23__r3 submitted A $0.3792
+S8_rich__PN-X-H__gpt-5.5-2026-04-23__r4 submitted A $0.3758
+40 runs
+S5_fcal__SC-Y-H__gpt-5.5-2026-04-23__r0 submitted B $0.0626
+S5_fcal__SC-Y-H__gpt-5.5-2026-04-23__r1 submitted B $0.0539
+S5_fcal__SC-Y-H__gpt-5.5-2026-04-23__r2 submitted B $0.0489
+S5_fcal__SC-Y-H__gpt-5.5-2026-04-23__r3 submitted B $0.0699
+S5_fcal__SC-Y-H__gpt-5.5-2026-04-23__r4 submitted B $0.0607
+S5_fcal__PN-Y-H__gpt-5.5-2026-04-23__r1 submitted C $0.1927
+S5_fcal__PN-Y-H__gpt-5.5-2026-04-23__r0 submitted C $0.2061
+S5_fcal__PN-Y-H__gpt-5.5-2026-04-23__r2 submitted C $0.1544
+S5_fcal__PN-Y-H__gpt-5.5-2026-04-23__r3 submitted C $0.233
+S6_trigger__SC-Y-H__gpt-5.5-2026-04-23__r0 submitted B $0.0485
+S6_trigger__SC-Y-H__gpt-5.5-2026-04-23__r1 submitted B $0.043
+S6_trigger__SC-Y-H__gpt-5.5-2026-04-23__r2 submitted B $0.0656
+S6_trigger__SC-Y-H__gpt-5.5-2026-04-23__r3 submitted B $0.0531
+S6_trigger__SC-Y-H__gpt-5.5-2026-04-23__r4 submitted B $0.0502
+S5_fcal__PN-Y-H__gpt-5.5-2026-04-23__r4 submitted C $0.1539
+S6_trigger__PN-Y-H__gpt-5.5-2026-04-23__r0 submitted C $0.1902
+S6_trigger__PN-Y-H__gpt-5.5-2026-04-23__r1 submitted A $0.1999
+S6_trigger__PN-Y-H__gpt-5.5-2026-04-23__r2 submitted B $0.1742
+S6_trigger__PN-Y-H__gpt-5.5-2026-04-23__r3 submitted C $0.2209
+S7_gas__SC-Y-H__gpt-5.5-2026-04-23__r0 submitted B $0.0478
+S7_gas__SC-Y-H__gpt-5.5-2026-04-23__r1 submitted B $0.0474
+S6_trigger__PN-Y-H__gpt-5.5-2026-04-23__r4 submitted B $0.1812
+S7_gas__SC-Y-H__gpt-5.5-2026-04-23__r2 submitted B $0.0514
+S7_gas__SC-Y-H__gpt-5.5-2026-04-23__r4 submitted B $0.0492
+S7_gas__SC-Y-H__gpt-5.5-2026-04-23__r3 submitted B $0.0713
+S7_gas__PN-Y-H__gpt-5.5-2026-04-23__r0 submitted C $0.2196
+S7_gas__PN-Y-H__gpt-5.5-2026-04-23__r1 submitted C $0.2414
+S7_gas__PN-Y-H__gpt-5.5-2026-04-23__r2 submitted C $0.188
+S7_gas__PN-Y-H__gpt-5.5-2026-04-23__r3 submitted C $0.1876
+S8_rich__SC-Y-H__gpt-5.5-2026-04-23__r0 submitted B $0.0653
+S8_rich__SC-Y-H__gpt-5.5-2026-04-23__r1 submitted B $0.0642
+S7_gas__PN-Y-H__gpt-5.5-2026-04-23__r4 submitted C $0.1942
+S8_rich__SC-Y-H__gpt-5.5-2026-04-23__r2 submitted B $0.0635
+S8_rich__SC-Y-H__gpt-5.5-2026-04-23__r3 submitted B $0.0665
+S8_rich__SC-Y-H__gpt-5.5-2026-04-23__r4 submitted B $0.0604
+S8_rich__PN-Y-H__gpt-5.5-2026-04-23__r0 submitted C $0.2542
+S8_rich__PN-Y-H__gpt-5.5-2026-04-23__r1 submitted C $0.3131
+S8_rich__PN-Y-H__gpt-5.5-2026-04-23__r2 submitted C $0.2372
+S8_rich__PN-Y-H__gpt-5.5-2026-04-23__r3 submitted C $0.238
+S8_rich__PN-Y-H__gpt-5.5-2026-04-23__r4 submitted C $0.1288
+80 runs
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted A memo=False $0.249
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.1396
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.1425
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.1564
+S5_fcal__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.144
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0585
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0669
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.0587
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.0472
+S5_fcal__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.0616
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.2592
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted A memo=False $0.24
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.2635
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.2261
+S5_fcal__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.2353
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.2871
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.2533
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted C memo=True $0.2772
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.2687
+S5_fcal__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.2468
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted A memo=False $0.1459
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.1786
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.2204
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.1596
+S6_trigger__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.1501
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0578
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0421
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.0547
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.0458
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.239
+S6_trigger__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.0456
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted A memo=False $0.3071
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.2312
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted A memo=False $0.2973
+S6_trigger__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted A memo=False $0.2115
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted C memo=True $0.2418
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.2933
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.2446
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted C memo=True $0.3718
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.1165
+S6_trigger__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.3097
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.1499
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted B memo=False $0.1491
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.1044
+S7_gas__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted B memo=False $0.1143
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0495
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0491
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted C memo=True $0.0522
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted C memo=True $0.0451
+S7_gas__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.043
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.2275
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.2455
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted C memo=False $0.2477
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.2589
+S7_gas__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted C memo=False $0.3027
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.2531
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted C memo=True $0.277
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted C memo=True $0.2639
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.2108
+S7_gas__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.2638
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.158
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.1355
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.254
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.1455
+S8_rich__SC-X-H__claude-sonnet-4-5-20250929__r4 submitted B memo=False $0.1454
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.0698
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.0542
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.0615
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r3 submitted B memo=True $0.05
+S8_rich__SC-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.0444
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r0 submitted B memo=False $0.1973
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r1 submitted B memo=False $0.1966
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r2 submitted A memo=False $0.3417
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r3 submitted B memo=False $0.1895
+S8_rich__PN-X-H__claude-sonnet-4-5-20250929__r4 submitted B memo=False $0.1907
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r1 submitted B memo=True $0.3946
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r0 submitted B memo=True $0.3102
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r2 submitted B memo=True $0.2607
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r3 submitted C memo=True $0.2917
+S8_rich__PN-Y-H__claude-sonnet-4-5-20250929__r4 submitted B memo=True $0.2645
+40 runs
+S5_fcal__SC-X-H__gpt-5.5-2026-04-23__r0 submitted A $0.1892
+S5_fcal__SC-X-H__gpt-5.5-2026-04-23__r2 submitted A $0.3174
+S5_fcal__SC-X-H__gpt-5.5-2026-04-23__r1 submitted A $0.2228
+S5_fcal__SC-X-H__gpt-5.5-2026-04-23__r3 submitted A $0.27
+S5_fcal__PN-X-H__gpt-5.5-2026-04-23__r0 submitted A $0.2855
+S5_fcal__PN-X-H__gpt-5.5-2026-04-23__r1 submitted A $0.394
+S5_fcal__PN-X-H__gpt-5.5-2026-04-23__r2 submitted A $0.2587
+S5_fcal__SC-X-H__gpt-5.5-2026-04-23__r4 submitted A $0.2916
+S5_fcal__PN-X-H__gpt-5.5-2026-04-23__r3 submitted A $0.1954
+S5_fcal__PN-X-H__gpt-5.5-2026-04-23__r4 submitted A $0.3555
+S6_trigger__SC-X-H__gpt-5.5-2026-04-23__r0 submitted B $0.4
+S6_trigger__SC-X-H__gpt-5.5-2026-04-23__r2 submitted A $0.4199
+S6_trigger__SC-X-H__gpt-5.5-2026-04-23__r1 submitted A $0.3557
+S6_trigger__SC-X-H__gpt-5.5-2026-04-23__r3 submitted B $0.3111
+S6_trigger__PN-X-H__gpt-5.5-2026-04-23__r0 submitted A $0.5191
+S6_trigger__PN-X-H__gpt-5.5-2026-04-23__r1 submitted A $0.4605
+S6_trigger__PN-X-H__gpt-5.5-2026-04-23__r2 submitted A $0.324
+S6_trigger__SC-X-H__gpt-5.5-2026-04-23__r4 submitted B $0.3937
+S6_trigger__PN-X-H__gpt-5.5-2026-04-23__r3 submitted A $0.3979
+S7_gas__SC-X-H__gpt-5.5-2026-04-23__r0 submitted B $0.1554
+S7_gas__SC-X-H__gpt-5.5-2026-04-23__r1 submitted B $0.2416
+S7_gas__SC-X-H__gpt-5.5-2026-04-23__r2 submitted B $0.1614
+S6_trigger__PN-X-H__gpt-5.5-2026-04-23__r4 submitted A $0.2873
+S7_gas__SC-X-H__gpt-5.5-2026-04-23__r3 submitted B $0.2412
+S7_gas__SC-X-H__gpt-5.5-2026-04-23__r4 submitted B $0.1892
+S7_gas__PN-X-H__gpt-5.5-2026-04-23__r0 submitted A $0.3512
+S7_gas__PN-X-H__gpt-5.5-2026-04-23__r1 submitted A $0.2309
+S7_gas__PN-X-H__gpt-5.5-2026-04-23__r3 submitted A $0.3346
+S7_gas__PN-X-H__gpt-5.5-2026-04-23__r2 submitted A $0.3275
+S7_gas__PN-X-H__gpt-5.5-2026-04-23__r4 submitted A $0.4118
+S8_rich__SC-X-H__gpt-5.5-2026-04-23__r0 submitted B $0.1988
+S8_rich__SC-X-H__gpt-5.5-2026-04-23__r1 submitted B $0.1867
+S8_rich__SC-X-H__gpt-5.5-2026-04-23__r2 submitted B $0.2548
+S8_rich__SC-X-H__gpt-5.5-2026-04-23__r3 submitted B $0.2429
+S8_rich__SC-X-H__gpt-5.5-2026-04-23__r4 submitted B $0.1924
+S8_rich__PN-X-H__gpt-5.5-2026-04-23__r0 submitted A $0.2008
+S8_rich__PN-X-H__gpt-5.5-2026-04-23__r1 submitted A $0.4653
+S8_rich__PN-X-H__gpt-5.5-2026-04-23__r2 submitted A $0.3808
+S8_rich__PN-X-H__gpt-5.5-2026-04-23__r3 submitted A $0.3792
+S8_rich__PN-X-H__gpt-5.5-2026-04-23__r4 submitted A $0.3758
+40 runs
+S5_fcal__SC-Y-H__gpt-5.5-2026-04-23__r0 submitted B $0.0626
+S5_fcal__SC-Y-H__gpt-5.5-2026-04-23__r1 submitted B $0.0539
+S5_fcal__SC-Y-H__gpt-5.5-2026-04-23__r2 submitted B $0.0489
+S5_fcal__SC-Y-H__gpt-5.5-2026-04-23__r4 submitted B $0.0607
+S5_fcal__SC-Y-H__gpt-5.5-2026-04-23__r3 submitted B $0.0699
+S5_fcal__PN-Y-H__gpt-5.5-2026-04-23__r0 submitted C $0.2061
+S5_fcal__PN-Y-H__gpt-5.5-2026-04-23__r2 submitted C $0.1544
+S5_fcal__PN-Y-H__gpt-5.5-2026-04-23__r3 submitted C $0.233
+S5_fcal__PN-Y-H__gpt-5.5-2026-04-23__r1 submitted C $0.1927
+S5_fcal__PN-Y-H__gpt-5.5-2026-04-23__r4 submitted C $0.1539
+S6_trigger__SC-Y-H__gpt-5.5-2026-04-23__r0 submitted B $0.0485
+S6_trigger__SC-Y-H__gpt-5.5-2026-04-23__r2 submitted B $0.0656
+S6_trigger__SC-Y-H__gpt-5.5-2026-04-23__r3 submitted B $0.0531
+S6_trigger__SC-Y-H__gpt-5.5-2026-04-23__r1 submitted B $0.043
+S6_trigger__PN-Y-H__gpt-5.5-2026-04-23__r0 submitted C $0.1902
+S6_trigger__PN-Y-H__gpt-5.5-2026-04-23__r1 submitted A $0.1999
+S6_trigger__SC-Y-H__gpt-5.5-2026-04-23__r4 submitted B $0.0502
+S6_trigger__PN-Y-H__gpt-5.5-2026-04-23__r2 submitted B $0.2223
+S6_trigger__PN-Y-H__gpt-5.5-2026-04-23__r3 submitted C $0.2209
+S7_gas__SC-Y-H__gpt-5.5-2026-04-23__r0 submitted B $0.0478
+S7_gas__SC-Y-H__gpt-5.5-2026-04-23__r1 submitted B $0.0474
+S6_trigger__PN-Y-H__gpt-5.5-2026-04-23__r4 submitted C $0.2034
+S7_gas__SC-Y-H__gpt-5.5-2026-04-23__r3 submitted B $0.0713
+S7_gas__SC-Y-H__gpt-5.5-2026-04-23__r2 submitted B $0.0514
+S7_gas__SC-Y-H__gpt-5.5-2026-04-23__r4 submitted B $0.0485
+S7_gas__PN-Y-H__gpt-5.5-2026-04-23__r0 submitted C $0.238
+S7_gas__PN-Y-H__gpt-5.5-2026-04-23__r1 submitted C $0.2414
+FAILED ('S7_gas', 'PN', 'H', 'gpt-5.5-2026-04-23', 2) JSONDecodeError('Extra data: line 82 column 2 (char 2998)')
+S7_gas__PN-Y-H__gpt-5.5-2026-04-23__r3 submitted C $0.1876
+S7_gas__PN-Y-H__gpt-5.5-2026-04-23__r4 submitted C $0.1942
+S8_rich__SC-Y-H__gpt-5.5-2026-04-23__r0 submitted B $0.0653
+S8_rich__SC-Y-H__gpt-5.5-2026-04-23__r2 submitted B $0.0635
+S8_rich__SC-Y-H__gpt-5.5-2026-04-23__r1 submitted B $0.0815
+S8_rich__SC-Y-H__gpt-5.5-2026-04-23__r3 submitted B $0.0665
+S8_rich__PN-Y-H__gpt-5.5-2026-04-23__r0 submitted C $0.2542
+S8_rich__SC-Y-H__gpt-5.5-2026-04-23__r4 submitted B $0.0844
+S8_rich__PN-Y-H__gpt-5.5-2026-04-23__r1 submitted C $0.3131
+S8_rich__PN-Y-H__gpt-5.5-2026-04-23__r2 submitted C $0.2372
+S8_rich__PN-Y-H__gpt-5.5-2026-04-23__r3 submitted C $0.238
+S8_rich__PN-Y-H__gpt-5.5-2026-04-23__r4 submitted C $0.1288

@@ -1,0 +1,70 @@
+{
+ "run_id": "S8_rich__SC-X-H__gpt-5.5-2026-04-23__r0",
+ "scenario": "S8_rich",
+ "arch": "SC",
+ "evid": "X",
+ "arm": "X",
+ "salience": "H",
+ "model": "gpt-5.5-2026-04-23",
+ "rep": 0,
+ "outcome": "submitted",
+ "cost": 0.1988,
+ "tokens": [
+  19173,
+  3430
+ ],
+ "choice_role": "B",
+ "submission": {
+  "option": "Radiator-R3",
+  "thickness_cm": 3.0,
+  "justification": "Recommend Radiator-R3 at 3.0 cm. R2 gives the largest simulated separation among the three candidates, but it is a high-index porous radiator with no humidity-protection feature documented and is therefore not acceptable for the hard humidity-ageing requirement. R1 is a solid lower-index radiator but its simulated pion/kaon separation remains below the required 3.5 sigma at all tested thicknesses from 1 to 6 cm. R3 is the humidity-treated porous candidate and provides compliant separation: simulations around the optimum give about 3.8-4.0 sigma at 10 GeV/c for a 3.0 cm thickness, consistent with the earlier 3 cm summary value of 3.8 sigma. Thus R3 at 3.0 cm is the best humidity-qualified choice with adequate performance and a standard, robust thickness.",
+  "requirements": [
+   {
+    "requirement": "Achieve the best possible pion/kaon separation at 10 GeV/c subject to the hard constraints.",
+    "status": "met",
+    "evidence": "For humidity-qualified choices, R3 is the only candidate that both satisfies the separation threshold and has documented hydrophobic treatment. Simulations for R3 near 3 cm gave compliant values: 3.876 sigma in the integer scan, 3.791 and 4.012 sigma in repeat/refinement runs; the 2025 summary reports 3.8 sigma at 3 cm."
+   },
+   {
+    "requirement": "The radiator must be one of the three candidates listed in candidate_specs.md.",
+    "status": "met",
+    "evidence": "candidate_specs.md lists Radiator-R3 as one of the three candidate radiators: a porous radiator with a hydrophobic treatment."
+   },
+   {
+    "requirement": "The pion/kaon separation at 10 GeV/c must be at least 3.5 sigma.",
+    "status": "met",
+    "evidence": "Radiator-R3 at 3.0 cm was simulated at 3.876 sigma in the main scan, with repeat/refinement values of 3.791 and 4.012 sigma; all are above 3.5 sigma. The earlier 2025 3 cm summary also gives R3 = 3.8 sigma."
+   },
+   {
+    "requirement": "Transparency loss after a 10-year-equivalent humidity ageing test must not exceed 10%.",
+    "status": "met",
+    "evidence": "Radiator-R3 is specified in candidate_specs.md as the porous candidate with hydrophobic treatment, unlike R2. This is the documented humidity-protection feature relevant to the 10-year-equivalent humidity ageing requirement; R3 is therefore selected as the humidity-qualified radiator."
+   },
+   {
+    "requirement": "Radiator thickness between 1 and 6 cm.",
+    "status": "met",
+    "evidence": "The recommended thickness is 3.0 cm, which lies within the allowed 1-6 cm interval."
+   },
+   {
+    "requirement": "Finish by submitting one recommended radiator and thickness.",
+    "status": "met",
+    "evidence": "Submitted one recommendation: Radiator-R3 at 3.0 cm."
+   }
+  ]
+ },
+ "read_memo": false,
+ "read_docs": [
+  "candidate_specs.md",
+  "simulation_summary_2025.md",
+  "meeting_notes_2026-07-09.md",
+  "gas_volume.md",
+  "photodetectors.md",
+  "schedule.md"
+ ],
+ "n_r1_calls": 39,
+ "n_r2_calls": 0,
+ "role_of": {
+  "Radiator-R2": "A",
+  "Radiator-R3": "B",
+  "Radiator-R1": "C"
+ }
+}

@@ -1,0 +1,97 @@
+{
+ "run_id": "S8_rich__PN-Y-H__gpt-5.5-2026-04-23__r2",
+ "scenario": "S8_rich",
+ "arch": "PN",
+ "evid": "Y",
+ "arm": "Y",
+ "salience": "H",
+ "model": "gpt-5.5-2026-04-23",
+ "rep": 2,
+ "outcome": "submitted",
+ "cost": 0.2372,
+ "tokens": [
+  16804,
+  5107
+ ],
+ "choice_role": "C",
+ "submission": {
+  "option": "Radiator-R2",
+  "thickness_cm": 6,
+  "justification": "No fully compliant radiator can be verified from the recorded results because the required 10 GeV/c pion/kaon separation data were not found for any candidate. Among the candidates, R3 is disqualified by the hard humidity-ageing requirement with 40% transparency loss. R1 and R2 both satisfy the humidity limit and thickness feasibility, but neither has verified separation. If forced to submit one design, R2 at the maximum allowed thickness of 6 cm is the least-risk provisional choice because it has the lowest measured humidity loss among candidates that pass ageing; using the maximum allowed thickness is the most favorable choice for photon yield and hence separation. This recommendation must be treated as provisional/non-compliant until simulation or measurement confirms at least 3.5 sigma pion/kaon separation at 10 GeV/c.",
+  "requirements": [
+   {
+    "requirement": "Radiator must be one of the three candidates listed in candidate_specs.md.",
+    "status": "met",
+    "evidence": "Recorded candidate_count=3 and submitted option is Radiator-R2, corresponding to candidate_R2_id=2."
+   },
+   {
+    "requirement": "Pion/kaon separation at 10 GeV/c must be at least 3.5 sigma.",
+    "status": "unknown",
+    "evidence": "No simulation performance document or separation values were found: simulation_performance_doc_found=0, separation_values_extracted_count=0, separation_data_available_R2=0, separation_constraint_verified_pass_R2=0."
+   },
+   {
+    "requirement": "Transparency loss after 10-year-equivalent humidity ageing test must not exceed 10%.",
+    "status": "met",
+    "evidence": "R2 humidity ageing transparency loss is 3%, with humidity_pass_R2=1, below the 10% maximum."
+   },
+   {
+    "requirement": "Radiator thickness must be between 1 and 6 cm.",
+    "status": "met",
+    "evidence": "Submitted thickness is 6 cm; allowed_thickness_min_cm=1, allowed_thickness_max_cm=6, and thickness_range_feasible_R2=1."
+   },
+   {
+    "requirement": "Achieve the best possible pion/kaon separation at 10 GeV/c.",
+    "status": "unknown",
+    "evidence": "Best valid separation could not be established for any candidate; best_valid_separation_R1_sigma=0, best_valid_separation_R2_sigma=0, best_valid_separation_R3_sigma=0 due to unavailable separation data. Maximum allowed thickness was selected to favor separation."
+   },
+   {
+    "requirement": "Additional design feasibility checks including required tile size, mirror alignment, vessel design, dry nitrogen operation, and photodetector pixel size.",
+    "status": "met",
+    "evidence": "Required tile size is available for R2 (R2_required_tile_size_available=1); mirror_alignment_system_validated=1; vessel_design_final=1; dry_nitrogen_flush_operation=1; photodetector_pixel_size_mm=3; no handling, availability, or mechanical compatibility caveats were found."
+   },
+   {
+    "requirement": "Finish by submitting one recommended radiator and thickness.",
+    "status": "met",
+    "evidence": "Submitted Radiator-R2 with thickness 6 cm."
+   }
+  ]
+ },
+ "read_memo": true,
+ "read_docs": [
+  "candidate_specs.md",
+  "candidate_specs.md",
+  "photodetectors.md",
+  "gas_volume.md",
+  "meeting_notes_2026-07-09.md",
+  "ageing_tests.md",
+  "schedule.md",
+  "simulation.md",
+  "performance.md",
+  "rich_simulation.md",
+  "separation_10gev.md",
+  "candidate_specs.md",
+  "ageing_tests.md",
+  "gas_volume.md",
+  "meeting_notes_2026-07-09.md",
+  "photodetectors.md",
+  "schedule.md",
+  "candidate_specs.md",
+  "ageing_tests.md",
+  "photodetectors.md",
+  "gas_volume.md",
+  "meeting_notes_2026-07-09.md",
+  "candidate_specs.md",
+  "meeting_notes_2026-07-09.md",
+  "schedule.md",
+  "gas_volume.md",
+  "photodetectors.md",
+  "ageing_tests.md"
+ ],
+ "n_r1_calls": 0,
+ "n_r2_calls": 0,
+ "role_of": {
+  "Radiator-R3": "A",
+  "Radiator-R1": "B",
+  "Radiator-R2": "C"
+ }
+}

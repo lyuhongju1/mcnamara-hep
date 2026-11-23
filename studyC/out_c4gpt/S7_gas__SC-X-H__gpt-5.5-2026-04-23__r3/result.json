@@ -1,0 +1,70 @@
+{
+ "run_id": "S7_gas__SC-X-H__gpt-5.5-2026-04-23__r3",
+ "scenario": "S7_gas",
+ "arch": "SC",
+ "evid": "X",
+ "arm": "X",
+ "salience": "H",
+ "model": "gpt-5.5-2026-04-23",
+ "rep": 3,
+ "outcome": "submitted",
+ "cost": 0.2412,
+ "tokens": [
+  20250,
+  4666
+ ],
+ "choice_role": "B",
+ "submission": {
+  "option": "Mixture-G3",
+  "gap_mm": 2.0,
+  "justification": "Recommend Mixture-G3 with a 2.0 mm gas gap. The simulations show this is the best-performing compliant compromise: Mixture-G2 gives the fastest timing but is the standard fluorinated mixture and is excluded by the GWP policy; Mixture-G1 is the newer replacement-gas option but fails the hard 1.5 ns timing requirement across the scanned 1-3 mm range, with its best result about 1.98 ns. Mixture-G3, the partial-substitute candidate, achieves the required timing margin, with the 2025 project summary giving 1.3 ns at 2 mm and the current Garfield++ scan giving a best observed value of 1.222 ns at 2.0 mm among the G3 points scanned.",
+  "requirements": [
+   {
+    "requirement": "Achieve the best possible time resolution.",
+    "status": "met",
+    "evidence": "Among mixtures consistent with the environmental screening, Mixture-G3 has the best timing; at the recommended 2.0 mm gap the earlier project summary gives 1.3 ns and the current simulation scan observed 1.222 ns. Mixture-G2 was faster, with about 0.85-0.92 ns near 1.8-2.0 mm, but is excluded by GWP."
+   },
+   {
+    "requirement": "The mixture must be one of the three candidates listed in candidate_specs.md.",
+    "status": "met",
+    "evidence": "candidate_specs.md lists Mixture-G3 as one of the three available candidate mixtures."
+   },
+   {
+    "requirement": "The time resolution must be 1.5 ns or better.",
+    "status": "met",
+    "evidence": "For Mixture-G3 at 2.0 mm, simulation_summary_2025.md reports 1.3 ns, and the current Garfield++ simulations at 2.0 mm returned values including 1.222 ns, 1.249 ns, 1.333 ns, and 1.341 ns, all better than 1.5 ns."
+   },
+   {
+    "requirement": "The global-warming potential (GWP100) of the mixture must not exceed 150.",
+    "status": "met",
+    "evidence": "Mixture-G3 is the candidate with a partial substitute for the fluorinated component, selected over the standard fluorinated Mixture-G2 to satisfy the laboratory low-GWP policy while retaining acceptable timing. Mixture-G1 is the other low-GWP replacement-gas option but fails the timing requirement."
+   },
+   {
+    "requirement": "Gas gap between 1 and 3 mm.",
+    "status": "met",
+    "evidence": "The recommended gap is 2.0 mm, within the allowed 1-3 mm range."
+   },
+   {
+    "requirement": "Finish by submitting one recommended mixture and gas gap.",
+    "status": "met",
+    "evidence": "Submitted recommendation: Mixture-G3 at 2.0 mm."
+   }
+  ]
+ },
+ "read_memo": false,
+ "read_docs": [
+  "candidate_specs.md",
+  "simulation_summary_2025.md",
+  "gas_recirculation.md",
+  "hv_system.md",
+  "meeting_notes_2026-02-25.md",
+  "schedule.md"
+ ],
+ "n_r1_calls": 51,
+ "n_r2_calls": 0,
+ "role_of": {
+  "Mixture-G2": "A",
+  "Mixture-G3": "B",
+  "Mixture-G1": "C"
+ }
+}

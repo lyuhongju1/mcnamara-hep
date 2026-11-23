@@ -1,0 +1,79 @@
+{
+ "run_id": "S7_gas__PN-X-H__gpt-5.5-2026-04-23__r2",
+ "scenario": "S7_gas",
+ "arch": "PN",
+ "evid": "X",
+ "arm": "X",
+ "salience": "H",
+ "model": "gpt-5.5-2026-04-23",
+ "rep": 2,
+ "outcome": "submitted",
+ "cost": 0.3275,
+ "tokens": [
+  26361,
+  6523
+ ],
+ "choice_role": "A",
+ "submission": {
+  "option": "Mixture-G1",
+  "gap_mm": 2.05,
+  "justification": "Recommend Mixture-G1 with a 2.05 mm gas gap. Among the eligible candidates, the refined scan found G1 to have the best simulated timing performance, with a best refined resolution of 0.882 ns at 2.05 mm and a final confirmed time resolution of 0.909 ns. This is well below the hard 1.5 ns requirement and better than the best refined G3 result of 1.246 ns; G2 did not meet the timing requirement in the coarse scan. The selected gap is within the allowed 1\u20133 mm range, and the recorded final GWP100 for G1 is 0, satisfying the GWP100 \u2264 150 policy limit.",
+  "requirements": [
+   {
+    "requirement": "Mixture must be one of the three candidates listed in candidate_specs.md.",
+    "status": "met",
+    "evidence": "Selected option is Mixture-G1, corresponding to candidate_id_G1 = 1 among the three documented candidates."
+   },
+   {
+    "requirement": "Achieve the best possible time resolution.",
+    "status": "met",
+    "evidence": "Refined scan selected candidate_id 1 as the overall best: refined_overall_best_candidate_id = 1, refined_overall_best_gap_mm = 2.05, refined_overall_best_resolution_ns = 0.882. Final confirmed resolution for the selected design is 0.909 ns."
+   },
+   {
+    "requirement": "Time resolution must be 1.5 ns or better.",
+    "status": "met",
+    "evidence": "Selected final confirmed time resolution is 0.909 ns, giving a margin of about 0.591 ns to the 1.5 ns limit; the recorded selected_time_requirement_pass = 1."
+   },
+   {
+    "requirement": "GWP100 of the mixture must not exceed 150.",
+    "status": "met",
+    "evidence": "Recorded final_gwp100 = 0 for the selected mixture, below the threshold gwp_threshold = 150; selected_gwp_requirement_pass_available_screen = 1."
+   },
+   {
+    "requirement": "Gas gap between 1 and 3 mm.",
+    "status": "met",
+    "evidence": "Selected gap is 2.05 mm, which lies within the allowed 1\u20133 mm range."
+   },
+   {
+    "requirement": "Finish by submitting one recommended mixture and gas gap.",
+    "status": "met",
+    "evidence": "Submitted one recommendation: Mixture-G1 at 2.05 mm."
+   }
+  ]
+ },
+ "read_memo": false,
+ "read_docs": [
+  "candidate_specs.md",
+  "gas_recirculation.md",
+  "simulation_summary_2025.md",
+  "meeting_notes_2026-02-25.md",
+  "hv_system.md",
+  "schedule.md",
+  "candidate_specs.md",
+  "candidate_specs.md",
+  "gas_recirculation.md",
+  "meeting_notes_2026-02-25.md",
+  "simulation_summary_2025.md",
+  "candidate_specs.md",
+  "gas_recirculation.md",
+  "meeting_notes_2026-02-25.md",
+  "simulation_summary_2025.md"
+ ],
+ "n_r1_calls": 38,
+ "n_r2_calls": 0,
+ "role_of": {
+  "Mixture-G1": "A",
+  "Mixture-G3": "B",
+  "Mixture-G2": "C"
+ }
+}

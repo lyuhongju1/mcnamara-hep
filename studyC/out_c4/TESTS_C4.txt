@@ -1,6 +1,8 @@
-H6  X (unsimulatable unevaluable) 30/40 vs Y (simulatable unevaluable) 19/40
-    difference 0.28, 95% Newcombe CI [0.06, 0.46], one-sided Fisher p=1.05e-02, CMH p=9.82e-03
+H6  X (unsimulatable unevaluable) 45/80 vs Y (simulatable unevaluable) 31/80
+    difference 0.17, 95% Newcombe CI [0.02, 0.32], one-sided Fisher p=1.96e-02, CMH p=1.11e-02
   claude-sonnet-4-5-20250929   SC: X 13/20   Y 6/20   Y r1 statuses {'met': 6, 'unknown': 14}
   claude-sonnet-4-5-20250929   PN: X 17/20   Y 13/20   Y r1 statuses {'met': 13, 'unknown': 7}
-no decision: 0  | Y r2 statuses: {'met': 40}
-cost $14.71
+  gpt-5.5-2026-04-23           SC: X 12/20   Y 12/20   Y r1 statuses {'met': 12, 'unknown': 8}
+  gpt-5.5-2026-04-23           PN: X 3/20   Y 0/20   Y r1 statuses {'unknown': 20}
+no decision: 0  | Y r2 statuses: {'met': 80}
+cost $32.26

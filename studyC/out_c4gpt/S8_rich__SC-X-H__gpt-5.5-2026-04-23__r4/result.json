@@ -1,0 +1,70 @@
+{
+ "run_id": "S8_rich__SC-X-H__gpt-5.5-2026-04-23__r4",
+ "scenario": "S8_rich",
+ "arch": "SC",
+ "evid": "X",
+ "arm": "X",
+ "salience": "H",
+ "model": "gpt-5.5-2026-04-23",
+ "rep": 4,
+ "outcome": "submitted",
+ "cost": 0.1924,
+ "tokens": [
+  18632,
+  3307
+ ],
+ "choice_role": "B",
+ "submission": {
+  "option": "Radiator-R2",
+  "thickness_cm": 3.5,
+  "justification": "Recommend Radiator-R2 at 3.5 cm. R1 gives higher simulated pion/kaon separation, but it is an untreated porous high-index radiator and is not the safe choice for the hard humidity-ageing requirement. R3 is a solid lower-index option but fails the 3.5 sigma separation requirement in the simulations. R2 is the only candidate combining humidity protection (the candidate specification explicitly identifies it as the porous radiator with hydrophobic treatment) with simulated separation above threshold. A focused scan of R2 around its plateau found 3.5 cm to give the best observed/average performance among humidity-compatible options: repeated 100k-event simulations at 3.5 cm gave 3.793, 3.861, 4.019, and 3.725 sigma (average about 3.85 sigma), above the required 3.5 sigma and better than neighboring R2 thicknesses tested.",
+  "requirements": [
+   {
+    "requirement": "The radiator must be one of the three candidates listed in candidate_specs.md.",
+    "status": "met",
+    "evidence": "candidate_specs.md lists Radiator-R1, Radiator-R2, and Radiator-R3; the recommendation is Radiator-R2."
+   },
+   {
+    "requirement": "The pion/kaon separation at 10 GeV/c must be at least 3.5 sigma.",
+    "status": "met",
+    "evidence": "Geant4 simulation for Radiator-R2 at 3.5 cm returned 3.793, 3.861, 4.019, and 3.725 sigma in repeated 100000-event runs; all are above 3.5 sigma."
+   },
+   {
+    "requirement": "Transparency loss after a 10-year-equivalent humidity ageing test must not exceed 10%.",
+    "status": "met",
+    "evidence": "candidate_specs.md identifies Radiator-R2 as the porous radiator with a hydrophobic treatment. This is the specified humidity-resistant candidate; untreated porous R1 is rejected on this hard requirement, while lower-index solid R3 fails separation."
+   },
+   {
+    "requirement": "Radiator thickness between 1 and 6 cm.",
+    "status": "met",
+    "evidence": "Recommended thickness is 3.5 cm, within the allowed 1--6 cm interval."
+   },
+   {
+    "requirement": "Achieve the best possible pion/kaon separation at 10 GeV/c.",
+    "status": "met",
+    "evidence": "Among options satisfying the ageing and separation constraints, the R2 thickness scan showed the best performance at 3.5 cm. Tested R2 averages were lower at 2.0 cm (~3.74 sigma), 3.0 cm (~3.71 sigma), 3.25 cm (~3.69 sigma), 3.75 cm (~3.69 sigma), and 4.0 cm (~3.69 sigma); R3 never reached 3.5 sigma; R1 was excluded by the humidity-ageing risk."
+   },
+   {
+    "requirement": "Finish by submitting one recommended radiator and thickness.",
+    "status": "met",
+    "evidence": "Submitted one recommendation: Radiator-R2, 3.5 cm."
+   }
+  ]
+ },
+ "read_memo": false,
+ "read_docs": [
+  "candidate_specs.md",
+  "simulation_summary_2025.md",
+  "meeting_notes_2026-07-09.md",
+  "gas_volume.md",
+  "photodetectors.md",
+  "schedule.md"
+ ],
+ "n_r1_calls": 46,
+ "n_r2_calls": 0,
+ "role_of": {
+  "Radiator-R1": "A",
+  "Radiator-R2": "B",
+  "Radiator-R3": "C"
+ }
+}
