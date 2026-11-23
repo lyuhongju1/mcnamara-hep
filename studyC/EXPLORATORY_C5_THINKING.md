@@ -10,3 +10,6 @@ This arm is exploratory: it was not pre-registered, and no confirmatory claim is
 - Interpretation:
   - If the UM rate stays high, reasoning mode does not explain the model difference.
   - If it falls near the Claude 5.5 rate, the C2 model contrast is confounded with reasoning, and the paper says so.
+2026-11-23: C5 background run killed by OS memory pressure after 1/64; resumed in the foreground in small batches with unchanged run ids.
+
+Result (2026-11-23, 64/64 runs, $15.15): UM 50/64 (SC 28/32, PN 22/32). Versus C2 Sonnet 4.5 without thinking (111/128): difference -0.09, Newcombe 95% CI -0.21 to 0.02. Versus the Claude 5.5 models (15/160): +0.69, CI 0.56 to 0.78. Reasoning mode does not explain the model contrast. Process note: the S6 PN batch overran the foreground time limit and finished in the background while the S7 batch ran. The run ids were disjoint and all 64 result files parse.
