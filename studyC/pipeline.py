@@ -50,7 +50,7 @@ class Run:
         self.calls = []
 
     def call(self, system, messages, tools=None):
-        kw = dict(model=self.model, max_tokens=16000, system=system, messages=messages, **self.M["kw"])
+        kw = dict(model=self.M.get("api", self.model), max_tokens=16000, system=system, messages=messages, **self.M["kw"])
         if tools: kw["tools"] = tools
         if self.M["betas"]: kw["betas"] = self.M["betas"]
         if self.M["fallbacks"]: kw["fallbacks"] = self.M["fallbacks"]

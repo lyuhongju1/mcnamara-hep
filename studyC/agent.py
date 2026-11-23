@@ -22,6 +22,8 @@ MODELS = {  # per-model request settings; Sonnet 4.5 predates adaptive thinking 
     "claude-sonnet-5-5": dict(betas=["server-side-fallback-2026-07-01"], fallbacks="default", price=(2.0, 10.0), kw={"thinking": {"type": "adaptive"}, "output_config": {"effort": "medium"}}),
     "claude-opus-5-5": dict(betas=["server-side-fallback-2026-07-01"], fallbacks="default", price=(4.0, 20.0), kw={"thinking": {"type": "adaptive"}, "output_config": {"effort": "medium"}}),
     "claude-sonnet-4-5-20250929": dict(betas=[], fallbacks=None, price=(3.0, 15.0), kw={}),
+    # Exploratory arm (2026-11-23): Sonnet 4.5 WITH extended thinking, to separate model from reasoning mode.
+    "claude-sonnet-4-5-20250929+think": dict(api="claude-sonnet-4-5-20250929", betas=["interleaved-thinking-2025-05-14"], fallbacks=None, price=(3.0, 15.0), kw={"thinking": {"type": "enabled", "budget_tokens": 4000}}),
 }
 EFFORT = "medium"
 THINKING = {"type": "adaptive"}
@@ -130,7 +132,7 @@ def one_run(client, sid, arm, sal, model, rep, outdir):
         turns += 1
         if turns > MAX_TURNS: outcome = "turn_cap"; break
         if cost > MAX_COST: outcome = "cost_cap"; break
-        kw = dict(model=model, max_tokens=MAX_TOKENS, system=SYSTEM, tools=env["tools"], messages=messages, **M["kw"])
+        kw = dict(model=M.get("api", model), max_tokens=MAX_TOKENS, system=SYSTEM, tools=env["tools"], messages=messages, **M["kw"])
         if M["betas"]: kw["betas"] = M["betas"]
         if M["fallbacks"]: kw["fallbacks"] = M["fallbacks"]
         try:
