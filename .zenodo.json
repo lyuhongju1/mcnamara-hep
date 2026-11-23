@@ -1,0 +1,29 @@
+{
+  "title": "Physics agents and unmeasured requirements: pre-registered studies, agent transcripts and analysis scripts",
+  "upload_type": "dataset",
+  "description": "<p>Data deposit for the article \"Physics Agents Report Unmeasured Requirements as Met. A Test of the McNamara Fallacy\". It contains the pre-registrations (with SHA-256 freeze manifests and deviation logs), task scenarios, agent harnesses, full transcripts and results of more than 1,000 language-model agent runs on particle-physics design tasks, the blind re-coding of archived GRACE runs, the decision-level vignette responses, and the scripts that reproduce every reported number. Confirmatory studies C2, C3 and C4 were frozen before data collection; see the git tags c2-frozen and c3-frozen and the FREEZE_*.md files. See README.md for contents and reproduction.</p>",
+  "creators": [
+    {
+      "name": "Ryoo, Hong Joo",
+      "affiliation": "Johns Hopkins University"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": ["AI agents", "McNamara fallacy", "pre-registration", "high-energy physics", "evaluation", "large language models"],
+  "language": "eng",
+  "version": "1.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/lyuhongju1/mcnamara-hep",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "arXiv:2605.08956",
+      "relation": "references",
+      "resource_type": "publication-preprint"
+    }
+  ],
+  "notes": "Funding: NSF Graduate Research Fellowship Program, Grant No. DGE-2139757. API credits from Anthropic's AI for Science program. Data: CC BY 4.0. Scripts: MIT."
+}
