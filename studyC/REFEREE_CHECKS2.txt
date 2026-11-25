@@ -1,0 +1,32 @@
+1. Run counts. C2+C3 evidence-absent runs (excluding fix arms): 512; C2 evidence-present: 16; fix arms 160
+   C2 status options offered: met / not_met / unknown (agent.py schema, FIX=None)
+
+2. UM by statement of r2 (H explicit numeric, L vague), per model
+   claude-sonnet-4-5-20250929   H: 63/96
+   claude-sonnet-4-5-20250929   L: 94/96
+   claude-sonnet-5-5            H: 0/40
+   claude-sonnet-5-5            L: 6/40
+   claude-haiku-5-5             H: 0/40
+   claude-haiku-5-5             L: 9/40
+   gpt-4.1-2025-04-14           H: 26/40
+   gpt-4.1-2025-04-14           L: 38/40
+   gpt-5.5-2026-04-23           H: 13/40
+   gpt-5.5-2026-04-23           L: 40/40
+
+3. Non-claim outcomes in the main runs, by model (status of r2)
+   claude-haiku-5-5             {'unknown': 58, 'omitted': 13, 'met': 9}  no-decision 0
+   claude-sonnet-4-5-20250929   {'unknown': 35, 'met': 157}  no-decision 0
+   claude-sonnet-5-5            {'unknown': 74, 'met': 6}  no-decision 0
+   gpt-4.1-2025-04-14           {'met': 64, 'unknown': 5, 'no_submission': 11}  no-decision 11
+   gpt-5.5-2026-04-23           {'unknown': 25, 'met': 53, 'not_met': 2}  no-decision 0
+
+4. F2 follow-through: runs with at least one rejection
+   27 runs rejected; final r2 status: {'not_evaluated': 18, 'met': 9}
+   runs never rejected: 53; their final r2 status: {'met': 38, 'not_evaluated': 15}
+
+5. GPT-5.5 PN in C3 by statement of r2 (C4 used the explicit form plus an added r1 threshold)
+   H: 3/20
+   L: 20/20
+
+6. Claude 5.5 claims by question
+   {'S5_fcal': 2, 'S6_trigger': 11, 'S8_rich': 2}

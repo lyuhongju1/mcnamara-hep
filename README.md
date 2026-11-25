@@ -1,6 +1,6 @@
 # Physics agents and unmeasured requirements
 
-This repository holds the data and code for the article *Physics Agents Report Unmeasured Requirements as Met. A Test of the McNamara Fallacy* (Hong Joo Ryoo, Johns Hopkins University). The manuscript itself is not included.
+This repository holds the data and code for the article *LLM agents assert unevaluated requirements are satisfied. Evidence from particle physics design tasks* (Hong Joo Ryoo, Johns Hopkins University). The manuscript itself is not included.
 
 The question is whether language-model agents doing particle-physics design carry requirements that their tools cannot quantify through to their decisions, or whether they disregard such requirements or declare them satisfied.
 
